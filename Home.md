@@ -31,9 +31,8 @@
 ### Prerequisites
 
 - [AWS CLI](https://aws.amazon.com/cli/)
-- [AWS SAM Local CLI](AWS%20SAM%20Local)
-- [Ocean Premium AWS Console access](https://jongensvantechniek.signin.aws.amazon.com/console)
-- [JVT CircleCI access](https://circleci.com/bb/jvt/sheep-io-api)
+- [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
+- [JVT CircleCI access](https://circleci.com/bb/jvt/oceanpremium)
 - [JVT Lastpass access](https://lastpass.com)
 - [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
