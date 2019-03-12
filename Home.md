@@ -43,40 +43,20 @@
 
 ### Environment variables
 
-With this [Gradle multi build project](https://guides.gradle.org/creating-multi-project-builds/) there is the notion of [modules](https://docs.gradle.org/current/userguide/multi_project_builds.html)
-
-There are within the modules, two types:
-
-- Core / non-serverless modules (which contain shared services / utils / models)
-
-- Serverless modules (which contain Serverless functions / handlers)
-
-We are going to setup _multiple_ `properties.json` files, namely _per module._
-
-**Note 1**: a `properties.json` file should NOT be checked-in into version control, because it may contain credentials. It is therefore added to the `.gitgnore` file
-
-**Note 2**: Every module should have a `properties.json.template` file (in the root of the module), which should already be structured to the needs of the concerning module
-
-**Note 3**: the actual values for the `properties.json` file can be found on our [Lastpass](https://www.lastpass.com)
-
-**Note 4**: See [here](Constructing%20properties%20template%20file) for more info on constructing a _properties.json.template_ file
+TO BE DOCUMENTED
 
 #### Core module
 
-The _Core_ module has a different configuration compared to the _serverless function modules_ concerning the placement location of the _properties.json_ file.
-
-- Copy and paste the contents of `properties.json.template` file in a new file called: `properties.json` file in the *src/main/resources* directory of the **Core** module.
+TO BE DOCUMENTED
 
 #### Serverless function modules
 
-We are going to setup _multiple_ `properties.json` files, namely _per module._
-
-- Copy and paste the contents of `properties.json.template` file in a new file called: `properties.json` file in the **root** of the concerning _serverless function_ module.
-
+TO BE DOCUMENTED
 
 ## Build & Run instructions
 
-//TODO
+TO BE DOCUMENTED
+
 ### Task
 
 In the below example, replace `<module-name>` with the actual Gradle module name, for example:
@@ -123,9 +103,8 @@ $ ./gradlew <module-name>:deploy --stacktrace
 ```
 
 ## Additional configurations / relevant information
-Meaning: What (and how) does any tooling or the application needs to be configured to properly run
 
-//TODO
+TO BE DOCUMENTED
 
 ## Technical details
 
@@ -133,16 +112,13 @@ Like architectural design choices, algorithm explanations, ect
 
 ## Architecture
 
-//TODO
+TO BE DOCUMENTED
 
 ## Dependencies
 
-meaning project dependencies and their source links (for example github repo link)
-
-//TODO
+TO BE DOCUMENTED
 
 ## Resources
 
-- [AWS SAM CLI](https://github.com/awslabs/aws-sam-cli)
 - [REST API Best practices](https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf)
 - [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
