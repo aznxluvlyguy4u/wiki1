@@ -28,15 +28,26 @@
 
 ### Prerequisites
 
-- [Serverless](https://github.com/serverless/serverless)
-- [AWS CLI](https://github.com/aws/aws-cli)
-- [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
-- [JVT CircleCI access](https://circleci.com/bb/jvt/oceanpremium)
+- [Java OpenJDK 1.8](https://openjdk.java.net)
+
+#### General
 - [JVT Lastpass access](https://lastpass.com)
-- [Java OpenJDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Serverless](https://github.com/serverless/serverless)
+
+#### CI
+- [JVT CircleCI access](https://circleci.com/bb/jvt/oceanpremium)
 - [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
 - [Sonarlint](https://www.sonarlint.org)
+
+#### AWS 
+- [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
+- [AWS CLI](https://github.com/aws/aws-cli)
+
+#### Swagger - API Doc
+
 - [Swagger2OpenAPI](https://github.com/Mermade/oas-kit/blob/master/packages/swagger2openapi/README.md#swagger2openapi)
+
+- [Swagger codegen](https://github.com/swagger-api/swagger-codegen)
 
 ## Setup & configurations
 
