@@ -121,7 +121,7 @@ TO BE DOCUMENTED
 
 - [REST API Best practices](https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf)
 
-- [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
+
 
 ## Dependencies
 
@@ -131,3 +131,4 @@ TO BE DOCUMENTED
 - [OKHttp - HTTP client](https://square.github.io/okhttp/)
 - [Roboslack - Slack logger](https://github.com/palantir/roboslack)
 - [Sentry - Error monitoring](https://docs.sentry.io/clients/java/)
+- [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
