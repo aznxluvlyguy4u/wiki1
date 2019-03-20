@@ -7,8 +7,6 @@
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=coverage) 
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=vulnerabilities)
 
-[**API DOC**](Request%20examples)
-
 ### Frontend repo
 
 - [Frontend repo]()
@@ -30,13 +28,15 @@
 
 ### Prerequisites
 
-- [AWS CLI](https://aws.amazon.com/cli/)
+- [Serverless](https://github.com/serverless/serverless)
+- [AWS CLI](https://github.com/aws/aws-cli)
 - [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
 - [JVT CircleCI access](https://circleci.com/bb/jvt/oceanpremium)
 - [JVT Lastpass access](https://lastpass.com)
-- [Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Java OpenJDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
 - [Sonarlint](https://www.sonarlint.org)
+- [Swagger2OpenAPI](https://github.com/Mermade/oas-kit/blob/master/packages/swagger2openapi/README.md#swagger2openapi)
 
 ## Setup & configurations
 
@@ -120,4 +120,14 @@ TO BE DOCUMENTED
 ## Resources
 
 - [REST API Best practices](https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf)
+
 - [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
+
+## Dependencies
+
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring AWS Lambda Container](https://github.com/awslabs/aws-serverless-java-container)
+- [Hibernate - ORM](http://hibernate.org/orm/)
+- [OKHttp - HTTP client](https://square.github.io/okhttp/)
+- [Roboslack - Slack logger](https://github.com/palantir/roboslack)
+- [Sentry - Error monitoring](https://docs.sentry.io/clients/java/)
