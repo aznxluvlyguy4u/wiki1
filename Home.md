@@ -1,6 +1,6 @@
 # Ocean Premium API
 
-[![CircleCI](https://circleci.com/bb/jvt/sheep-io-api.svg?style=svg&circle-token=8f290cdfedc362b063463dc2e116d2b9cd6c5416)](https://circleci.com/bb/jvt/ocean-premium-api)
+[![CircleCI](https://circleci.com/bb/oceanpremium/ocean-premium-api.svg?style=svg&circle-token=384a2a280e94bb67b80b424940eb58d7c41b1d69)](https://circleci.com/bb/oceanpremium/ocean-premium-api)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=alert_status) 
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=bugs)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=code_smells)
