@@ -30,20 +30,20 @@
 
 - [Java OpenJDK 1.8](https://openjdk.java.net)
 
-#### General
+##### General
 - [JVT Lastpass access](https://lastpass.com)
 - [Serverless](https://github.com/serverless/serverless)
 
-#### CI
+##### CI
 - [JVT CircleCI access](https://circleci.com/bb/jvt/oceanpremium)
 - [Intellij IDEA - Ultimate](https://www.jetbrains.com/idea/)
 - [Sonarlint](https://www.sonarlint.org)
 
-#### AWS 
+##### AWS 
 - [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
 - [AWS CLI](https://github.com/aws/aws-cli)
 
-#### Swagger - API Doc
+##### Swagger - API Doc
 
 - [Swagger2OpenAPI](https://github.com/Mermade/oas-kit/blob/master/packages/swagger2openapi/README.md#swagger2openapi)
 
