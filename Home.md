@@ -1,6 +1,6 @@
 # Ocean Premium API
 
-[![CircleCI](https://circleci.com/bb/oceanpremium/ocean-premium-api.svg?style=svg&circle-token=384a2a280e94bb67b80b424940eb58d7c41b1d69)](https://circleci.com/bb/oceanpremium/ocean-premium-api)
+[![CircleCI](https://circleci.com/bb/oceanpremium/ocean-premium-api/tree/feature%2Fskeleton.svg?style=svg&circle-token=384a2a280e94bb67b80b424940eb58d7c41b1d69)](https://circleci.com/bb/oceanpremium/ocean-premium-api/tree/feature%2Fskeleton)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=alert_status) 
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=bugs)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=code_smells)
@@ -13,13 +13,12 @@
 
 ## Project resources
 
-- [SCRUM board]()
-- [Documentation]()
-- [Onedrive]()
+- [SCRUM board](https://dudesoftechnology.atlassian.net/jira/software/projects/OP/boards/53)
 
 ## Repo guide
 
-0. [Running locally](#markdown-header-running-locally)
+0. [Setup & Configuration](#markdown-header-setup-&-configuration)
+
 0. [Debugging](#markdown-header-debugging)
 0. [Deploying](#markdown-header-deploy)
 0. [Request examples](Request%20examples)
