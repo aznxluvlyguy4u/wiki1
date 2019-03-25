@@ -60,9 +60,7 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 ##### Swagger - API Doc
 
-- [Swagger2OpenAPI](https://github.com/Mermade/oas-kit/blob/master/packages/swagger2openapi/README.md#swagger2openapi)
-
-- [Swagger codegen](https://github.com/swagger-api/swagger-codegen)
+- [Swagger codegen](Swagger-codegen)
 
 ## Setup & configurations
 
