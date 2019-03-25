@@ -7,7 +7,13 @@ Swagger UI - JVT development: http://jvt-dev-swagger-ui.s3-website-eu-west-1.ama
 
 ## Prerequisites
 
+### Linux
+
 - [OpenJDK 8](http://openjdk.java.net)
+
+### MacOS
+
+- [AdoptJDK 8](https://adoptopenjdk.net/)
 
 ## Linux
 
