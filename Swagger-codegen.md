@@ -66,12 +66,6 @@ $ ./swagger-codegen.sh /path/to/input/swagger.yml /path/to/output/resources
 #### Verify output file
 
 ```shell
-$ cat openapi.json
-```
-
-#### Verify output file
-
-```shell
 $ cat /path/to/output/resources/openapi.json
 ```
 
@@ -95,6 +89,11 @@ $ brew install swagger-codegen
 
 ```shell
 $ swagger-codegen generate -I /path/to/swagger.yml -l openapi
+```
+#### Verify output file
+
+```shell
+$ cat openapi.json
 ```
 
 Which will result in a generated _openapi.json_ file in the given output path which can be used for importing into [Postman](https://www.getpostman.com) and [Swagger UI](https://swagger.io/tools/swagger-ui/).
