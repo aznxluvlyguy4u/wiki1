@@ -31,6 +31,8 @@ This sections describes on what the prerequisites are on getting started to get 
 - [Windows - OpenJDK](http://jdk.java.net/java-se-ri/8)
 - [Linux - OpenJDK](http://openjdk.java.net/install/)
 
+More info on available runtimes on AWS lambda, see [here](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+
 #### IDE
 
 ##### IntelliJ - IDEA - Ultimate
