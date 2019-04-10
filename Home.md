@@ -23,7 +23,7 @@
 | 5. [REST API documentation](#markdown-header-REST-API-documentation)         |
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](Glossary)
----
+
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
