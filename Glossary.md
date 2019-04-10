@@ -62,7 +62,7 @@ JSON web token is an industry standard way of providing access tokens. These acc
 
 Website: [atlassian.com/software/jira](https://www.atlassian.com/software/jira)
 
-Because we use the [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development) methodology in our projects, we use a scrumboard which is Jira, to write down our user stories on backlogs, 
+Because we use the [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development)) methodology in our projects, we use a scrumboard which is Jira, to write down our user stories on backlogs, 
 determine sprint goals and track sprint progress.
 
 ### P
