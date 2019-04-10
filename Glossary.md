@@ -106,6 +106,19 @@ Sentry is a tool similar like RoboSlack. But instead of events it will only log 
 
 In the wiki we write down any tasks that are hard to remember and need to be executed in order to use or work on the project. The wiki is written in a way that it is understandable for any developer.
 
+
+Which has the following steps and goals:
+
+A wiki with instructions will let any project member:
+
+- get the application up and running on his/her computer
+
+- has any addiontal steps document on how to configure the application,
+  like: database setup / instructions on where to find credentials to connect to a database etc
+
+The goal is to have knowledge shared, instead that one person knows everything and needs to (repeat)
+communication with multiple developers.
+
 We currently maintain two wiki's for Ocean Premium:
 
 - [Ocean Premium - API](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Home)
