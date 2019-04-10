@@ -14,11 +14,11 @@ AWS is the platform we use for all cloud related things. It is where the fronten
 
 ### C
 
-#### CI
+#### Continuous Integration (CI)
 
 Continuous Integration (CI) is a software engineering practice in which frequent, isolated changes are immediately tested and reported on when they are added to a larger code base.
 
-#### CD
+#### Continuous Deployment (CD)
 
 Continuous Deployment (CD) aims to reduce the time elapsed between writing a line of code and making that code available to users in production.
 
