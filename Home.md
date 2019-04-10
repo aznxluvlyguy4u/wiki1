@@ -9,7 +9,7 @@
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=coverage)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=vulnerabilities)
 
-[Glossary with definitions](wiki/Glossary)
+[Glossary with definitions](/Glossary)
 
 ## Table of Content
 
