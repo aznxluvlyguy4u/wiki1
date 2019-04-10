@@ -58,6 +58,13 @@ Website: [jwt.io](https://jwt.io)
 
 JSON web token is an industry standard way of providing access tokens. These access tokens contain information on what a user is allowed to see and what not. For example we don’t want User A to have insights into orders from User B. With JSON web tokens we make sure they don’t.
 
+### Jira
+
+Website: [atlassian.com/software/jira](https://www.atlassian.com/software/jira)
+
+Because we use the [SCRUM](https://en.wikipedia.org/wiki/Scrum_(software_development) methodology in our projects, we use a scrumboard which is Jira, to write down our user stories on backlogs, 
+determine sprint goals and track sprint progress.
+
 ### P
 
 #### Postman
@@ -75,6 +82,12 @@ Website: [github.com/palantir/roboslack](https://github.com/palantir/roboslack)
 RoboSlack is a Java 8 API which handles all aspects of authenticating and sending messages to Slack as an incoming webhook service. This way you get a message to stay up to date on how users are using the platform at any time.
 
 ### S
+
+### Scrum
+
+Website: [https://en.wikipedia.org/wiki/Scrum_(software_development)](https://en.wikipedia.org/wiki/Scrum_(software_development))
+
+A Software development framework to deliver software products
 
 #### SonarQube
 
