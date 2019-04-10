@@ -56,7 +56,7 @@ Integration testing is the phase in software testing in which individual softwar
 
 Website: [jwt.io](https://jwt.io)
 
-JSON web token is an industry standard way of prividing access tokens. These access tokens contain information on what a user is allowed to see and what not. For example we don’t want User A to have insights into orders from User B. With JSON web tokens we make sure they don’t.
+JSON web token is an industry standard way of providing access tokens. These access tokens contain information on what a user is allowed to see and what not. For example we don’t want User A to have insights into orders from User B. With JSON web tokens we make sure they don’t.
 
 ### P
 
