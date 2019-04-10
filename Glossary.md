@@ -113,11 +113,10 @@ A wiki with instructions will let any project member:
 
 - get the application up and running on his/her computer
 
-- has any addiontal steps document on how to configure the application,
+- has any addiontal steps documented on: how to configure the application,
   like: database setup / instructions on where to find credentials to connect to a database etc
 
-The goal is to have knowledge shared, instead that one person knows everything and needs to (repeat)
-communication with multiple developers.
+The goal is to have knowledge shared (one source of truth), instead that one person knows everything and needs to (repeat)communication with multiple developers.
 
 We currently maintain two wiki's for Ocean Premium:
 
