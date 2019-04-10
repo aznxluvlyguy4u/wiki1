@@ -9,7 +9,7 @@
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=coverage)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=vulnerabilities)
 
-[Glossary with definitions](wiki/Glossary)
+
 
 ## Table of Content
 
@@ -22,7 +22,7 @@
 | 4. [Architecture](#markdown-header-architecture)                             |
 | 5. [REST API documentation](#markdown-header-REST-API-documentation)         |
 | 6. [Resources](#markdown-header-resources)                                   |
-
+| 7. [Glossary with definitions](Glossary)
 ---
 ## Setup & Configuration
 
