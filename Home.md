@@ -180,12 +180,9 @@ Currently a Serverless function module has the following Gradle tasks:
 $ ./gradlew auth:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
 ```
 
-- -Pstage: 
-  to which environment the function needs to be deployed
+- -Pstage: _to which environment the function needs to be deployed_
 
-- -Pprofile 
-  which AWS credentials profile needs to be used to deploy, this determines to which AWS account is deployed, 
-  if multiple AWS account profiles are registered in the AWS CLI.
+- -Pprofile: _which AWS credentials profile needs to be used to deploy, this determines to which AWS account is deployed, if multiple AWS account profiles are registered in the AWS CLI_
 
 
 ## Additional configurations / relevant information
