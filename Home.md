@@ -64,6 +64,18 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 - [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
 - [AWS CLI](https://github.com/aws/aws-cli)
 
+Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _oceanpremium-serverless-publisher_
+
+*Note*: The credentials file is created by installing the AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
+
+##### Serverless plugin
+
+- [Serverless NPM](https://serverless.com)
+
+```shell
+$ npm install serverless -g
+```
+
 ##### Swagger - API Doc
 
 - [Swagger codegen](Swagger-codegen)
@@ -72,7 +84,45 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 ### Environment variables
 
-TO BE DOCUMENTED
+#### Local running
+
+In Intellij create a run configuration:
+
+- right-click on a function _Handler_, like for [example](https://bitbucket.org/oceanpremium/ocean-premium-api/src/571f963fdbe4566a78f2688dd1566ee912cd7680/auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt):
+_auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
+
+![Screenshot 2019-04-14 at 14.43.32.png](https://bitbucket.org/repo/qEd965M/images/3090632487-Screenshot%202019-04-14%20at%2014.43.32.png)
+
+![Screenshot 2019-04-14 at 14.40.21.png](https://bitbucket.org/repo/qEd965M/images/1635358268-Screenshot%202019-04-14%20at%2014.40.21.png)
+
+- Select `<ModuleName>Driver` -> _Run_
+
+
+- Edit the _run configuration_
+
+![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)
+
+- Input environment variables in _Environment Variables_ field
+
+```
+DATABASE_HOST=<host-id.example.com>
+DATABASE_NAME=<DBNAME>
+DATABASE_USER=<USERNAME>
+DATABASE_PASSWORD=<PASSWORD>
+```
+
+#### Remote deploying
+
+Make sure prerequisites are met.
+
+From any _function_ module run the Gradle _deploy_ command:
+
+```shell
+$ ./gradlew auth:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
+```
+
+The _-Pstage_ flag determines to which environment the function needs to be deployed
+
 
 #### Core module
 
@@ -127,8 +177,7 @@ Currently a Serverless function module has the following Gradle tasks:
 ### Deploy
 
 ```shell
-$ ./gradlew <module-name>:deploy
-$ ./gradlew <module-name>:deploy --stacktrace
+$ ./gradlew moduleName:deploy --stacktrace
 ```
 
 ## Additional configurations / relevant information
