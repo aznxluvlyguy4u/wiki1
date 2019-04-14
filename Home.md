@@ -66,7 +66,7 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _oceanpremium-serverless-publisher_
 
-*Note*: The credentials file is created by installing the AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
+*Note*: The credentials file is created by installing the [AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
 
 ##### Serverless plugin
 
