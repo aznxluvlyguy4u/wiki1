@@ -113,7 +113,29 @@ DATABASE_PASSWORD=<PASSWORD>
 
 #### Remote deploying
 
-Make sure prerequisites are met.
+- Make sure the [Serverless NPM package](https://serverless.com) is installed
+
+- Create a _properties.json_ file containing environment variables in the _root_ of a function module of the following structure:
+
+
+```json
+{
+  "Module-name":
+  {
+    "SENTRY_DSN": "https://id@sentry.io/111111",
+    "SLACK_LOGGER_WEBHOOK": "https://hooks.slack.com/services/ids",
+    "DATABASE_HOST" : "id.eu-west-1.rds.amazonaws.com",
+    "DATABASE_NAME" : "database-name",
+    "DATABASE_USER" : "database-user",
+    "DATABASE_PASSWORD": "database-password"
+  }
+}
+
+```
+
+Note that the _rootNode_ name is the module name.
+
+In order to successfully deploy a function the following must be met:
 
 From any _function_ module run the Gradle _deploy_ command:
 
