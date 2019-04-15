@@ -115,9 +115,13 @@ DATABASE_PASSWORD=<PASSWORD>
 
 In order to pass environment variables to remote on a deploy task we utilise a _properties.json_ file.
 
+The properties file *should not* be checked in to version control as it contains credentials. It is 
+therefore added to the _.gitignore_.
+
 - Make sure the [Serverless NPM package](https://serverless.com) is installed
 
 - Create a `properties.json` file containing environment variables in the `root` of any (serverless) function module (thus not in _core_ module) of the following structure:
+
 
 ```json
 {
