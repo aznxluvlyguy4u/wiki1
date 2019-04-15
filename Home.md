@@ -139,6 +139,9 @@ therefore added to the _.gitignore_.
 
 *Note:* that the _rootNode_ name is the module name. 
 
+See [lastpass](https://lastpass.com) for the credentials to be filled in.
+
+
 #### Core module
 
 TO BE DOCUMENTED
