@@ -115,7 +115,7 @@ DATABASE_PASSWORD=<PASSWORD>
 
 - Make sure the [Serverless NPM package](https://serverless.com) is installed
 
-- Create a _properties.json_ file containing environment variables in the _root_ of a function module of the following structure:
+- Create a _properties.json_ file containing environment variables in the _root_ of a any (server less) function module of the following structure:
 
 
 ```json
