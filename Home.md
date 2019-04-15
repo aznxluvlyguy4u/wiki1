@@ -195,7 +195,7 @@ Currently a Serverless function module has the following Gradle tasks:
 ### Deploy
 
 ```shell
-$ ./gradlew auth:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
+$ ./gradlew <moduleName>:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
 ```
 
 - -Pstage: _to which environment the function needs to be deployed_
