@@ -117,7 +117,7 @@ In order to pass environment variables to remote on a deploy task we utilise a _
 
 - Make sure the [Serverless NPM package](https://serverless.com) is installed
 
-- Create a _properties.json_ file containing environment variables in the _root_ of a any (serverless) function module (thus not in _core_) of the following structure:
+- Create a `properties.json` file containing environment variables in the `root` of any (serverless) function module (thus not in _core_ module) of the following structure:
 
 ```json
 {
@@ -134,7 +134,6 @@ In order to pass environment variables to remote on a deploy task we utilise a _
 ```
 
 *Note:* that the _rootNode_ name is the module name. 
-
 
 #### Core module
 
