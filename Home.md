@@ -84,7 +84,7 @@ $ npm install serverless -g
 
 ### Environment variables
 
-#### Local running
+#### Local 
 
 In Intellij create a run configuration:
 
@@ -111,12 +111,13 @@ DATABASE_USER=<USERNAME>
 DATABASE_PASSWORD=<PASSWORD>
 ```
 
-#### Remote deploying
+#### Remote
+
+In order to pass environment variables to remote on a deploy task we utilise a _properties.json_ file.
 
 - Make sure the [Serverless NPM package](https://serverless.com) is installed
 
-- Create a _properties.json_ file containing environment variables in the _root_ of a any (server less) function module of the following structure:
-
+- Create a _properties.json_ file containing environment variables in the _root_ of a any (serverless) function module (thus not in _core_) of the following structure:
 
 ```json
 {
@@ -130,20 +131,9 @@ DATABASE_PASSWORD=<PASSWORD>
     "DATABASE_PASSWORD": "database-password"
   }
 }
-
 ```
 
-Note that the _rootNode_ name is the module name.
-
-In order to successfully deploy a function the following must be met:
-
-From any _function_ module run the Gradle _deploy_ command:
-
-```shell
-$ ./gradlew auth:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
-```
-
-The _-Pstage_ flag determines to which environment the function needs to be deployed
+*Note:* that the _rootNode_ name is the module name. 
 
 
 #### Core module
