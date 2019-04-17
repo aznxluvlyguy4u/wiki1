@@ -58,3 +58,27 @@
 	}
 }
 ```
+
+## GET countries response
+
+```
+
+{
+	[
+		{
+			"name" : "Netherlands",
+			"alpha2Code" : "NL",
+			"alpha3Code" : "NLD",
+			"callingCodes": ["57"]
+			
+		},
+		{
+			"name" : "Netherlands",
+			"alpha2Code" : "NL",
+			"alpha3Code" : "NLD",
+			"callingCodes": ["57"]
+		}
+	]
+}
+
+```
