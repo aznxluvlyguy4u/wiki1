@@ -80,7 +80,7 @@ HTTP 403 - Forbidden
 
 Response body
 
-```
+```json
 {
   "statusCode" : 403,
   "message": "Email address already exists, therefore cannot continue signup."
@@ -97,7 +97,7 @@ HTTP 400 - Bad request
 
 Response body
 
-```
+```json
 {
 	"statusCode" : 400,
 	"message" : {
@@ -127,7 +127,7 @@ HTTP 200 OK
 
 Response body
 
-```
+```json
 
 {
 	[
