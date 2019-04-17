@@ -2,9 +2,11 @@
 
 As discussed on: 17-04-2019 by Silvia, Yubin & Steve.
 
+# User endpoint
+
 ## Sign-up / Register a new user 
 
-**POST*** _/api/v1/users/register_
+**POST** _/api/v1/users/register_
 
 ```json
 {
@@ -117,8 +119,9 @@ Response body
 }
 ```
 
-## GET countries response
+# Countries endpoint
 
+**GET** /api/v1/countries
 
 HTTP 200 OK
 
