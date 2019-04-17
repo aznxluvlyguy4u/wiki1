@@ -30,7 +30,7 @@ As discussed on: 17-04-2019 by Silvia, Yubin & Steve.
 		"postalCode" : "string",
 		"phone" : {
 			"landLine" : "string",
-			"mobile" : "string",
+			"cellPhone" : "string",
 			"countryCode" : "+031"
 		}
 	}
@@ -65,7 +65,7 @@ Response body
 		"postalCode" : "string",
 		"phone" : {
 			"landLine" : "string",
-			"mobile" : "string",
+			"cellPhone" : "string",
 			"countryCode" : "+031"
 		}
 	}
@@ -114,7 +114,7 @@ Response body
 			"postalCode" : "error message",
 			"phone" : {
 				"landLine" : "error message",
-				"mobile" : "error message"
+				"cellPhone" : "error message"
 			}
 		}
 	}
