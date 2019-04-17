@@ -16,9 +16,10 @@ As discussed on: 17-04-2019 by Silvia, Yubin & Steve.
 	"emailAddress": "yubin@jongensvantechniek.nl",
 	"address" : {
 		"country" : {
-			"countryCode" : 31,
 			"name" : "Netherlands",
-			"alpha2" : "NL"
+                        "alpha2Code" : "NL",
+                        "alpha3Code" : "NLD",
+                        "callingCodes": ["57"]
 		},
 		"city" : {
 			"name" : "The Hague"
@@ -50,9 +51,10 @@ Response body
 	"emailAddress": "yubin@jongensvantechniek.nl",
 	"address" : {
 		"country" : {
-			"countryCode" : 31,
 			"name" : "Netherlands",
-			"alpha2" : "NL"
+                        "alpha2Code" : "NL",
+                        "alpha3Code" : "NLD",
+                        "callingCodes": ["57"]
 		},
 		"city" : {
 			"name" : "The Hague"
