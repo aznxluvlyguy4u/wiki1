@@ -205,7 +205,7 @@ $ ./gradlew <moduleName>:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremi
 
 ## Additional configurations / relevant information
 
-TO BE DOCUMENTED
+- [Signup payload](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
 
 ## Technical details
 
