@@ -90,8 +90,9 @@ Response body
 
 ```json
 {
-  "statusCode" : 403,
-  "message": "Email address already exists, therefore cannot continue signup."
+    "statusCode": 403,
+    "data": null,
+    "status": "Emailaddress exists"
 }
 ```
 
