@@ -64,8 +64,7 @@ Response body
             "phone": {
                 "id": 5,
                 "uuid": "162d925d-6b94-42bd-8507-0df621a68dc9",
-                "landLine": null,
-                "cellPhone": null,
+                "phoneNumber" : "string",
                 "countryCode": "+031",
                 "addresses": []
             },
@@ -120,8 +119,8 @@ Response body
 			"streetBlock" : "error message",
 			"postalCode" : "error message",
 			"phone" : {
-				"landLine" : "error message",
-				"cellPhone" : "error message"
+				"phoneNumber" : "error message",
+                                "countryCode" : "error message"
 			}
 		}
 	}
