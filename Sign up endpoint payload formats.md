@@ -10,16 +10,16 @@ As discussed on: 17-04-2019 by Silvia, Yubin & Steve.
 
 ```json
 {
-	"firstName":"Jane3",
+	"firstName" : "Yubin",
 	"lastName" : "Haha",
-	"password" : "asdfg",
-	"emailAddress": "yubin@jongensvantechniek.nl",
+	"password" : "Pa$$word",
+	"emailAddress": "yubin04@jongensvantechniek.nl",
+	"dateOfBirth": "1983-10-18",
 	"address" : {
 		"country" : {
 			"name" : "Netherlands",
-                        "alpha2Code" : "NL",
-                        "alpha3Code" : "NLD",
-                        "callingCodes": ["57"]
+            "alpha2Code" : "NL",
+            "callingCodes": "57"
 		},
 		"city" : {
 			"name" : "The Hague"
@@ -29,9 +29,8 @@ As discussed on: 17-04-2019 by Silvia, Yubin & Steve.
 		"streetBlock" : "A",
 		"postalCode" : "string",
 		"phone" : {
-			"landLine" : "string",
-			"cellPhone" : "string",
-			"countryCode" : "+031"
+			"phoneNumber" : "string",
+            "countryCode" : "+031"
 		}
 	}
 }
