@@ -44,30 +44,37 @@ Response body
 
 ```json
 {
-  "firstName":"Jane3",
-	"lastName" : "Haha",
-	"password" : "asdfg",
-	"emailAddress": "yubin@jongensvantechniek.nl",
-	"address" : {
-		"country" : {
-			"name" : "Netherlands",
-                        "alpha2Code" : "NL",
-                        "alpha3Code" : "NLD",
-                        "callingCodes": ["57"]
-		},
-		"city" : {
-			"name" : "The Hague"
-		},
-		"streetName" : "string",
-		"streetNumber" : "12",
-		"streetBlock" : "A",
-		"postalCode" : "string",
-		"phone" : {
-			"landLine" : "string",
-			"cellPhone" : "string",
-			"countryCode" : "+031"
-		}
-	}
+    "statusCode": 201,
+    "data": {
+        "id": 5,
+        "uuid": "1960bf4f-6f24-4798-a55b-4ba765fe2e73",
+        "firstName": "Yubin",
+        "middleName": null,
+        "lastName": "Haha",
+        "dateOfBirth": "1983-10-18",
+        "emailAddress": "yubin04@jongensvantechniek.nl",
+        "password": "Pa$$word",
+        "address": {
+            "id": 5,
+            "uuid": "8028258d-06f2-46db-942e-fab033b65a5b",
+            "streetName": "string",
+            "streetNumber": 12,
+            "streetNumberBlock": null,
+            "postalCode": "string",
+            "phone": {
+                "id": 5,
+                "uuid": "162d925d-6b94-42bd-8507-0df621a68dc9",
+                "landLine": null,
+                "cellPhone": null,
+                "countryCode": "+031",
+                "addresses": []
+            },
+            "persons": []
+        },
+        "roles": [],
+        "enabled": false
+    },
+    "status": null
 }
 ```
 
