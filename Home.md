@@ -213,8 +213,9 @@ Like architectural design choices, algorithm explanations, ect
 
 ## Architecture
 
-TO BE DOCUMENTED
+![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
+[draw.io architecture file][]
 ## Dependencies
 
 TO BE DOCUMENTED
