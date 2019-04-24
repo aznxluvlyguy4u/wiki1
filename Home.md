@@ -215,7 +215,8 @@ Like architectural design choices, algorithm explanations, ect
 
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
-[draw.io architecture file][]
+[draw.io architecture file][Draw.io%20-%20Architecture%20diagram%20file]
+
 ## Dependencies
 
 TO BE DOCUMENTED
@@ -226,7 +227,7 @@ TO BE DOCUMENTED
 
 - [Ocean Premium - Jira Scrumboard](https://dudesoftechnology.atlassian.net/jira/software/projects/OP/boards/53)
 
-- [Ocean Premium - Frontend]()
+- [Ocean Premium - Frontend](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/)
 
 ## Dependencies
 
