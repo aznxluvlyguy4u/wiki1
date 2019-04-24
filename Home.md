@@ -215,7 +215,7 @@ Like architectural design choices, algorithm explanations, ect
 
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
-[draw.io architecture file][Draw.io%20-%20Architecture%20diagram%20file]
+[draw.io architecture file](Draw.io%20-%20Architecture%20diagram%20file)
 
 ## Dependencies
 
