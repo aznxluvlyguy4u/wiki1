@@ -1,15 +1,11 @@
 # Ocean Premium - REST API
 
-
-
 [![CircleCI](https://circleci.com/bb/oceanpremium/ocean-premium-api/tree/feature%2Fskeleton.svg?style=svg&circle-token=384a2a280e94bb67b80b424940eb58d7c41b1d69)](https://circleci.com/bb/oceanpremium/ocean-premium-api/tree/feature%2Fskeleton)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=alert_status)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=bugs)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=code_smells)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=coverage)
 ![](https://sonar.jongensvantechniek.nl/api/project_badges/measure?project=com.oceanpremium.api&metric=vulnerabilities)
-
-
 
 ## Table of Content
 
@@ -24,7 +20,6 @@
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](Glossary)                                     |
 | 8. [Current RMS](CurrentRMS)
-
 
 ## Setup & Configuration
 
@@ -124,7 +119,6 @@ therefore added to the _.gitignore_.
 
 - Create a `properties.json` file containing environment variables in the `root` of any (serverless) function module (thus not in _core_ module) of the following structure:
 
-
 ```json
 {
   "Module-name":
@@ -203,7 +197,6 @@ $ ./gradlew <moduleName>:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremi
 - -Pstage: _to which environment the function needs to be deployed_
 
 - -Pprofile: _which AWS credentials profile needs to be used to deploy, this determines to which AWS account is deployed, if multiple AWS account profiles are registered in the AWS CLI_
-
 
 ## Additional configurations / relevant information
 
