@@ -7,8 +7,7 @@ We have a contact person for technical questions concerning Current RMS (platfor
 - [Matthew Finkel](mailto:matthew.finkel@current-rms.com)
 - [help@current-rms.com](mailto:help@current-rms.com)
 
-*Staging:* https://oceanpremium-staging.current-rms.com/
-*Staging API:* https://oceanpremium-staging.current-rms.com/
+*Staging:* https://oceanpremium-staging.current-rms.com
 
 *Current RMS - API Docs:* https://api.current-rms.com/doc
 
