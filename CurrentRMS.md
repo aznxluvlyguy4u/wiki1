@@ -35,8 +35,10 @@ Here is an example utilizing _curl_ to do a request to the Current RMS API on th
 
 See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
+See lastpass for the API token.
+
 ```shell
-$ curl --header "X-SUBDOMAIN:oceanpremium-staging" --header "X-AUTH-TOKEN:<TOKEN-VALUE-OBTAIN-VIA-CURRENTRMS-UI>" /
+$ curl --header "X-SUBDOMAIN:oceanpremium-staging" --header "X-AUTH-TOKEN:<TOKEN>" /
  "https://api.current-rms.com/api/v1/stores" | python -m json.tool
 ```
 
