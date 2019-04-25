@@ -22,7 +22,9 @@
 | 4. [Architecture](#markdown-header-architecture)                             |
 | 5. [REST API documentation](#markdown-header-REST-API-documentation)         |
 | 6. [Resources](#markdown-header-resources)                                   |
-| 7. [Glossary with definitions](Glossary)
+| 7. [Glossary with definitions](Glossary)                                     |
+| 8. [Current RMS](CurrentRMS)
+
 
 ## Setup & Configuration
 
