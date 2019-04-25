@@ -16,7 +16,7 @@
 | 2. [Local debugging](#markdown-header-debugging)                             |
 | 3. [Deploying to cloud](#markdown-header-deploy)                             |
 | 4. [Architecture](#markdown-header-architecture)                             |
-| 5. [REST API documentation](#markdown-header-REST-API-documentation)         |
+| 5. [REST API documentation](API%20docs)                                      |
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](Glossary)                                     |
 | 8. [Current RMS](CurrentRMS)
