@@ -6,7 +6,7 @@
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
 | 1. [Staging environment](#markdown-header-staging-environment)               |
-| 2. [Credentials](#markdown-header-credentials)                       |
+| 2. [Credentials](#markdown-header-credentials)                               |
 | 3. [Data Import](#markdown-header-data-import)                               |
 | 4. [API](#markdown-header-api)                                               |
 
@@ -20,6 +20,14 @@ We have a contact person for technical questions concerning Current RMS (platfor
 - [help@current-rms.com](mailto:help@current-rms.com)
 
 ### Staging environment
+
+| Table of Content                                                             |
+|------------------------------------------------------------------------------|
+| 0. CurrentRMS - Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                 |
+| 1. CurrentRMS - API Docs [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)               |
+| 2. [Credentials](#markdown-header-credentials)                               |
+| 3. [Data Import](#markdown-header-data-import)                               |
+| 4. [API](#markdown-header-api)                                               |
 
 *Staging:* https://oceanpremium-staging.current-rms.com
 
