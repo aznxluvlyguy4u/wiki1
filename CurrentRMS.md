@@ -62,50 +62,9 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP 
 
 ### API 
 
-#### Request
-Here is an example utilizing _curl_ to do a request to the Current RMS API on the _stores_  endpoint.
+- See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
-See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
+
+- See the [POSTman collection & environment properties]() for importing the collection into POSTman
 
 See [credentials](#markdown-header-credentials) for the API token.
-
-```shell
-$ curl --header "X-SUBDOMAIN:oceanpremium-staging" --header "X-AUTH-TOKEN:<TOKEN>" /
- "https://api.current-rms.com/api/v1/stores" | python -m json.tool
-```
-
-#### Response
-
-```json
-{
-    "stores": [
-        {
-            "id": 1,
-            "country_id": 8,
-            "region_id": 1,
-            "name": "Default",
-            "street": "Jupiter 65",
-            "city": "Poeldijk",
-            "county": "ZH",
-            "postcode": "2685 LV",
-            "created_at": "2019-03-12T09:56:39.373Z",
-            "updated_at": "2019-03-12T09:56:39.373Z",
-            "country": {
-                "id": 8,
-                "name": "Netherlands",
-                "code": "NL",
-                "has_state_tax": false,
-                "eu_member": true,
-                "currency_code": "EUR"
-            },
-            "icon": null
-        }
-    ],
-    "meta": {
-        "total_row_count": 1,
-        "row_count": 1,
-        "page": 1,
-        "per_page": 20
-    }
-}
-```
