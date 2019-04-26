@@ -9,7 +9,7 @@
 
 ## Table of Content
 
-| Table of Content                                                             |
+|                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
 | 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
