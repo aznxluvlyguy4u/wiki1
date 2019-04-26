@@ -24,7 +24,7 @@ We have a contact person for technical questions concerning Current RMS (platfor
 |                                                                              | 
 |------------------------------------------------------------------------------|
 | 0. CurrentRMS - Staging:  https://oceanpremium-staging.current-rms.com       |                                                
-| 1. CurrentRMS - API Docs: https://api.current-rms.com/doc)                   |
+| 1. CurrentRMS - API Docs: https://api.current-rms.com/doc                    |
 
 ### Credentials
 
