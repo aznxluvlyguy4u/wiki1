@@ -31,7 +31,7 @@ We have a contact person for technical questions concerning Current RMS (platfor
 
 See [LastPass](https://lastpass.com) for the credentials to access the Current RMS account and API (token).
 
-*Note:* If the credentials are not yet shared with you on LastPass, ask Frans or Steve.
+*Note:* If the credentials are not yet shared with you on [LastPass](http://lastpass.com), ask Frans or Steve.
 
 ### Data import
 
@@ -40,14 +40,14 @@ The staging environment acts as mirrored environment for production. The existin
 The data dumps are provided by Ocean Premium, if you need data dumps, other then the already provided dumps on OneDrive, you can contact the following persons (in the following contact order):
 
 - [Frans Godschalk](mailto:frans@jongensvantechniek.nl) (JVT)
-- [Janez Jezersek](mailto:jj@oceanpremium.com) (OP)
-- [Barbara Jezersek](mailto:barbara@oceanpremium.com) (OP)
+- [Janez Jezersek](mailto:jj@oceanpremium.com) (Ocean Premium)
+- [Barbara Jezersek](mailto:barbara@oceanpremium.com) (Ocean Premium)
 
-#### JVT & OP roles 
+#### JVT & Ocean Premium responsibilities
 
+As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), Ocean Premium & JVT will take responsibility for the following concerns.
 
 ##### Ocean Premium
-As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP will take responsibility for the following concerning Current RMS - Staging environment:
 
 - Make sure all data (products / accessories / stores, ect.) are correctly prepared and setup, linked and entity details provided, to make it properly function in Current RMS.
 
@@ -55,9 +55,7 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP 
 
 ##### CurrentRMS
 
-As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP will take responsibility for the following concerning Current RMS - Staging environment:
-
-- In case custom fields / additions / configurations made in Current RMS that needs to be replicated on the production environment, JVT will document and communicate it with OP.
+- In case custom fields / additions / configurations made in Current RMS that needs to be replicated on the production environment, JVT will document and communicate it with Ocean Premium.
 
 - JVT will contact CurrentRMS if we have questions concerning CurrentRMS that are not easily answered, see [here](#markdown-header-contact-currentrms)
 
@@ -66,6 +64,6 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP 
 - See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
 
-- See the [POSTman collection & environment properties]() for importing the collection into POSTman
+- See the [Postman collection & environment properties](https://shopix99-my.sharepoint.com/:f:/g/personal/peter_jongensvantechniek_nl/En6dO8Va9JhKiBVCDXwMm5kBT2XWuxPIUK0cb4hjGkhE9w?e=RMll9Y) for importing the collection into [Postman](https://www.getpostman.com)
 
 See [credentials](#markdown-header-credentials) for the API token.
