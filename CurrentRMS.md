@@ -5,10 +5,10 @@
 | Table of Content                                                             |
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
-| 0. [Staging environment](#markdown-header-staging-environment)               |
-| 0. [Credentials](#markdown-header-staging-environment)                       |
-| 0. [Data Import](#markdown-header-data-import)                               |
-| 0. [API](#markdown-header-api)                                               |
+| 1. [Staging environment](#markdown-header-staging-environment)               |
+| 2. [Credentials](#markdown-header-staging-environment)                       |
+| 3. [Data Import](#markdown-header-data-import)                               |
+| 4. [API](#markdown-header-api)                                               |
 
 This API serves as a proxy to [Current RMS](https://current-rms.com).
 
