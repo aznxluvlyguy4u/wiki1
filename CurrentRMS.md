@@ -5,7 +5,7 @@
 | Table of Content                                                             |
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
-| 1. [Staging environment](#markdown-header-staging-environment)               |
+| 1. [Environments](#markdown-header-environments)                             |
 | 2. [Credentials](#markdown-header-credentials)                               |
 | 3. [Data Import](#markdown-header-data-import)                               |
 | 4. [API](#markdown-header-api)                                               |
@@ -19,19 +19,12 @@ We have a contact person for technical questions concerning Current RMS (platfor
 - [Matthew Finkel](mailto:matthew.finkel@current-rms.com)
 - [help@current-rms.com](mailto:help@current-rms.com)
 
-### Staging environment
+### Environments
 
 | Table of Content                                                             |
 |------------------------------------------------------------------------------|
-| 0. CurrentRMS - Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                 |
-| 1. CurrentRMS - API Docs [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)               |
-| 2. [Credentials](#markdown-header-credentials)                               |
-| 3. [Data Import](#markdown-header-data-import)                               |
-| 4. [API](#markdown-header-api)                                               |
-
-*Staging:* https://oceanpremium-staging.current-rms.com
-
-*Current RMS - API Docs:* https://api.current-rms.com/doc
+| 0. CurrentRMS - Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                                                       |
+| 1. CurrentRMS - API Docs [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                                                       |
 
 ### Credentials
 
