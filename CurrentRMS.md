@@ -61,9 +61,8 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), Oce
 
 ### API 
 
+- See [credentials](#markdown-header-credentials) for the API token.
+
 - See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
-
 - See the [Postman collection & environment properties](https://shopix99-my.sharepoint.com/:f:/g/personal/peter_jongensvantechniek_nl/En6dO8Va9JhKiBVCDXwMm5kBT2XWuxPIUK0cb4hjGkhE9w?e=RMll9Y) for importing the collection into [Postman](https://www.getpostman.com)
-
-See [credentials](#markdown-header-credentials) for the API token.
