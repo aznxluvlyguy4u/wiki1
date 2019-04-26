@@ -2,7 +2,7 @@
 
 ## Table of Content
 
-| Table of Content                                                             |
+|                                                           |
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
 | 1. [Environments](#markdown-header-environments)                             |
