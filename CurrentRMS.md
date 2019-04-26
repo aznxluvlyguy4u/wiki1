@@ -2,7 +2,7 @@
 
 ## Table of Content
 
-|                                                           |
+|                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
 | 1. [Environments](#markdown-header-environments)                             |
@@ -21,21 +21,20 @@ We have a contact person for technical questions concerning Current RMS (platfor
 
 ### Environments
 
-| Table of Content                                                             |
+|                                                                              | 
 |------------------------------------------------------------------------------|
-| 0. CurrentRMS - Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                                                       |
-| 1. CurrentRMS - API Docs [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)                                                       |
+| 0. CurrentRMS - Staging:  https://oceanpremium-staging.current-rms.com       |                                                
+| 1. CurrentRMS - API Docs: https://api.current-rms.com/doc)                   |
 
 ### Credentials
 
 See [LastPass](https://lastpass.com) for the credentials to access the Current RMS account and API (token).
-If the credentials are not yet shared with you on LastPass, ask Frans or Steve.
+
+*Note:* If the credentials are not yet shared with you on LastPass, ask Frans or Steve.
 
 ### Data import
 
-The staging environment acts as mirrored environment for production. The existing production environment is currently used by Ocean Premium. In order to get data exports from Production imported into Staging, go here to find the latest data dumps on OneDrive:
-
-https://shopix99-my.sharepoint.com/:f:/g/personal/peter_jongensvantechniek_nl/Ehv7OJ-IWJNFmvLCQRWV2LoB2OPAe5SJbudzKu6Y_GB0oQ?e=kWnVST
+The staging environment acts as mirrored environment for production. The existing production environment is currently used by Ocean Premium. In order to get data exports from Production imported into Staging, go here to find the latest data dumps on [OneDrive](https://shopix99-my.sharepoint.com/:f:/g/personal/peter_jongensvantechniek_nl/Ehv7OJ-IWJNFmvLCQRWV2LoB2OPAe5SJbudzKu6Y_GB0oQ?e=kWnVST)
 
 The data dumps are provided by Ocean Premium, if you need data dumps, other then the already provided dumps on OneDrive, you can contact the following persons (in the following contact order):
 
