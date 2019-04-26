@@ -1,11 +1,25 @@
 # Current RMS
 
+## Table of Content
+
+| Table of Content                                                             |
+|------------------------------------------------------------------------------|
+| 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
+| 0. [Staging environment](#markdown-header-staging-environment)               |
+| 0. [Credentials](#markdown-header-staging-environment)                       |
+| 0. [Data Import](#markdown-header-data-import)                               |
+| 0. [API](#markdown-header-api)                                               |
+
 This API serves as a proxy to [Current RMS](https://current-rms.com).
+
+### Contact CurrentRMS
 
 We have a contact person for technical questions concerning Current RMS (platform / API), in the following contact order):
 
 - [Matthew Finkel](mailto:matthew.finkel@current-rms.com)
 - [help@current-rms.com](mailto:help@current-rms.com)
+
+### Staging environment
 
 *Staging:* https://oceanpremium-staging.current-rms.com
 
@@ -27,7 +41,7 @@ The data dumps are provided by Ocean Premium, if you need data dumps, other then
 - [Janez Jezersek](mailto:jj@oceanpremium.com) (OP)
 - [Barbara Jezersek](mailto:barbara@oceanpremium.com) (OP)
 
-### Example request
+### API 
 
 #### Request
 Here is an example utilizing _curl_ to do a request to the Current RMS API on the _stores_  endpoint.
