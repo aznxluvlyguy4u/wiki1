@@ -6,7 +6,7 @@
 |------------------------------------------------------------------------------|
 | 0. [Contact / Helpdesk](#markdown-header-contact-currentrms)                 |
 | 1. [Staging environment](#markdown-header-staging-environment)               |
-| 2. [Credentials](#markdown-header-staging-environment)                       |
+| 2. [Credentials](#markdown-header-credentials)                       |
 | 3. [Data Import](#markdown-header-data-import)                               |
 | 4. [API](#markdown-header-api)                                               |
 
@@ -49,7 +49,7 @@ Here is an example utilizing _curl_ to do a request to the Current RMS API on th
 
 See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
-See lastpass for the API token.
+See [credentials](#markdown-header-credentials) for the API token.
 
 ```shell
 $ curl --header "X-SUBDOMAIN:oceanpremium-staging" --header "X-AUTH-TOKEN:<TOKEN>" /
