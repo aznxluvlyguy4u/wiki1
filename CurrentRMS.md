@@ -27,7 +27,8 @@ We have a contact person for technical questions concerning Current RMS (platfor
 
 ### Credentials
 
-See lastpass for the credentials to access the Current RMS account and API (token)
+See [LastPass] for the credentials to access the Current RMS account and API (token).
+If the credentials are not yet shared with you on LastPass, ask Frans or Steve.
 
 ### Data import
 
