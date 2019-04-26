@@ -42,6 +42,24 @@ The data dumps are provided by Ocean Premium, if you need data dumps, other then
 - [Janez Jezersek](mailto:jj@oceanpremium.com) (OP)
 - [Barbara Jezersek](mailto:barbara@oceanpremium.com) (OP)
 
+#### JVT & OP roles 
+
+
+##### Ocean Premium
+As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP will take responsibility for the following concerning Current RMS - Staging environment:
+
+- Make sure all data (products / accessories / stores, ect.) are correctly prepared and setup, linked and entity details provided, to make it properly function in Current RMS.
+
+- Will conform to configurations JVT made in Current RMS on production environment (in terms of additions / Custom Fields, ect)
+
+##### CurrentRMS
+
+As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), OP will take responsibility for the following concerning Current RMS - Staging environment:
+
+- In case custom fields / additions / configurations made in Current RMS that needs to be replicated on the production environment, JVT will document and communicate it with OP.
+
+- JVT will contact CurrentRMS if we have questions concerning CurrentRMS that are not easily answered, see [here](#markdown-header-contact-currentrms)
+
 ### API 
 
 #### Request
