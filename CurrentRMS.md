@@ -1,4 +1,6 @@
-# Current RMS
+# [Current RMS](https://current-rms.com)
+
+The Ocean Premium - REST API serves as a proxy to [Current RMS](https://current-rms.com).
 
 ## Table of Content
 
@@ -10,7 +12,6 @@
 | 3. [Data Import](#markdown-header-data-import)                               |
 | 4. [API](#markdown-header-api)                                               |
 
-This API serves as a proxy to [Current RMS](https://current-rms.com).
 
 ### Contact CurrentRMS
 
