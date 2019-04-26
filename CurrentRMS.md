@@ -53,7 +53,7 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), Oce
 
 - Will conform to configurations JVT made in Current RMS on production environment (in terms of additions / Custom Fields, ect)
 
-##### CurrentRMS
+##### Jongens van Techniek
 
 - In case custom fields / additions / configurations made in Current RMS that needs to be replicated on the production environment, JVT will document and communicate it with Ocean Premium.
 
