@@ -17,8 +17,8 @@ The Ocean Premium - REST API serves as a proxy to [Current RMS](https://current-
 
 We have a contact person for technical questions concerning Current RMS (platform / API), in the following contact order):
 
-- [Matthew Finkel](mailto:matthew.finkel@current-rms.com)
-- [help@current-rms.com](mailto:help@current-rms.com)
+- [Matthew Finkel - matthew.finkel@current-rms.com](mailto:matthew.finkel@current-rms.com)
+- [CurrentRMS Helpdesk - help@current-rms.com](mailto:help@current-rms.com)
 
 ### Environments
 
