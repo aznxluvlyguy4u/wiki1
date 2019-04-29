@@ -222,7 +222,7 @@ TO BE DOCUMENTED
 
 - [Ocean Premium - Jira Scrumboard](https://dudesoftechnology.atlassian.net/jira/software/projects/OP/boards/53)
 
-- [Ocean Premium - Frontend](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/)
+- [Ocean Premium - Frontend](https://bitbucket.org/jvt/ocean-premium-frontend/wiki)
 
 ## Dependencies
 
