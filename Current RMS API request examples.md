@@ -417,3 +417,13 @@ GET https://api.current-rms.com/api/v1/products?q[product_group_id_eq]=19
 ```
 GET https://api.current-rms.com/api/v1/products/19
 ```
+
+# Find All Product Groups
+```
+GET https://api.current-rms.com/api/v1/product_groups
+```
+
+# Find Products based on mixed query params
+```
+GET https://oceanpremium-staging.current-rms.com/products?product_group_id_eq=22&tags=["Fins"]
+```
