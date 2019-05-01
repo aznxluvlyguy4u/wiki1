@@ -403,7 +403,7 @@ GET https://api.current-rms.com/api/v1/products?tags=["sierra"]
 }
 ```
 
-# Find Product by Product Group ONLY (2 options same result)
+# Find Products by Product Group ONLY (2 options same result)
 ```
 1. By name
 GET https://api.current-rms.com/api/v1/products?q[product_group_name_cont]=Fun_Activities
@@ -411,4 +411,9 @@ GET https://api.current-rms.com/api/v1/products?q[product_group_name_cont]=Fun_A
 ```
 2. By product group id
 GET https://api.current-rms.com/api/v1/products?q[product_group_id_eq]=19
+```
+
+# Find Product by Product ID
+```
+GET https://api.current-rms.com/api/v1/products/19
 ```
