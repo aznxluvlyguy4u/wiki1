@@ -1,4 +1,4 @@
-Find Products By [Name OR ProductGroup name OR Tag]
+#Find Products By [Name OR ProductGroup name OR Tag]
 
 ```
 GET https://api.current-rms.com/api/v1/products?page=1&per_page=2&q[name_or_product_group_name_or_product_tags_name_cont]=seabob
