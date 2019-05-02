@@ -147,6 +147,16 @@ therefore added to the _.gitignore_.
 
 See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
+### Logging
+
+In the _src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
+
+```
+logging.level.com.oceanpremium.api=DEBUG
+```
+
+For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
+
 
 #### Core module
 
