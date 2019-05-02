@@ -149,7 +149,7 @@ See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
 ### Logging
 
-In the _src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
+In the *<module-name>*_/src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
 
 ```
 logging.level.com.oceanpremium.api=DEBUG
