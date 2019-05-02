@@ -99,14 +99,20 @@ _auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
 
 ![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)
 
+### Products module
+
 - Input environment variables in _Environment Variables_ field
 
 ```
-DATABASE_HOST=<host-id.example.com>
-DATABASE_NAME=<DBNAME>
-DATABASE_USER=<USERNAME>
-DATABASE_PASSWORD=<PASSWORD>
+sentry_dsn=https://id@sentry.io/1234
+slack_webhook_jvt=https://hooks.slack.com/services/id/id;
+slack_webhook_op=https://hooks.slack.com/services/id/id;
+current_rms_token=tokenValue;
+current_rms_subdomain=a-reserved-namespace;
+current_rms_api_url=https://api.current-rms.com/api/v1/
 ```
+
+See [LastPass](https://lastpass.com) for the values.
 
 #### Remote
 
