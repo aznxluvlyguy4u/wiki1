@@ -2,7 +2,8 @@
 
 ## Swagger UI
 
-Ocean premium hosts it's own Swagger UI that can be used to see the API documentation for the *Ocean Premium - REST API*
+Ocean premium hosts it's own Swagger UI that can be used to see the API documentation for the *Ocean Premium - REST API:*
+
 http://oceanpremium-swagger-ui.s3-website-eu-west-1.amazonaws.com
 
 ## Postman collection
