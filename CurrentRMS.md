@@ -69,4 +69,4 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), Oce
 
 - See the [Current RMS - API Docs](https://api.current-rms.com/doc) for more information on available endpoints.
 
-- See the [Postman collection & environment properties](PI%20docs) for importing the collection into [Postman](https://www.getpostman.com)
+- See the [Postman collection & environment properties](API%20docs) for importing the collection into [Postman](https://www.getpostman.com)
