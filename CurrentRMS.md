@@ -71,4 +71,4 @@ As discussed in a meeting (26-04-2019) with Ocean Premium (Janez & Barbara), Oce
 
 - See the [Postman collection & environment properties](API%20docs) for importing the collection into [Postman](https://www.getpostman.com)
 
-- See the [API Request Examples](API%20docs) for query parameter build up examples (https://www.getpostman.com)
+- See the [API Request Examples](API%20docs) for query parameter build up examples(https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Current%20RMS%20API%20request%20examples)
