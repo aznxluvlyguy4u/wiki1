@@ -127,14 +127,18 @@ therefore added to the _.gitignore_.
 
 ```json
 {
-  "Module-name":
+  "products (the concerning module name)":
   {
-    "SENTRY_DSN": "https://id@sentry.io/111111",
-    "SLACK_LOGGER_WEBHOOK": "https://hooks.slack.com/services/ids",
-    "DATABASE_HOST" : "id.eu-west-1.rds.amazonaws.com",
-    "DATABASE_NAME" : "database-name",
-    "DATABASE_USER" : "database-user",
-    "DATABASE_PASSWORD": "database-password"
+    "slack": {
+      "webhook_jvt": "https://hooks.slack.com/services/id",
+      "webhook_op": "https://hooks.slack.com/services/id"
+    },
+    "current_rms": {
+      "token": "tokenValue",
+      "subdomain": "reserved-namespace",
+      "api_url": "https://api.current-rms.com/api/v1/"
+    },
+    "sentry_dsn": "https://id@sentry.io/1234"
   }
 }
 ```
