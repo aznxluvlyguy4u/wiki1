@@ -104,13 +104,15 @@ _auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
 - Input environment variables in _Environment Variables_ field
 
 ```
-sentry_dsn=https://id@sentry.io/1234
+SENTRY_DSN=https://id@sentry.io/1234
 slack_webhook_jvt=https://hooks.slack.com/services/id/id;
 slack_webhook_op=https://hooks.slack.com/services/id/id;
 current_rms_token=tokenValue;
 current_rms_subdomain=a-reserved-namespace;
 current_rms_api_url=https://api.current-rms.com/api/v1/
 ```
+
+*NOTE: the SENTRY_DSN needs to be capitalised, in order to be picked up by the Sentry SDK*
 
 See [LastPass](https://lastpass.com) for the values.
 
@@ -143,7 +145,8 @@ therefore added to the _.gitignore_.
 }
 ```
 
-*Note:* that the _rootNode_ name is the module name. 
+*NOTE 1:* that the _rootNode_ name is the module name. 
+*NOTE 2: the sentry_dsn does needs to be capitalised in the properties file*
 
 See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
