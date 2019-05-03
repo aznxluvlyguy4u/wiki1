@@ -146,7 +146,7 @@ therefore added to the _.gitignore_.
 ```
 
 *NOTE 1:* that the _rootNode_ name is the module name. 
-*NOTE 2: the sentry_dsn does needs to be capitalised in the properties file*
+*NOTE 2: the sentry_dsn does needs to be capitalised in the `properties.json` file, but it does when defining it as a system environment variable*
 
 See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
