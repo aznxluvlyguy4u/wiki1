@@ -221,7 +221,7 @@ $ ./gradlew <moduleName>:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremi
 
 The **default** environment is: _dev_
 
-To deploy to different environments, see [these](Deploy%20to%20different%20environments) instructions.
+To deploy to different environments (other the dev), see [these](Deploy%20to%20different%20environments) instructions.
 
 ## Additional configurations / relevant information
 
