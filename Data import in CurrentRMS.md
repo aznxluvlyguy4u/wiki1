@@ -1,5 +1,14 @@
-Data import procedure:
-import csv's in the following order:
+# Data import procedure
+
+- [Staging environment](https://oceanpremium-staging.current-rms.com/)
+
+## Importing csv's
+
+- Login to Current RMS and go to the data import section:
+
+https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
+
+- Import csv's in the following order:
 
 1. contacts
 2. venues
