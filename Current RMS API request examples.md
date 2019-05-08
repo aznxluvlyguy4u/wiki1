@@ -1009,4 +1009,115 @@ results:
 ```
 
 # Find Products inventory / availability By [Name OR ProductGroup name OR Tag] AND date range AND STORE ID
-https://oceanpremium-staging.current-rms.com/api/v1/products/inventory?starts_at=2018-09-04%2000:00:00.000000&ends_at=2018-09-15%2023:59:59.999999&filtermode[]=rental&store_id=1&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard
+```
+https://api.current-rms.com/api/v1/products/inventory?starts_at=2019-05-10%2000:00:00.000000&ends_at=2019-05-15%2023:59:59.999999&filtermode[]=rental&store_id=5&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard```
+
+returns
+```json
+{
+    "products": [
+        {
+            "id": 47,
+            "name": "Flyboard Adapter for BRP - 3 screws",
+            "description": "Flyboard Adapter for SeaDoo jetski with 3 screws",
+            "icon_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/45/original/flyboard-seadoo-3-bolts-adapter.jpg",
+            "icon_thumb_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/45/thumb/flyboard-seadoo-3-bolts-adapter.jpg",
+            "product_group_name": "Flying",
+            "product_group_id": 18,
+            "rental_allowed?": true,
+            "can_rent?": false,
+            "has_stock?": true,
+            "rental_quantity_held": null,
+            "rental_quantity_unavailable": null,
+            "rental_quantity_booked": null,
+            "rental_quantity_sub_rent": null,
+            "rental_quantity_available": "2.0",
+            "rental_rate_exists?": true,
+            "rental_price": "10.0",
+            "rental_lead_charge_period_name": "Daily",
+            "sale_allowed?": true,
+            "can_sell?": false,
+            "sale_quantity_held": "0.0",
+            "sale_quantity_unavailable": "0.0",
+            "sale_quantity_allocated": "0.0",
+            "sale_quantity_available": "0.0",
+            "sale_price": "0.0",
+            "stock_method": 1,
+            "stock_method_name": "Bulk",
+            "buffer_percent": "0.0",
+            "replacement_charge": "145.0",
+            "weight": "0.0",
+            "barcode": "FLY-BRP-AD3S",
+            "active": true,
+            "accessory_only": true,
+            "discountable": true,
+            "tax_class_id": 2,
+            "rental_revenue_group_id": 1,
+            "sale_revenue_group_id": 6,
+            "sub_rental_cost_group_id": 3,
+            "purchase_cost_group_id": 3,
+            "created_at": "2019-04-30T13:47:48.862Z",
+            "updated_at": "2019-04-30T13:47:48.943Z",
+            "custom_fields": {
+                "store_id": "",
+                "public_icon_url": "",
+                "public_icon_thumb_url": ""
+            }
+        },
+        {
+            "id": 48,
+            "name": "Flyboard Adapter for BRP - 4 screws",
+            "description": "Flyboard Adapter for SeaDoo jetski with 4 screws",
+            "icon_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/46/original/seadoo-seadoo-4-bolts-adapter.jpg",
+            "icon_thumb_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/46/thumb/seadoo-seadoo-4-bolts-adapter.jpg",
+            "product_group_name": "Flying",
+            "product_group_id": 18,
+            "rental_allowed?": true,
+            "can_rent?": false,
+            "has_stock?": true,
+            "rental_quantity_held": null,
+            "rental_quantity_unavailable": null,
+            "rental_quantity_booked": null,
+            "rental_quantity_sub_rent": null,
+            "rental_quantity_available": "1.0",
+            "rental_rate_exists?": true,
+            "rental_price": "10.0",
+            "rental_lead_charge_period_name": "Daily",
+            "sale_allowed?": true,
+            "can_sell?": false,
+            "sale_quantity_held": "0.0",
+            "sale_quantity_unavailable": "0.0",
+            "sale_quantity_allocated": "0.0",
+            "sale_quantity_available": "0.0",
+            "sale_price": "0.0",
+            "stock_method": 1,
+            "stock_method_name": "Bulk",
+            "buffer_percent": "0.0",
+            "replacement_charge": "145.0",
+            "weight": "0.0",
+            "barcode": "FLY-BRP-AD4S",
+            "active": true,
+            "accessory_only": true,
+            "discountable": true,
+            "tax_class_id": 2,
+            "rental_revenue_group_id": 1,
+            "sale_revenue_group_id": 6,
+            "sub_rental_cost_group_id": 3,
+            "purchase_cost_group_id": 3,
+            "created_at": "2019-04-30T13:47:49.349Z",
+            "updated_at": "2019-04-30T13:47:49.446Z",
+            "custom_fields": {
+                "store_id": "",
+                "public_icon_url": "",
+                "public_icon_thumb_url": ""
+            }
+        }
+    ],
+    "meta": {
+        "total_row_count": 12,
+        "row_count": 2,
+        "page": 1,
+        "per_page": 2
+    }
+}
+```
