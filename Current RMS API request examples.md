@@ -1007,3 +1007,6 @@ results:
     }
 }
 ```
+
+# Find Products inventory / availability By [Name OR ProductGroup name OR Tag] AND date range AND STORE ID
+https://oceanpremium-staging.current-rms.com/api/v1/products/inventory?starts_at=2018-09-04%2000:00:00.000000&ends_at=2018-09-15%2023:59:59.999999&filtermode[]=rental&store_id=1&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard
