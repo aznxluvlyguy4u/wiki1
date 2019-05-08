@@ -1010,7 +1010,8 @@ results:
 
 # Find Products inventory / availability By [Name OR ProductGroup name OR Tag] AND date range AND STORE ID
 ```
-https://api.current-rms.com/api/v1/products/inventory?starts_at=2019-05-10%2000:00:00.000000&ends_at=2019-05-15%2023:59:59.999999&filtermode[]=rental&store_id=5&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard```
+https://api.current-rms.com/api/v1/products/inventory?starts_at=2019-05-10%2000:00:00.000000&ends_at=2019-05-15%2023:59:59.999999&filtermode[]=rental&store_id=5&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard
+```
 
 returns
 ```json
