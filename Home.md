@@ -213,7 +213,7 @@ Currently a Serverless function module has the following Gradle tasks:
 
 ### Deploy
 
-
+Currently to be able to deploy to _dev/staging_ you have to _manually exclude_ dependencies from the build config. To do so, uncomment [the following lines in the build.gradle file](https://bitbucket.org/oceanpremium/ocean-premium-api/src/f6992542d4beaef9272642e6e525ab64e656f2d3/build.gradle#lines-197:205), **before** running the below deploy command. After you are done deploying, *undo* the uncommenting.
 ```shell
 $ ./gradlew <moduleName>:deploy -Pstage=test|dev|stage|prod -Pprofile=oceanpremium-serverless-publisher
 ```
