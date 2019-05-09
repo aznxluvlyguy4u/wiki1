@@ -5,7 +5,7 @@
 ## Importing csv's
 
 - Login to Current RMS 
-- Make sure the language setting of your account is set to Engles - United States
+- Make sure the language setting of your account is set to Engles - United Kingdom
 - and go to the data import section:
 
 https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
