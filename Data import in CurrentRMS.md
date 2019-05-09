@@ -55,7 +55,9 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 17. add following values to service type in system System Setup > List of Values (
     * Handling
     * Shipping
-18. add revenue group in System Setup -> Revenue Group (Logistics - Rental)
+18. add following values to revenue group in System Setup -> Revenue Group (
+    * Logistics - Rental
 19. services
-20. service supplier cost 
-21. service resource
+20. service supplier cost (empty)
+21. add a new Contact with the name "Blaz Oblak" and mark it as bookable resource
+22. service resource
