@@ -32,7 +32,22 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 
 10. products
 11. accessories
-12. add stores in system setup -> stores
+12. add following stores in system setup -> stores:
+    * Palma de Mallorca (NG)
+    * S/Y ECHELON
+    * M55
+    * Monaco
+    * Inchcape Shipping Services
+    * M/Y OCEAN PARADISE
+    * St. Maarten (DSM)
+    * Athens (H360)
+    * Fort Lauderdale (YC)
+    * Maldives
+    * Napoli (MLF)
+    * Olbia (NA)
+    * Antigua (AC)
+    * MAREMOTO
+    * M/Y GLADIATOR
 13. stock level
 14. rate (already exists)
 15. serialized components (empty)
