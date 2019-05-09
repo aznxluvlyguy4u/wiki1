@@ -13,10 +13,10 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 1. contacts
 2. venues
 3. organizations? (
-  - first add Oraganisation Tax Class '0% IBEU' in System Setup -> Organisation Tax Classes,
-  - add Oraganisation Tax Class '0% ICP',
-  - add custom field group yacht in System Setup -> Custom Field Groups,
-  - add custom field yacht to organizations in System Setup -> Custom Fields
+  * first add Oraganisation Tax Class '0% IBEU' in System Setup -> Organisation Tax Classes,
+  * add Oraganisation Tax Class '0% ICP',
+  * add custom field group yacht in System Setup -> Custom Field Groups,
+  * add custom field yacht to organizations in System Setup -> Custom Fields
 )
 4. vehicles
 5. product groups
