@@ -24,11 +24,11 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 7. system setup -> cost groups -> add 'Logistics - Rental'
 8. change products.csv row 117 Pontoon Sockets for Schiller Bike image url from :
 
-  'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/305/original/schiller-pontton-socket.jpg'
+    * 'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/305/original/schiller-pontton-socket.jpg'
 
-temporary to:
+    * temporary to:
 
-  'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/238/original/schiller-pontoon.jpg'
+    * 'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/238/original/schiller-pontoon.jpg'
 
 10. products
 11. accessories
