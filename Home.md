@@ -171,6 +171,12 @@ TO BE DOCUMENTED
 
 ## Build & Run instructions
 
+If during build you get the following error:
+![![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)[Link Text](Link URL)[Link Text](Link URL)](https://bitbucket.org/repo/qEd965M/images/3688687204-Error.png)
+
+make sure you DISABLE JMX agent in config editor
+![Disable.png](https://bitbucket.org/repo/qEd965M/images/147241789-Disable.png)
+
 TO BE DOCUMENTED
 
 ### Task
