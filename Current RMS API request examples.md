@@ -1122,3 +1122,120 @@ returns
     }
 }
 ```
+
+# Find Products inventory / availability By [Tag ONLY] AND date range AND STORE ID
+```
+https://api.current-rms.com/api/v1/products/inventory?starts_at=2019-05-10%2000:00:00.000000&ends_at=2019-05-15%2023:59:59.999999&filtermode[]=rental&store_id=5&q[product_tags_name_cont]=tiwal%20sail
+```
+
+returns
+```json
+{
+    "products": [
+        {
+            "id": 196,
+            "name": "Tiwal Sail 5m2",
+            "description": "5m2 sail for Tiwal",
+            "icon_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/194/original/tiwal-sail.jpg",
+            "icon_thumb_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/194/thumb/tiwal-sail.jpg",
+            "product_group_name": "Watersports",
+            "product_group_id": 26,
+            "rental_allowed?": true,
+            "can_rent?": true,
+            "has_stock?": true,
+            "rental_quantity_held": "0.0",
+            "rental_quantity_unavailable": "0.0",
+            "rental_quantity_booked": "0.0",
+            "rental_quantity_sub_rent": "0.0",
+            "rental_quantity_available": "0.0",
+            "rental_rate_exists?": true,
+            "rental_price": "0.0",
+            "rental_lead_charge_period_name": "Daily",
+            "sale_allowed?": true,
+            "can_sell?": true,
+            "sale_quantity_held": "0.0",
+            "sale_quantity_unavailable": "0.0",
+            "sale_quantity_allocated": "0.0",
+            "sale_quantity_available": "0.0",
+            "sale_price": "0.0",
+            "stock_method": 2,
+            "stock_method_name": "Serialised",
+            "buffer_percent": "0.0",
+            "replacement_charge": "0.0",
+            "weight": "0.0",
+            "barcode": "",
+            "active": true,
+            "accessory_only": false,
+            "discountable": true,
+            "tax_class_id": 2,
+            "rental_revenue_group_id": 1,
+            "sale_revenue_group_id": 6,
+            "sub_rental_cost_group_id": 3,
+            "purchase_cost_group_id": 3,
+            "created_at": "2019-04-30T13:49:03.925Z",
+            "updated_at": "2019-04-30T13:49:04.112Z",
+            "custom_fields": {
+                "size": null,
+                "store_id": "",
+                "public_icon_url": "",
+                "public_icon_thumb_url": ""
+            }
+        },
+        {
+            "id": 197,
+            "name": "Tiwal Sail 7m2",
+            "description": "7m2 sail for Tiwal",
+            "icon_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/195/original/tiwal-sail.jpg",
+            "icon_thumb_url": "https://s3.amazonaws.com/current-rms/03f6d620-26db-0137-df25-12fbcfdb731a/icons/195/thumb/tiwal-sail.jpg",
+            "product_group_name": "Watersports",
+            "product_group_id": 26,
+            "rental_allowed?": true,
+            "can_rent?": true,
+            "has_stock?": true,
+            "rental_quantity_held": "0.0",
+            "rental_quantity_unavailable": "0.0",
+            "rental_quantity_booked": "0.0",
+            "rental_quantity_sub_rent": "0.0",
+            "rental_quantity_available": "0.0",
+            "rental_rate_exists?": true,
+            "rental_price": "0.0",
+            "rental_lead_charge_period_name": "Daily",
+            "sale_allowed?": true,
+            "can_sell?": true,
+            "sale_quantity_held": "0.0",
+            "sale_quantity_unavailable": "0.0",
+            "sale_quantity_allocated": "0.0",
+            "sale_quantity_available": "0.0",
+            "sale_price": "0.0",
+            "stock_method": 2,
+            "stock_method_name": "Serialised",
+            "buffer_percent": "0.0",
+            "replacement_charge": "0.0",
+            "weight": "0.0",
+            "barcode": "",
+            "active": true,
+            "accessory_only": false,
+            "discountable": true,
+            "tax_class_id": 2,
+            "rental_revenue_group_id": 1,
+            "sale_revenue_group_id": 6,
+            "sub_rental_cost_group_id": 3,
+            "purchase_cost_group_id": 3,
+            "created_at": "2019-04-30T13:49:04.446Z",
+            "updated_at": "2019-04-30T13:49:04.530Z",
+            "custom_fields": {
+                "size": null,
+                "store_id": "",
+                "public_icon_url": "",
+                "public_icon_thumb_url": ""
+            }
+        }
+    ],
+    "meta": {
+        "total_row_count": 2,
+        "row_count": 2,
+        "page": 1,
+        "per_page": 20
+    }
+}
+```
