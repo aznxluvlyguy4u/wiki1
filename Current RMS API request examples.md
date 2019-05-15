@@ -1239,3 +1239,21 @@ returns
     }
 }
 ```
+
+```
+
+Tell Janez to mark ‘Accessory Only’ products ‘Accessory Only’, so that a filtering can be made for products/inventory endpoint
+
+Then add the condition query param which exclude all ‘Accessory Only’ results
+
+q[product_accessory_only_eq]=false
+
+Another option is to add the condition query param which exclude all resulted products that belong to the product group Accessories:
+
+q[product_product_group_name_not_eq]=Accessories
+
+OR
+
+q[product_product_group_id_not_eq]=15
+
+```
