@@ -17,3 +17,14 @@ _auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
 - Edit the _run configuration_
 
 ![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)
+
+## JMX Agent
+
+If during build & run you get the following error:
+
+- `org.springframework.beans.factory.BeanCreationException: Error creating bean with name `
+- `Caused by: javax.management.InstanceAlreadyExistsException:org.springframework.boot:type=Admin,name=SpringApplication`
+
+Make sure you **DISABLE JMX agent** in config editor and re-run again:
+
+![Disable.png](https://bitbucket.org/repo/qEd965M/images/147241789-Disable.png)
