@@ -1,11 +1,41 @@
-# Default Current RMS behaviour _api/v1/products/inventory_
+# Current RMS API request examples
+
+## Table of Content
+
+|                                                                              |
+|------------------------------------------------------------------------------|
+| 0. [/api/v1/products/inventory](#markdown-header-products-inventory)         |
+
+
+## Products inventory 
+
+### Default API behaviour
+
+The _products inventory_ endpoint has some noticeable behaviour that needs to be taken into account
+when requests are done.
 
 - If query **does** contain storeID,  but **no** date range, result will revert to availability **on date now**.
 
 - If query does **not** contain storeID, then availability **cannot be inferred**, and the result is just a 'plain' product details payload **and the availability count will always be zero**.
 
------
-#Find Products By [Name OR ProductGroup name OR Tag]
+### Configuration instructions within CurrentRMS
+
+Tell Janez to mark ‘Accessory Only’ products ‘Accessory Only’, so that a filtering can be made for products/inventory endpoint.
+
+Then add the condition query param which exclude all ‘Accessory Only’ results
+
+`q[product_accessory_only_eq]=false`
+
+Another option is to add the condition query param which exclude all resulted products that belong to the product group Accessories:
+
+`q[product_product_group_name_not_eq]=Accessories`
+
+OR
+
+`q[product_product_group_id_not_eq]=15`
+
+
+### Find Products By [Name OR ProductGroup name OR Tag]
 
 ```
 GET https://api.current-rms.com/api/v1/products?page=1&per_page=2&q[name_or_product_group_name_or_product_tags_name_cont]=seabob
@@ -22,7 +52,6 @@ A built in filtermode name (e.g. active, inactive, all)
 q[name_or_product_group_name_or_tags_name_cont] (string, optional)	search_text_here	
 Search on name, product group name or tags for matching records
 
-```
 ```json
 {
     "products": [
@@ -147,10 +176,12 @@ Search on name, product group name or tags for matching records
     ...
 ```
 
-# Find Products By Tag ONLY
+###  Find Products By Tag ONLY
+
 ```
 GET https://api.current-rms.com/api/v1/products?tags=["sierra"]
 ```
+
 ```json
 {
     "products": [
@@ -454,7 +485,9 @@ POST with in the POST body:
   }
 }
 ```
+
 results:
+
 ```json
 {
     "product_bookings": {
@@ -727,7 +760,9 @@ POST with in the POST body:
   }
 }
 ```
+
 results:
+
 ```json
 {
     "product_bookings": {
@@ -1015,12 +1050,14 @@ results:
 }
 ```
 
-# Find Products inventory / availability By [Name OR ProductGroup name OR Tag] AND date range AND STORE ID
+###  Find Products inventory / availability By [Name OR ProductGroup name OR Tag] AND date range AND STORE ID
+
 ```
 https://api.current-rms.com/api/v1/products/inventory?starts_at=2019-05-10%2000:00:00.000000&ends_at=2019-05-15%2023:59:59.999999&filtermode[]=rental&store_id=5&q[name_or_product_group_name_or_product_tags_name_cont]=flyboard
 ```
 
-returns
+returns:
+
 ```json
 {
     "products": [
@@ -1245,22 +1282,4 @@ returns
         "per_page": 20
     }
 }
-```
-
-```
-
-Tell Janez to mark ‘Accessory Only’ products ‘Accessory Only’, so that a filtering can be made for products/inventory endpoint
-
-Then add the condition query param which exclude all ‘Accessory Only’ results
-
-q[product_accessory_only_eq]=false
-
-Another option is to add the condition query param which exclude all resulted products that belong to the product group Accessories:
-
-q[product_product_group_name_not_eq]=Accessories
-
-OR
-
-q[product_product_group_id_not_eq]=15
-
 ```
