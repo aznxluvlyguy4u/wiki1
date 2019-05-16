@@ -131,8 +131,9 @@ therefore added to the _.gitignore_.
 }
 ```
 
-*NOTE 1:* that the _rootNode_ name is the module name. 
-*NOTE 2: the sentry_dsn does needs to be capitalised in the `properties.json` file, but it does when defining it as a system environment variable*
+- *NOTE 1:* that the _rootNode_ name is the module name. 
+
+- *NOTE 2: the sentry_dsn does needs to be capitalised in the `properties.json` file, but it does when defining it as a system environment variable*
 
 See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
@@ -157,11 +158,7 @@ TO BE DOCUMENTED
 
 ## Build & Run instructions
 
-If during build you get the following error:
-![![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)[Link Text](Link URL)[Link Text](Link URL)](https://bitbucket.org/repo/qEd965M/images/3688687204-Error.png)
-
-make sure you DISABLE JMX agent in config editor
-![Disable.png](https://bitbucket.org/repo/qEd965M/images/147241789-Disable.png)
+See [here](Run%20config%20setup) 
 
 TO BE DOCUMENTED
 
