@@ -1,3 +1,10 @@
+# Default Current RMS behaviour _api/v1/products/inventory_
+
+- If query **does** contain storeID,  but **no** date range, result will revert to availability **on date now**.
+
+- If query does **not** contain storeID, then availability **cannot be inferred**, and the result is just a 'plain' product details payload **and the availability count will always be zero**.
+
+-----
 #Find Products By [Name OR ProductGroup name OR Tag]
 
 ```
