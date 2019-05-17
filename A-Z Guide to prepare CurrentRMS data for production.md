@@ -7,7 +7,7 @@
 
 2. Add a ```Custom Field Group``` named ```Product Options```
     - System Setup -> Custom Field Groups -> Add Custom Field Group ```Product Options```
-![2-add-product-options-custom-field-group.png](https://bitbucket.org/repo/qEd965M/images/3421113696-2-add-product-options-custom-field-group.png)
+    ![2-add-product-options-custom-field-group.png](https://bitbucket.org/repo/qEd965M/images/3421113696-2-add-product-options-custom-field-group.png)
     
 
 3. Add a ```Custom Field``` named ```product_options```
@@ -16,4 +16,4 @@
     - choose module ```Product```
     - choose field type ```Multi List of Values```
     - choose list name ```Product Option```
-![3-add-product-options-custom-field.png](https://bitbucket.org/repo/qEd965M/images/1684220058-3-add-product-options-custom-field.png)
+    ![3-add-product-options-custom-field.png](https://bitbucket.org/repo/qEd965M/images/1684220058-3-add-product-options-custom-field.png)
