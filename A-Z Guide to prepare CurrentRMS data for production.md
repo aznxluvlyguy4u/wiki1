@@ -15,7 +15,6 @@
     - choose module ```Product```
     - choose field type ```Multi List of Values```
     - choose list name ```Product Option```
-
 ![3-add-product-options-custom-field.png](https://bitbucket.org/repo/qEd965M/images/1684220058-3-add-product-options-custom-field.png)
 
 4. For each existing ```Product``` or to be created product, set the custom field ```product_options``` with values that THAT specific product can have in the Product Detail panel
