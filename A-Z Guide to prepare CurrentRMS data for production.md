@@ -10,4 +10,10 @@
 ![2-add-product-options-custom-field-group.png](https://bitbucket.org/repo/qEd965M/images/3421113696-2-add-product-options-custom-field-group.png)
     
 
-2. For each existing product or to be created product, add the
+3. Add a ```Custom Field``` named ```product_options```
+    - System Setup -> Custom Field -> Add Custom Field ```product_options```
+    - choose custom field group ```Product Options```
+    - choose module ```Product```
+    - choose field type ```Multi List of Values```
+    - choose list name ```Product Option```
+![3-add-product-options-custom-field.png](https://bitbucket.org/repo/qEd965M/images/1684220058-3-add-product-options-custom-field.png)
