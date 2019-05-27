@@ -2,7 +2,11 @@
 
 ## Product configuration options
 
-Products can have different configurations, for example a Jet-ski can have different colors: gray / blue.
+Products can have different configurations, for example a Jet-ski can have different colors: 
+
+- gray 
+- 
+
 Or a sail can have different heights, for example: 1.50  / 1.80  meters.
 
 In orders to setup product options that can be used by the frontend to enable a user to select a product configuration, we need to setup such configuration options in Current RMS.
