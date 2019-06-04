@@ -1,5 +1,10 @@
 # 1. Add "Custom Field" "product_options" to the "Product" module
 
+Products can have different options, such as:
+    - color (red, yellow, etc)
+    - size (S, M, L, etc)
+
+
 1. Add a ```List of Value``` named ```Product Option```
     - System Setup -> List of Values -> Add List of Values ```Product Option```
     - Add the options that any product can have, and prefix it with ```product_option_``` such as ```product_option_size```
