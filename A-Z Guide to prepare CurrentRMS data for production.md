@@ -33,6 +33,10 @@ For each product configuration option there is, add a ```custom field``` with a 
 
     ![3.png](https://bitbucket.org/repo/qEd965M/images/179181507-3.png)
 
-4. For each existing ```Product``` or to be created product, set the custom field ```product_options``` with values that THAT specific product can have in the Product Detail panel
-    - For example the product **Seabob F5 S** can have the following options:
-    ![4-set-product-product-options.png](https://bitbucket.org/repo/qEd965M/images/2177113834-4-set-product-product-options.png)
+4. Set the possible option values for applicable products
+
+After you have add a **custom field** for each possible product configuration option, every time you add a new product or edit an existing product, the configuration options will be shown. By default none of them will be checked.
+
+So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel:
+
+    ![4.png](https://bitbucket.org/repo/qEd965M/images/3159029600-4.png)
