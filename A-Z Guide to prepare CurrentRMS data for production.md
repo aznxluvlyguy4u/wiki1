@@ -10,6 +10,7 @@ Not all products necessarily have them, but to be able to configure them for pro
 1. Add a ```Custom Field Group``` named ```custom_product_config_options```
     - System Setup -> Custom Field Groups -> Add Custom Field Group
     - Name it ```custom_product_config_options```
+
     ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
 2. Add a **List of Values** for each possible product configuration option
@@ -18,6 +19,7 @@ For each product configuration option there is, add a ```List of Values``` with 
     - set name to something that conforms the above mentioned naming convention, such as ```custom_product_config_option_size```
     - add all possible values this option can have with **+ add a new list of values entry**
     - set a default value
+
     ![2.png](https://bitbucket.org/repo/qEd965M/images/531879093-2.png)
 
 
