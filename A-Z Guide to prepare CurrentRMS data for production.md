@@ -12,7 +12,7 @@ Not all products necessarily have them, but to be able to configure them for pro
     ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
 2. Add a custom field for each possible product configuration option
-For each product configuration option there is, add a ```custom field``` with a name that starts with: *custom_product_config_option_* followed by a term that describes what the option is. For example: ```*custom_product_config_option_color*``` -or- ```*custom_product_config_option_size*``` -or- ```*custom_product_config_option_wattage*``` etc etc. Do the following:
+For each product configuration option there is, add a ```custom field``` with a name that starts with: custom_product_config_option_* followed by a term that describes what the option is. For example: ```*custom_product_config_option_color*``` -or- ```*custom_product_config_option_size*``` -or- ```*custom_product_config_option_wattage*``` etc etc. Do the following:
 
     - System Setup -> Custom Field -> Add Custom Field
     - set name to something that conforms the above mentioned naming convention, such as ```*custom_product_config_option_wattage*```
