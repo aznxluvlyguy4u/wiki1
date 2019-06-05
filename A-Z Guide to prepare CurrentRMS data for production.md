@@ -1,18 +1,22 @@
 # 1. Add "Custom Field" "product_options" to the "Product" module
 
-Products can have different options, such as:
+Some products may have different configuration options, such as:
     - color (red, yellow, etc)
     - size (S, M, L, etc)
+    - wattage (100 Watt, 200 Watt etc)
 
+Not all products necessarily have them, but to be able to configure them for products that do, we need to set up ```Custom fields``` in CurrentRMS, which will make these configuration options globally available for all products.
 
-1. Add a ```List of Value``` named ```Product Option```
+1. Add a ```Custom Field Group``` named ```custom_product_config_options```
+    - System Setup -> Custom Field Groups -> Add Custom Field Group ```custom_product_config_options```
+    ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
+
+2. Add a ```List of Value``` named ```Product Option```
     - System Setup -> List of Values -> Add List of Values ```Product Option```
     - Add the options that any product can have, and prefix it with ```product_option_``` such as ```product_option_size```
     ![1-add-product-option-list-of-values.png](https://bitbucket.org/repo/qEd965M/images/1707896004-1-add-product-option-list-of-values.png)
 
-2. Add a ```Custom Field Group``` named ```Product Options```
-    - System Setup -> Custom Field Groups -> Add Custom Field Group ```Product Options```
-    ![2-add-product-options-custom-field-group.png](https://bitbucket.org/repo/qEd965M/images/3421113696-2-add-product-options-custom-field-group.png)
+
 
 3. Add a ```Custom Field``` named ```product_options```
     - System Setup -> Custom Field -> Add Custom Field ```product_options```
