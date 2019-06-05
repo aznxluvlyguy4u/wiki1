@@ -17,7 +17,8 @@ For each product configuration option there is, add a ```List of Values``` with 
     - System Setup -> List of Values -> Add List of Values
     - set name to something that conforms the above mentioned naming convention, such as ```custom_product_config_option_size```
     - add all possible values this option can have with **+ add a new list of values entry**
-    ![2.png](https://bitbucket.org/repo/qEd965M/images/2487229420-2.png)
+    - set a default value
+    ![2.png](https://bitbucket.org/repo/qEd965M/images/531879093-2.png)
 
 
 
