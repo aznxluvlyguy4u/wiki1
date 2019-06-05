@@ -11,14 +11,10 @@ Not all products necessarily have them, but to be able to configure them for pro
     - System Setup -> Custom Field Groups -> Add Custom Field Group ```custom_product_config_options```
     ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
-2. Add a ```List of Value``` named ```Product Option```
-    - System Setup -> List of Values -> Add List of Values ```Product Option```
-    - Add the options that any product can have, and prefix it with ```product_option_``` such as ```product_option_size```
-    ![1-add-product-option-list-of-values.png](https://bitbucket.org/repo/qEd965M/images/1707896004-1-add-product-option-list-of-values.png)
+2. Add a custom field for each possible product configuration option
 
+For each product configuration option there is, add a ```custom field``` with a name that starts with: ```custom_product_config_option_``` followed by a term that describes what the option is. For example: ```custom_product_config_option_color``` -or- ```custom_product_config_option_size``` -or- ```custom_product_config_option_wattage``` etc etc. Do the following:
 
-
-3. Add a ```Custom Field``` named ```product_options```
     - System Setup -> Custom Field -> Add Custom Field ```product_options```
     - choose custom field group ```Product Options```
     - choose module ```Product```
