@@ -39,4 +39,4 @@ After you have add a **custom field** for each possible product configuration op
 
 So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel:
 
-    ![4.png](https://bitbucket.org/repo/qEd965M/images/3159029600-4.png)
+    ![4.png](https://bitbucket.org/repo/qEd965M/images/7875112-4.png)
