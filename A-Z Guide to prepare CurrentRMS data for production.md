@@ -1,4 +1,4 @@
-# 1. Add "Custom Field" "product_options" to the "Product" module
+# 1. Add ```configuration options custom fields``` to the "Product" module
 
 Some products may have different configuration options, such as:
     - color (red, yellow, etc)
