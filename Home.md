@@ -20,7 +20,7 @@
 | 6. [Resources](#markdown-header-resources)                                   |
 | 7. [Glossary with definitions](Glossary)                                     |
 | 8. [Current RMS](CurrentRMS)
-
+|9. |A to Z guide|(A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)|
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
