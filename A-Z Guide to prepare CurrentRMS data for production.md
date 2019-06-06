@@ -116,3 +116,5 @@ To be able to display custom images for each product other than the one used ins
     - choose field type ```String```
 
 ![14.png](https://bitbucket.org/repo/qEd965M/images/3815600737-14.png)
+
+# 4. Upload *public icon and icon thumb* to AWS S3 bucket for each product
