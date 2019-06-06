@@ -34,7 +34,6 @@ For each product configuration option there is, add a ```custom field``` with a 
     ![3.png](https://bitbucket.org/repo/qEd965M/images/179181507-3.png)
 
 4. Set the possible option values for applicable products
-
 After you have add a **custom field** for each possible product configuration option, every time you add a new product or edit an existing product, the configuration options will be shown. By default none of them will be checked.
 
 So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel:
