@@ -40,4 +40,4 @@ After you have add a **custom field** for each possible product configuration op
 
 So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel, for example the following screenshot shows that the product has a **pink** and **yellow** version, and none of the other possible configuration options apply to it:
 
-    ![5.png](https://bitbucket.org/repo/qEd965M/images/2694342738-5.png)
+    ![5.png](https://bitbucket.org/repo/qEd965M/images/373160783-5.png)
