@@ -1,6 +1,7 @@
 # 1. Add **configuration options custom fields** to the "Product" module
 
 Some products may have different configuration options, such as:
+
   *- color (red, yellow, etc)
   *- size (S, M, L, etc)
   *- wattage (100 Watt, 200 Watt etc)
