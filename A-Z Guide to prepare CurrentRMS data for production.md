@@ -97,9 +97,7 @@ To be able to display custom images for each product other than the one used ins
 
 ![12.png](https://bitbucket.org/repo/qEd965M/images/1480953562-12.png)
 
-* 3.2 Add 2 **custom fields** to the **Product** module
-The following custom fields must be added individually:
-  * ```custom_product_public_icon_url```
+* 3.2 Add ```custom_product_public_icon_url``` **custom fields** to the **Product** module
     - System Setup -> Custom Field -> Add Custom Field
     - set name to ```custom_product_public_icon_url```
     - choose module ```Product```
@@ -108,7 +106,8 @@ The following custom fields must be added individually:
     - choose field type ```String```
 
 ![13.png](https://bitbucket.org/repo/qEd965M/images/2482269974-13.png)
-  * ```custom_product_public_icon_thumb_url```
+
+* 3.3 Add ```custom_product_public_icon_thumb_url``` **custom fields** to the **Product** module
     - System Setup -> Custom Field -> Add Custom Field
     - set name to ```custom_product_public_icon_thumb_url```
     - choose module ```Product```
