@@ -63,7 +63,6 @@ To be able to fully customize the way product description is rendered in the ren
     ![8.png](https://bitbucket.org/repo/qEd965M/images/352362168-8.png)
 
 * 2.2 Add a list **custom fields** to the **Product** module
-
 The following custom fields must be added individually so that the proposed layout can be rendered:
   * ```custom_product_description_seo_title```
   * ```custom_product_description_head_1```
@@ -79,7 +78,7 @@ The following custom fields must be added individually so that the proposed layo
 
 Do the following for each above mentioned:
     - System Setup -> Custom Field -> Add Custom Field
-    - set name
+    - set corresponding name
     - choose module ```Product```
     - choose the custom field group ```custom_product_description```
     - leave **order** as it is to 0
