@@ -81,7 +81,7 @@ The following custom fields must be added individually so that the proposed layo
     - set corresponding name
     - choose module ```Product```
     - choose the custom field group ```custom_product_description```
-    - leave **order** as it is to 0
+    - set the **order** to 0 for the first item, then add 1 for each following item. (0, 1, 2, 3...)
     - choose field type ```Text```
 
    ![10.png](https://bitbucket.org/repo/qEd965M/images/4195670066-10.png)
