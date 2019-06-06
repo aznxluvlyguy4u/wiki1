@@ -36,6 +36,8 @@ For each product configuration option there is, add a ```custom field``` with a 
 4. Set the possible option values for applicable products
 After you have add a **custom field** for each possible product configuration option, every time you add a new product or edit an existing product, the configuration options will be shown. By default none of them will be checked.
 
-So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel:
+    ![4.png](https://bitbucket.org/repo/qEd965M/images/2022924038-4.png)
 
-![4.png](https://bitbucket.org/repo/qEd965M/images/2022924038-4.png)
+So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel, for example the following screenshot shows that the product has a **pink** and **yellow** version, and none of the other possible configuration options apply to it:
+
+    ![5.png](https://bitbucket.org/repo/qEd965M/images/2694342738-5.png)
