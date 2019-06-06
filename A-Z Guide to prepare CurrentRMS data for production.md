@@ -85,3 +85,8 @@ The following custom fields must be added individually so that the proposed layo
     - choose field type ```Text```
 
    ![10.png](https://bitbucket.org/repo/qEd965M/images/4195670066-10.png)
+
+After adding all above mentioned description custom fields, they can be filled in during creating new product or editing existing products. When text is filled in these fields, they will be shown in the **description in product detail page**
+
+# 3. Add **public icon custom fields** to the "Product" module
+To be able to display custom images for each product
