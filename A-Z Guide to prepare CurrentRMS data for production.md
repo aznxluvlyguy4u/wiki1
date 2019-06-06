@@ -77,6 +77,7 @@ The following custom fields must be added individually so that the proposed layo
   * ```custom_product_description_paragraph_5```
 
 Do the following for each above mentioned:
+
     - System Setup -> Custom Field -> Add Custom Field
     - set corresponding name
     - choose module ```Product```
