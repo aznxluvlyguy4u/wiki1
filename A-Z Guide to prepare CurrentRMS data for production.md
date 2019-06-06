@@ -46,8 +46,17 @@ All selected **configuration options and their values** for a product WILL be sh
 
    ![6.png](https://bitbucket.org/repo/qEd965M/images/3428544830-6.png)
 
-And the and the possible configurations will be selectable for the user:
+And the possible configurations will be selectable for the user:
 
    ![7.png](https://bitbucket.org/repo/qEd965M/images/3019550241-7.png)
 
 # 2. Add **description custom fields** to the "Product" module
+
+To be able to fully customize the way product description is rendered in the rental platform **product detail** page, custom fields need to be made and added to the "**Product**" module.
+
+* 2.1 Add a ```Custom Field Group``` named ```custom_product_description```
+    - System Setup -> Custom Field Groups -> Add Custom Field Group
+    - Name it ```custom_product_description```
+    - Leave **Order** to 0
+
+    ![8.png](https://bitbucket.org/repo/qEd965M/images/352362168-8.png)
