@@ -6,9 +6,9 @@ Some products may have different configuration options, such as:
       - wattage (100 Watt, 200 Watt etc)
 Not all products necessarily have them, but to be able to configure them for products that do, we need to set up ```Custom fields``` in CurrentRMS, which will make these configuration options globally available for all products.
 
-1.1. Add a ```Custom Field Group``` named ```custom_product_config_options```
-        - System Setup -> Custom Field Groups -> Add Custom Field Group
-        - Name it ```custom_product_config_options```
+1. Add a ```Custom Field Group``` named ```custom_product_config_options```
+    - System Setup -> Custom Field Groups -> Add Custom Field Group
+    - Name it ```custom_product_config_options```
 
     ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
