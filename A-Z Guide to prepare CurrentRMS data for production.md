@@ -52,7 +52,9 @@ And the possible configurations will be selectable for the user:
 
 # 2. Add **description custom fields** to the "Product" module
 
-To be able to fully customize the way product description is rendered in the rental platform **product detail** page, custom fields need to be made and added to the "**Product**" module.
+To be able to fully customize the way product description is rendered in the rental platform **product detail** page, custom fields need to be made and added to the "**Product**" module. In current version of this guide the following layout is used as template, but **__THIS CAN BE CHANGED IN LATER VERSION__**:
+
+    ![9.png](https://bitbucket.org/repo/qEd965M/images/18129596-9.png)
 
 * 2.1 Add a ```Custom Field Group``` named ```custom_product_description```
     - System Setup -> Custom Field Groups -> Add Custom Field Group
