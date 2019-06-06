@@ -41,3 +41,11 @@ After you have add a **custom field** for each possible product configuration op
 So For each ```Product``` that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel, for example the following screenshot shows that the product has a **pink** and **yellow** version, and none of the other possible configuration options apply to it:
 
 ![5.png](https://bitbucket.org/repo/qEd965M/images/1699072459-5.png)
+
+All selected **configuration options and their values** for a product WILL be shown in the rental platform frontend in the **product detail** page. The button ```Advanced Configuration``` becomes visible in the ```Add to cart``` pane:
+
+![6.png](https://bitbucket.org/repo/qEd965M/images/3428544830-6.png)
+
+And the and the possible configurations will be selectable for the user:
+
+![7.png](https://bitbucket.org/repo/qEd965M/images/3019550241-7.png)
