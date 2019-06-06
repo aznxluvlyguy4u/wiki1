@@ -89,4 +89,10 @@ The following custom fields must be added individually so that the proposed layo
 After adding all above mentioned description custom fields, they can be filled in during creating new product or editing existing products. When text is filled in these fields, they will be shown in the **description in product detail page**
 
 # 3. Add **public icon custom fields** to the "Product" module
-To be able to display custom images for each product
+To be able to display custom images for each product other than the one used inside CurrentRMS, 2 custom fields for public icon url need to be made:
+
+* 3.1 Add a ```Custom Field Group``` named ```custom_product_public_icon```
+    - System Setup -> Custom Field Groups -> Add Custom Field Group
+    - Name it ```custom_product_public_icon```
+
+![12.png](https://bitbucket.org/repo/qEd965M/images/1480953562-12.png)
