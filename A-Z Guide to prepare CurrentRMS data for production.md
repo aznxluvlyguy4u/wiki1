@@ -65,7 +65,24 @@ To be able to fully customize the way product description is rendered in the ren
 * 2.2 Add a list **custom fields** to the **Product** module
 
 The following custom fields must be added individually so that the proposed layout can be rendered:
-    * ```custom_product_description_head_1```
-    * ```custom_product_description_paragraph_1```
-    * ```custom_product_description_head_2```
-    * ```custom_product_description_paragraph_2```
+  * ```custom_product_description_seo_title```
+  * ```custom_product_description_head_1```
+  * ```custom_product_description_paragraph_1```
+  * ```custom_product_description_head_2```
+  * ```custom_product_description_paragraph_2```
+  * ```custom_product_description_head_3```
+  * ```custom_product_description_paragraph_3```
+  * ```custom_product_description_head_4```
+  * ```custom_product_description_paragraph_4```
+  * ```custom_product_description_head_5```
+  * ```custom_product_description_paragraph_5```
+
+Do the following for each above mentioned:
+    - System Setup -> Custom Field -> Add Custom Field
+    - set name
+    - choose module ```Product```
+    - choose the custom field group ```custom_product_description```
+    - leave **order** as it is to 0
+    - choose field type ```Text```
+
+   ![10.png](https://bitbucket.org/repo/qEd965M/images/4195670066-10.png)
