@@ -11,9 +11,9 @@ This section describes on how to prepare image for products.
 
 This means: 
 
-- Product A has an image size for the FULL Size image, lets say 300 x 300 pixels (this is an example, you may choose larger)
+- Product A has an image size for the FULL Size image, lets say 300 x 300 pixels (this is an example, you may choose larger, but maintain ratio)
 
-- Product A has an image size for the THUMBNAIL Size image, lets say 100 x 100 pixels (this is an example, you may choose larger)
+- Product A has an image size for the THUMBNAIL Size image, lets say 100 x 100 pixels (this is an example, you may choose larger, but maintain ratio)
 
 Then ***any*** Product X has the same size for FULL and Thumbnail image, ratio of 300 x 300 (FULL) and 100 x 100 (THUMB)
 
