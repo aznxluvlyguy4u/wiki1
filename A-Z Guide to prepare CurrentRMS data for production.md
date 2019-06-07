@@ -15,7 +15,7 @@ Not all products necessarily have them, but to be able to configure them for pro
 
 Name it: `custom_product_config_options`
 
-    ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
+![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
 * 1.2 Add a ```List of Values``` for each possible product configuration option
 For each product configuration option there is, add a ```List of Values``` with a name that starts with: ```custom_product_config_option_``` followed by a term that describes what the option is. For example: ```custom_product_config_option_color``` -or- ```custom_product_config_option_size``` -or- ```custom_product_config_option_wattage``` etc etc. Do the following:
