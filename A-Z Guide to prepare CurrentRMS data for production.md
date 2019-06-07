@@ -131,5 +131,12 @@ Now that the ```custom_product_public_icon_url``` and ```custom_product_public_i
 ![18.png](https://bitbucket.org/repo/qEd965M/images/2021069110-18.png)
     - You can upload pictures inside this folder directly if you want. But we suggest using a systematic naming strategy: First create a folder with the name that corresponds with the product ID, which can be derived from the currentRMS url. For example for the product Seabob F5, the id is 148
 ![20.png](https://bitbucket.org/repo/qEd965M/images/2117638500-20.png)
-    - set the **order** to 1
-    - choose field type ```String```
+![21.png](https://bitbucket.org/repo/qEd965M/images/3309557532-21.png)
+![22.png](https://bitbucket.org/repo/qEd965M/images/3789644213-22.png)
+    - Click on the created folder
+    - Click on **Upload** -> **Add files**
+![23.png](https://bitbucket.org/repo/qEd965M/images/3494105478-23.png)
+    - Keep clicking **Next** and leave all settings **UNCHANGED** and finally on **Upload**
+    - Once the files are uploaded, click on it, and copy the **Object URL**
+![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
+    - Paste it on either ```custom_product_public_icon_url``` and ```custom_product_public_icon_thumb_url``` in the product detail in CurrentRMS
