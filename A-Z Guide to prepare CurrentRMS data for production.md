@@ -1,9 +1,13 @@
 # 1. Add **configuration options custom fields** to the "Product" module
 
 Some products may have different configuration options, such as:
-  * color (red, yellow, etc)
-  * size (S, M, L, etc)
-  * wattage (100 Watt, 200 Watt etc)
+
+* color (red, yellow, etc)
+
+* size (S, M, L, etc)
+
+* wattage (100 Watt, 200 Watt etc)
+
 Not all products necessarily have them, but to be able to configure them for products that do, we need to set up ```Custom fields``` in CurrentRMS, which will make these configuration options globally available for all products.
 
 * 1.1 Add a ```Custom Field Group``` named ```custom_product_config_options```
