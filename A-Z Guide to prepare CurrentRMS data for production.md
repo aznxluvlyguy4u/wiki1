@@ -122,7 +122,9 @@ Now that the ```custom_product_public_icon_url``` and ```custom_product_public_i
 
 * 4.1 Upload product image
     - Log in to ocean premium AWS Management Console with your valid credentials (https://oceanpremium.signin.aws.amazon.com/console)
-    - set name to ```custom_product_public_icon_thumb_url```
+    - Once logged in, type ```S3``` in the **Find Services** input field and press ```Enter```
+![15.png](https://bitbucket.org/repo/qEd965M/images/24151003-15.png)
+![16.png](https://bitbucket.org/repo/qEd965M/images/1564715802-16.png)
     - choose module ```Product```
     - choose the custom field group ```custom_product_public_icon```
     - set the **order** to 1
