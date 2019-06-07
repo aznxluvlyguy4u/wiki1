@@ -13,9 +13,7 @@ Not all products necessarily have them, but to be able to configure them for pro
 * 1.1 Add a ```Custom Field Group``` named ```custom_product_config_options```
     - System Setup -> Custom Field Groups -> Add Custom Field Group
 
-Name it:
-
-     ```custom_product_config_options```
+Name it: `custom_product_config_options`
 
     ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
