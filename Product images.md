@@ -33,9 +33,42 @@ To be able to display custom images for each product other than the one used ins
 
 ![14.png](https://bitbucket.org/repo/qEd965M/images/3815600737-14.png)
 
+## Preparing images
+
+This section describes on how to prepare image for products.
+
+### Mandatory image sizes
+
+- Make sure you have prepare the _FULL SIZE_ image and the _THUMBNAIL size_ image
+
+- Make sure the ratio of the image (width and height) are ALWAYS the same (thus for any image, for any product) 
+  
+
+This means: 
+
+- Product A has an image size for the FULL Size image, lets say 300 x 300 pixels (this is an example, you may choose larger)
+
+- Product A has an image size for the THUMBNAIL Size image, lets say 100 x 100 pixels (this is an example, you may choose larger)
+
+Then ***any*** Product X has the same size for FULL and Thumbnail image, ratio of 300 x 300 (FULL) and 100 x 100 (THUMB)
+
+Thus, there will ALWAYS be:
+
+- 1 format and thus ratio of an image for FULL size 
+- 1 format and thus ratio of an image for THUMB size
+
+This means any product image is of type `PNG`
+
+
+### Mandatory image format
+
+- Any image needs to be of the `PNG` format
+- DO NOT MIX PNG and JPEG images
+
+
 ## Upload product images
 
-This section describes uploading **public icon and icon thumb** to AWS S3 bucket for each product.
+This section describes uploading **public icon and icon thumb** to AWS S3 bucket for each product. 
 
 Now that the `custom_product_public_icon_url` and `custom_product_public_icon_thumb_url` fields are created, they can be populated with **image url from AWS S3 bucket**. S3 is the file storage service of AWS, where you can upload and download uploaded files, in this case we upload product images to AWS S3, these images will then be accessible by a **url string**.
 
@@ -58,7 +91,7 @@ Now that the `custom_product_public_icon_url` and `custom_product_public_icon_th
 
 ![18.png](https://bitbucket.org/repo/qEd965M/images/2021069110-18.png)
 
-    - You can upload pictures inside this folder directly if you want. But we suggest using a systematic naming strategy: First create a folder with the name that corresponds with the product ID, which can be derived from the currentRMS url. 
+- You can upload pictures inside this folder directly if you want. But we suggest using a systematic naming strategy: First create a folder with the name that corresponds with the product ID, which can be derived from the currentRMS url. 
 
 For example: for the product Seabob F5, the id is `148`
 
@@ -74,13 +107,22 @@ For example: for the product Seabob F5, the id is `148`
 
 ![23.png](https://bitbucket.org/repo/qEd965M/images/3494105478-23.png)
 
+Make sure that the FULL AND THUMBNAIL image are prepared and ready for upload
+
 - Keep clicking **Next** and leave all settings **UNCHANGED** and finally on **Upload**
 
 - Once the files are uploaded, click on it, and copy the **Object URL**
 
 ![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
 
-- Paste it on either `custom_product_public_icon_url` and  `custom_product_public_icon_thumb_url` in the product detail in CurrentRMS
+- Paste the URL of the FULL IMAGE in the `custom_product_public_icon_url` field
+
+- Paste the URL of the THUMBNAIL IMAGE in the `custom_product_public_icon_thumb_url` 
+
+in the product detail in CurrentRMS
+
+
+***NOTE***, ***ALWAYS*** fill in both the `custom_product_public_icon_url ` AND the `custom_product_public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
 
 ![24-5.png](https://bitbucket.org/repo/qEd965M/images/3842950623-24-5.png)
 
