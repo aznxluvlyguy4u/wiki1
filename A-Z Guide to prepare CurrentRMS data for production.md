@@ -127,6 +127,12 @@ Now that the ```custom_product_public_icon_url``` and ```custom_product_public_i
 ![16.png](https://bitbucket.org/repo/qEd965M/images/1564715802-16.png)
     - Inside the **S3 buckets** view, you see a list of all buckets created by us, unless instructed by us, **DO NOT CHANGE ANY SETTINGS**
     - Click on the bucket ```ocean-premium-public```, then ```currentrms``` -> ```product-images``` -> ```public```
-    - choose the custom field group ```custom_product_public_icon```
+    - Inside this folder you see a couple of images uploaded by us for testing purpose
+
+![18.png](https://bitbucket.org/repo/qEd965M/images/2021069110-18.png)
+    - You can upload pictures inside this folder directly if you want. But we suggest using a systematic naming strategy:
+        * First create a folder with the name that corresponds with the product ID, which can be derived from the currentRMS url. For example for the product Seabob F5, the id is 148
+
+![20.png](https://bitbucket.org/repo/qEd965M/images/2117638500-20.png)
     - set the **order** to 1
     - choose field type ```String```
