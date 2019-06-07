@@ -140,3 +140,9 @@ Now that the ```custom_product_public_icon_url``` and ```custom_product_public_i
     - Once the files are uploaded, click on it, and copy the **Object URL**
 ![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
     - Paste it on either ```custom_product_public_icon_url``` and ```custom_product_public_icon_thumb_url``` in the product detail in CurrentRMS
+    - Repeat this process for all products that have images
+
+# 5. Set **Accessories Items** to **Accessory Only**
+Products may have accessories. To prevent accessory items to show up in the search, mark accessory items as **ACCESSORY ONLY** in **Edit Product** page inside CurrentRMS
+
+![25.png](https://bitbucket.org/repo/qEd965M/images/403292708-25.png)
