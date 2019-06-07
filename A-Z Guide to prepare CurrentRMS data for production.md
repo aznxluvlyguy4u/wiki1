@@ -121,11 +121,12 @@ To be able to display custom images for each product other than the one used ins
 Now that the ```custom_product_public_icon_url``` and ```custom_product_public_icon_thumb_url``` fields are created, they can be populated with **image url from AWS S3 bucket**. S3 is the file storage service of AWS, where you can upload and download uploaded files, in this case we upload product images to AWS S3, these images will then be accessible by a **url string**.
 
 * 4.1 Upload product image
-    - Log in to ocean premium AWS Management Console with your valid credentials (https://oceanpremium.signin.aws.amazon.com/console)
+    - Log in to ocean premium AWS Management Console with your valid credentials (https://oceanpremium.signin.aws.amazon.com/console) (Account ID or alias = oceanpremium)
     - Once logged in, type ```S3``` in the **Find Services** input field and press ```Enter```
 ![15.png](https://bitbucket.org/repo/qEd965M/images/24151003-15.png)
 ![16.png](https://bitbucket.org/repo/qEd965M/images/1564715802-16.png)
-    - choose module ```Product```
+    - Inside the **S3 buckets** view, you see a list of all buckets created by us, unless instructed by us, **DO NOT CHANGE ANY SETTINGS**
+    - Click on the bucket ```ocean-premium-public```, then ```currentrms``` -> ```product-images``` -> ```public```
     - choose the custom field group ```custom_product_public_icon```
     - set the **order** to 1
     - choose field type ```String```
