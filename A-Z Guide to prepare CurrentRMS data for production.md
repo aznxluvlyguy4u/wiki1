@@ -26,11 +26,11 @@ Not all products necessarily have them, but to be able to configure them for pro
 
 * 1.1 Add a `Custom Field Group`, named `custom_product_config_options`:
 
-    - System Setup -> Custom Field Groups -> Add Custom Field Group.
+- System Setup -> Custom Field Groups -> Add Custom Field Group.
 
-    -  Name it: `custom_product_config_options`
+-  Name it: `custom_product_config_options`
 
-      ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
+![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
 * 1.2 Add a `List of Values` for each possible product configuration option:
 
@@ -46,16 +46,16 @@ For example:
 
 Do the following:
 
-    - System Setup -> List of Values -> Add List of Values
+- System Setup -> List of Values -> Add List of Values
 
-    - set name to something that conforms the above mentioned naming convention, such as:   
+- set name to something that conforms the above mentioned naming convention, such as:   
       `custom_product_config_option_size`
 
-    - add all possible values this option can have with **+ add a new list of values entry**
+- add all possible values this option can have with **+ add a new list of values entry**
 
-    - set a default value
+- set a default value
 
-    ![2.png](https://bitbucket.org/repo/qEd965M/images/531879093-2.png)
+![2.png](https://bitbucket.org/repo/qEd965M/images/531879093-2.png)
 
 * 1.3 Add a **Custom Field** for each possible product configuration option to **Product**":
 
@@ -69,39 +69,41 @@ For example:
 
 Do the following:
 
-    - System Setup -> Custom Field -> Add Custom Field
-    - set name to something that conforms the above mentioned naming convention (such as: `custom_product_config_option_size`)
-    - choose module `Product`
-    - choose the custom field group `custom_product_config_options`
-    - leave **order** as it is to: `0`
-    - choose field type `Multi List of Values`
-    - choose for **List name** the **List of Values** we just created with the same name for this option
+- System Setup -> Custom Field -> Add Custom Field
 
-    ![3.png](https://bitbucket.org/repo/qEd965M/images/179181507-3.png)
+- set name to something that conforms the above mentioned naming convention (such as: `custom_product_config_option_size`)
+
+- choose module `Product`
+- choose the custom field group `custom_product_config_options`
+- leave **order** as it is to: `0`
+- choose field type `Multi List of Values`
+- choose for **List name** the **List of Values** we just created with the same name for this option
+
+![3.png](https://bitbucket.org/repo/qEd965M/images/179181507-3.png)
 
 * 1.4 Set the possible option values for applicable products
 
 After you have add a **Custom Field** for each possible product configuration option, every time you add a new product or edit an existing product, the configuration options will be shown. By _default none of them will be checked._
 
-    ![4.png](https://bitbucket.org/repo/qEd965M/images/2022924038-4.png)
+![4.png](https://bitbucket.org/repo/qEd965M/images/2022924038-4.png)
 
 So foreach ***Product*** that has different configurations, check the possible values to that specific custom field that apply to them in the Product Detail panel, for example: the following screenshot shows that the product has a **pink** and **yellow** version, and ***none*** of the other possible configuration options apply to it:
 
-   ![5.png](https://bitbucket.org/repo/qEd965M/images/1699072459-5.png)
+![5.png](https://bitbucket.org/repo/qEd965M/images/1699072459-5.png)
 
 All selected **configuration options and their values** for a product _WILL_ be shown in the rental platform frontend in the **product detail** page. The button `Advanced Configuration` becomes visible in the `Add to cart` pane:
 
-   ![6.png](https://bitbucket.org/repo/qEd965M/images/3428544830-6.png)
+![6.png](https://bitbucket.org/repo/qEd965M/images/3428544830-6.png)
 
 And the possible configurations will be selectable for the user:
 
-   ![7.png](https://bitbucket.org/repo/qEd965M/images/3019550241-7.png)
+![7.png](https://bitbucket.org/repo/qEd965M/images/3019550241-7.png)
 
 # 2. Add **description custom fields** to the "Product" module
 
 To be able to fully customize the way product description is rendered in the rental platform **product detail** page, custom fields need to be made and added to the "**Product**" module. In current version of this guide the following layout is used as template, but **__THIS CAN BE CHANGED IN LATER VERSION__**:
 
-  ![9.png](https://bitbucket.org/repo/qEd965M/images/18129596-9.png)
+![9.png](https://bitbucket.org/repo/qEd965M/images/18129596-9.png)
 
 * 2.1 Add a `Custom Field Group` named `custom_product_description`
     - System Setup -> Custom Field Groups -> Add Custom Field Group
@@ -114,28 +116,28 @@ To be able to fully customize the way product description is rendered in the ren
 
 The following custom fields must be added individually so that the proposed layout can be rendered:
 
-  * `custom_product_description_seo_title`
-  * `custom_product_description_head_1`
-  * `custom_product_description_paragraph_1`
-  * `custom_product_description_head_2`
-  * `custom_product_description_paragraph_2`
-  * `custom_product_description_head_3`
-  * `custom_product_description_paragraph_3`
-  * `custom_product_description_head_4`
-  * `custom_product_description_paragraph_4`
-  * `custom_product_description_head_5`
-  * `custom_product_description_paragraph_5`
+* `custom_product_description_seo_title`
+* `custom_product_description_head_1`
+* `custom_product_description_paragraph_1`
+* `custom_product_description_head_2`
+* `custom_product_description_paragraph_2`
+* `custom_product_description_head_3`
+* `custom_product_description_paragraph_3`
+* `custom_product_description_head_4`
+* `custom_product_description_paragraph_4`
+* `custom_product_description_head_5`
+* `custom_product_description_paragraph_5`
 
 * Do the following for each above mentioned:
 
-    - System Setup -> Custom Field -> Add Custom Field
-    - set corresponding name
-    - choose module `Product`
-    - choose the custom field group `custom_product_description`
-    - set the **order** to `0` for the first item, then add `1` for each following item. (0, 1, 2, 3...)
-    - choose field type `Text`
+- System Setup -> Custom Field -> Add Custom Field
+- set corresponding name
+- choose module `Product`
+- choose the custom field group `custom_product_description`
+- set the **order** to `0` for the first item, then add `1` for each following item. (0, 1, 2, 3...)
+- choose field type `Text`
 
-   ![10.png](https://bitbucket.org/repo/qEd965M/images/4195670066-10.png)
+![10.png](https://bitbucket.org/repo/qEd965M/images/4195670066-10.png)
 
 After adding all above mentioned description custom fields, they can be filled in during creating new product or editing existing products. When text is filled in these fields, they will be shown in the **description in product detail page**
 
@@ -145,30 +147,30 @@ To be able to display custom images for each product other than the one used ins
 
 * 3.1 Add a `Custom Field Group` named `custom_product_public_icon`
 
-    - System Setup -> Custom Field Groups -> Add Custom Field Group
-    - Name it `custom_product_public_icon`
+- System Setup -> Custom Field Groups -> Add Custom Field Group
+- Name it `custom_product_public_icon`
 
 ![12.png](https://bitbucket.org/repo/qEd965M/images/1480953562-12.png)
 
 * 3.2 Add ```custom_product_public_icon_url``` **custom fields** to the **Product** module
 
-    - System Setup -> Custom Field -> Add Custom Field
-    - set name to ```custom_product_public_icon_url```
-    - choose module ```Product```
-    - choose the custom field group ```custom_product_public_icon```
-    - set the **order** to 0
-    - choose field type ```String```
+- System Setup -> Custom Field -> Add Custom Field
+- set name to ```custom_product_public_icon_url```
+- choose module ```Product```
+- choose the custom field group ```custom_product_public_icon```
+- set the **order** to 0
+- choose field type ```String```
 
 ![13.png](https://bitbucket.org/repo/qEd965M/images/2482269974-13.png)
 
 * 3.3 Add `custom_product_public_icon_thumb_url` **custom fields** to the **Product** module
 
-    - System Setup -> Custom Field -> Add Custom Field
-    - set name to `custom_product_public_icon_thumb_url`
-    - choose module `Product`
-    - choose the custom field group `custom_product_public_icon`
-    - set the **order** to `1`
-    - choose field type `String`
+- System Setup -> Custom Field -> Add Custom Field
+- set name to `custom_product_public_icon_thumb_url`
+- choose module `Product`
+- choose the custom field group `custom_product_public_icon`
+- set the **order** to `1`
+- choose field type `String`
 
 ![14.png](https://bitbucket.org/repo/qEd965M/images/3815600737-14.png)
 
@@ -178,20 +180,20 @@ Now that the `custom_product_public_icon_url` and `custom_product_public_icon_th
 
 * 4.1 Upload product image
 
-    - Log in to ocean premium AWS Management Console with your valid credentials 
+- Log in to ocean premium AWS Management Console with your valid credentials 
 (https://oceanpremium.signin.aws.amazon.com/console) (Account ID or alias = oceanpremium)
 
-    - Once logged in, type `S3` in the **Find Services** input field and press `Enter`
+- Once logged in, type `S3` in the **Find Services** input field and press `Enter`
 
 ![15.png](https://bitbucket.org/repo/qEd965M/images/24151003-15.png)
 
 ![16.png](https://bitbucket.org/repo/qEd965M/images/1564715802-16.png)
 
-    - Inside the **S3 buckets** view, you see a list of all buckets created by us, unless instructed by us, **DO NOT CHANGE ANY SETTINGS**
+- Inside the **S3 buckets** view, you see a list of all buckets created by us, unless instructed by us, **DO NOT CHANGE ANY SETTINGS**
 
-    - Click on the bucket `ocean-premium-public`, then `currentrms` -> `product-images` -> `public`
+- Click on the bucket `ocean-premium-public`, then `currentrms` -> `product-images` -> `public`
 
-    - Inside this folder you see a couple of images uploaded by us for testing purpose
+- Inside this folder you see a couple of images uploaded by us for testing purpose
 
 ![18.png](https://bitbucket.org/repo/qEd965M/images/2021069110-18.png)
 
@@ -205,22 +207,23 @@ For example: for the product Seabob F5, the id is `148`
 
 ![22.png](https://bitbucket.org/repo/qEd965M/images/3789644213-22.png)
 
-    - Click on the created folder
+- Click on the created folder
 
-    - Click on **Upload** -> **Add files**
+- Click on **Upload** -> **Add files**
 
 ![23.png](https://bitbucket.org/repo/qEd965M/images/3494105478-23.png)
 
-    - Keep clicking **Next** and leave all settings **UNCHANGED** and finally on **Upload**
+- Keep clicking **Next** and leave all settings **UNCHANGED** and finally on **Upload**
 
-    - Once the files are uploaded, click on it, and copy the **Object URL**
+- Once the files are uploaded, click on it, and copy the **Object URL**
 
 ![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
 
-    - Paste it on either `custom_product_public_icon_url` and  `custom_product_public_icon_thumb_url` in the product detail in CurrentRMS
+- Paste it on either `custom_product_public_icon_url` and  `custom_product_public_icon_thumb_url` in the product detail in CurrentRMS
 
 ![24-5.png](https://bitbucket.org/repo/qEd965M/images/3842950623-24-5.png)
-    - Repeat this process for all products that have images
+
+- Repeat this process for all products that have images
 
 # 5. Set **Accessories Items** to **Accessory Only**
 
