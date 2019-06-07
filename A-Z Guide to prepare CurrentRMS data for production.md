@@ -10,11 +10,9 @@ We have setup custom fields that need to be of the following format:
 
 - `custom_product_descriptions_<specific_option>`
 
+***Note***: _if you deviate from it, the setup of the custom fields and the frontend will ***not*** work!_
 
 # 1. Add **configuration options custom fields** to the "Product" module
-
-
-***Note***: _if you deviate from it, the setup of the custom fields and the frontend will ***not*** work!_
 
 Some products may have different configuration options, such as:
 
