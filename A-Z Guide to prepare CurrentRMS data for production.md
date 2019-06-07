@@ -12,7 +12,7 @@ We have setup custom fields that need to be of the following format:
 
 - `custom_product_descriptions_<specific_option>`
 
-***Note***: _if you deviate from it, the setup of the custom fields and the frontend _will not_ work!_
+***Note***: _if you deviate from it, the setup of the custom fields and the frontend will _not_ work!_
 
 Some products may have different configuration options, such as:
 
