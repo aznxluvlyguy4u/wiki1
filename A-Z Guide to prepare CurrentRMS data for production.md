@@ -6,7 +6,7 @@
 |------------------------------------------------------------------------------|
 | 0. [A word on Custom fields format](#markdown-header-a-word-on-custom-fields-format)|
 | 1. [Set up product configurations](#markdown-header-product-configuration-options )|
-| 2. [Set up product descriptions](#markdown-header-2.-product-descriptions)|
+| 2. [Set up product descriptions](#markdown-header-product-descriptions)|
 | 3. [Set up product images](#markdown-header-product-images)|
 | 4. [Upload product images](#markdown-header-upload-product-images)|
 | 5. [Configuring Accessories](#markdown-header-configuring-accessories)|
@@ -114,7 +114,7 @@ And the possible configurations will be selectable for the user:
 
 ![7.png](https://bitbucket.org/repo/qEd965M/images/3019550241-7.png)
 
-# 2. Product descriptions
+# Product descriptions
 
 This section describes adding **description custom fields** to the "Product" module.
 
@@ -158,7 +158,7 @@ Do the following for each above mentioned:
 
 After adding all above mentioned description custom fields, they can be filled in during creating new product or editing existing products. When text is filled in these fields, they will be shown in the **description in product detail page**
 
-## 3. Product images
+## Product images
 
 This section describes adding **public icon custom fields** to the "Product" module.
 
@@ -193,7 +193,7 @@ To be able to display custom images for each product other than the one used ins
 
 ![14.png](https://bitbucket.org/repo/qEd965M/images/3815600737-14.png)
 
-## 4. Upload product images
+## Upload product images
 
 This section describes uploading **public icon and icon thumb** to AWS S3 bucket for each product.
 
@@ -246,7 +246,7 @@ For example: for the product Seabob F5, the id is `148`
 
 - Repeat this process for all products that have images
 
-# 5. Configuring accessories
+# Configuring accessories
 
 This section describes setting **Accessories Items** to **Accessory Only**.
 
