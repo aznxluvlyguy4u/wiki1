@@ -1,3 +1,36 @@
+## Preparing images
+
+This section describes on how to prepare image for products.
+
+### Mandatory image sizes
+
+- Make sure you have prepare the _FULL SIZE_ image and the _THUMBNAIL size_ image
+
+- Make sure the ratio of the image (width and height) are ALWAYS the same (thus for any image, for any product) 
+  
+
+This means: 
+
+- Product A has an image size for the FULL Size image, lets say 300 x 300 pixels (this is an example, you may choose larger)
+
+- Product A has an image size for the THUMBNAIL Size image, lets say 100 x 100 pixels (this is an example, you may choose larger)
+
+Then ***any*** Product X has the same size for FULL and Thumbnail image, ratio of 300 x 300 (FULL) and 100 x 100 (THUMB)
+
+Thus, there will ALWAYS be:
+
+- 1 format and thus ratio of an image for FULL size 
+- 1 format and thus ratio of an image for THUMB size
+
+
+### Mandatory image format
+
+- Any image needs to be of the `PNG` format
+- DO NOT MIX PNG and JPEG images
+
+This means ***any*** Product X image is of type `PNG`
+
+
 ## Product images
 
 This section describes adding **public icon custom fields** to the "Product" module.
@@ -33,37 +66,6 @@ To be able to display custom images for each product other than the one used ins
 
 ![14.png](https://bitbucket.org/repo/qEd965M/images/3815600737-14.png)
 
-## Preparing images
-
-This section describes on how to prepare image for products.
-
-### Mandatory image sizes
-
-- Make sure you have prepare the _FULL SIZE_ image and the _THUMBNAIL size_ image
-
-- Make sure the ratio of the image (width and height) are ALWAYS the same (thus for any image, for any product) 
-  
-
-This means: 
-
-- Product A has an image size for the FULL Size image, lets say 300 x 300 pixels (this is an example, you may choose larger)
-
-- Product A has an image size for the THUMBNAIL Size image, lets say 100 x 100 pixels (this is an example, you may choose larger)
-
-Then ***any*** Product X has the same size for FULL and Thumbnail image, ratio of 300 x 300 (FULL) and 100 x 100 (THUMB)
-
-Thus, there will ALWAYS be:
-
-- 1 format and thus ratio of an image for FULL size 
-- 1 format and thus ratio of an image for THUMB size
-
-
-### Mandatory image format
-
-- Any image needs to be of the `PNG` format
-- DO NOT MIX PNG and JPEG images
-
-This means ***any*** Product X image is of type `PNG`
 
 ## Upload product images
 
