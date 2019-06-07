@@ -1,6 +1,6 @@
 # Custom fields format
 
-We have setup custom fields that need to be of the following format: 
+We have setup custom fields that need to be of the following format, below some _examples_:
 
 ### Custom product configurations
 
