@@ -8,7 +8,7 @@
 | 1. [Set up product configurations](Set%20up%20product%20configurations)|
 | 2. [Set up product descriptions](Product%20descriptions)|
 | 3. [Set up product images](Product%20images)|
-| 4. [Upload product images](#markdown-header-upload-product-images)|
+| 4. [Upload product images](Product%20images#markdown-header-upload-product-images)|
 | 5. [Configuring Accessories](#markdown-header-configuring-accessories)|
 
 ## A word on Custom fields format
