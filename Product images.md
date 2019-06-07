@@ -57,14 +57,13 @@ Thus, there will ALWAYS be:
 - 1 format and thus ratio of an image for FULL size 
 - 1 format and thus ratio of an image for THUMB size
 
-This means any product image is of type `PNG`
-
 
 ### Mandatory image format
 
 - Any image needs to be of the `PNG` format
 - DO NOT MIX PNG and JPEG images
 
+This means ***any*** Product X image is of type `PNG`
 
 ## Upload product images
 
