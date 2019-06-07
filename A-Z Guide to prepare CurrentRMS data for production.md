@@ -1,5 +1,19 @@
 # 1. Add **configuration options custom fields** to the "Product" module
 
+## Format of custom fields:
+
+We have setup custom fields that need to be of the following format: 
+
+### Custom product configurations
+
+- `custom_product_config_options_<specific_option>`
+
+### Custom product descriptions
+
+- `custom_product_descriptions_<specific_option>`
+
+***Note***: _if you deviate from it, the setup of the custom fields and the frontend _will not_ work!_
+
 Some products may have different configuration options, such as:
 
 * color (red, yellow, etc)
