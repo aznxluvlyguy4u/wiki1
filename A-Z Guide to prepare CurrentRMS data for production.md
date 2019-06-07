@@ -9,7 +9,7 @@
 | 2. [Set up product descriptions](Product%20descriptions)|
 | 3. [Set up product images](Product%20images)|
 | 4. [Upload product images](Product%20images#markdown-header-upload-product-images)|
-| 5. [Configuring Accessories](#markdown-header-configuring-accessories)|
+| 5. [Configuring Accessories](Configuring%20accessories)|
 
 ## A word on Custom fields format
 
@@ -24,15 +24,3 @@ We have setup custom fields that need to be of the following format, below some 
 - `custom_product_descriptions_<specific_option>`
 
 ***Note***: _if you deviate from it, the setup of the custom fields and the frontend will ***not*** work!_
-
-
-
-
-
-# Configuring accessories
-
-This section describes setting **Accessories Items** to **Accessory Only**.
-
-Products may have accessories. To prevent accessory items to show up in the search, mark accessory items as **ACCESSORY ONLY** in **Edit Product** page inside CurrentRMS
-
-![25.png](https://bitbucket.org/repo/qEd965M/images/403292708-25.png)
