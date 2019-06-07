@@ -4,7 +4,7 @@ This section describes on how to prepare image for products.
 
 ### Mandatory image sizes
 
-- Make sure you have prepare the _FULL SIZE_ image and the _THUMBNAIL size_ image
+- Make sure you have prepared the _FULL SIZE_ image and the _THUMBNAIL size_ image
 
 - Make sure the ratio of the image (width and height) are ALWAYS the same (thus for any image, for any product) 
   
