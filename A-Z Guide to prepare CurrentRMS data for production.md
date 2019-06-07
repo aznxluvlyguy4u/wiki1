@@ -1,6 +1,4 @@
-# 1. Add **configuration options custom fields** to the "Product" module
-
-## Format of custom fields:
+# Custom fields format
 
 We have setup custom fields that need to be of the following format: 
 
@@ -11,6 +9,10 @@ We have setup custom fields that need to be of the following format:
 ### Custom product descriptions
 
 - `custom_product_descriptions_<specific_option>`
+
+
+# 1. Add **configuration options custom fields** to the "Product" module
+
 
 ***Note***: _if you deviate from it, the setup of the custom fields and the frontend will ***not*** work!_
 
