@@ -11,11 +11,10 @@ Some products may have different configuration options, such as:
 Not all products necessarily have them, but to be able to configure them for products that do, we need to set up ```Custom fields``` in CurrentRMS, which will make these configuration options globally available for all products.
 
 * 1.1 Add a ```Custom Field Group``` named ```custom_product_config_options```
-    - System Setup -> Custom Field Groups -> Add Custom Field Group
+    - System Setup -> Custom Field Groups -> Add Custom Field Group.
+      Name it: `custom_product_config_options`
 
-Name it: `custom_product_config_options`
-
-![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
+      ![1.png](https://bitbucket.org/repo/qEd965M/images/2230219713-1.png)
 
 * 1.2 Add a ```List of Values``` for each possible product configuration option
 For each product configuration option there is, add a ```List of Values``` with a name that starts with: ```custom_product_config_option_``` followed by a term that describes what the option is. For example: ```custom_product_config_option_color``` -or- ```custom_product_config_option_size``` -or- ```custom_product_config_option_wattage``` etc etc. Do the following:
