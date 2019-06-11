@@ -102,7 +102,7 @@ emailer_port=587
 emailer_username=info@example.com
 emailer_password=password
 emailer_sender=info@example.com
-emailer_backOffice=info@example.com
+emailer_back_office=info@example.com
 env=dev
 ```
 
@@ -123,20 +123,29 @@ therefore added to the _.gitignore_.
 
 ```json
 {
-  "products (the concerning module name)":
+  "products": (the concerning module name)
   {
     "slack": {
       "webhook_jvt": "https://hooks.slack.com/services/id",
       "webhook_op": "https://hooks.slack.com/services/id"
     },
     "current_rms": {
-      "token": "tokenValue",
-      "subdomain": "reserved-namespace",
+      "token": "token value",
+      "subdomain": "oceanpremium-staging",
       "api_url": "https://api.current-rms.com/api/v1/"
     },
-    "sentry_dsn": "https://id@sentry.io/1234"
+    "emailer": {
+      "smtp_host": "email-smtp.eu-west-1.amazonaws.com",
+      "username" : "ses username",
+      "password": "ses password",
+      "sender": "<your-name>@jongensvantechniek.nl",
+      "back_office": <your-name>@jongensvantechniek.nl
+    },
+    "sentry_dsn": "https://id@sentry.io/id",
+    "env": "prod"
   }
 }
+
 ```
 
 - *NOTE 1:* that the _rootNode_ name is the module name. 
