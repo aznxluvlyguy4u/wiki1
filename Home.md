@@ -139,7 +139,7 @@ therefore added to the _.gitignore_.
       "username" : "ses username",
       "password": "ses password",
       "sender": "<your-name>@jongensvantechniek.nl",
-      "back_office": <your-name>@jongensvantechniek.nl
+      "back_office": "<your-name>@jongensvantechniek.nl"
     },
     "sentry_dsn": "https://id@sentry.io/id",
     "env": "prod"
