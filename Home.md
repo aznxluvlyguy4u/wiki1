@@ -91,12 +91,19 @@ See [here](Run%20config%20setup) for setting up a Run configuration with environ
 - Input environment variables in _Environment Variables_ field
 
 ```
-SENTRY_DSN=https://id@sentry.io/1234
-slack_webhook_jvt=https://hooks.slack.com/services/id/id;
-slack_webhook_op=https://hooks.slack.com/services/id/id;
-current_rms_token=tokenValue;
-current_rms_subdomain=a-reserved-namespace;
+SENTRY_DSN=https://id@sentry.io/id
+slack_webhook_jvt=https://hooks.slack.com/services/id
+slack_webhook_op=https://hooks.slack.com/services/id
+current_rms_token=api-token
+current_rms_subdomain=oceanpremium-staging
 current_rms_api_url=https://api.current-rms.com/api/v1/
+emailer_smtp_host=smtp.office365.com
+emailer_port=587
+emailer_username=info@example.com
+emailer_password=password
+emailer_sender=info@example.com
+emailer_backOffice=info@example.com
+env=dev
 ```
 
 *NOTE: the SENTRY_DSN needs to be capitalised, in order to be picked up by the Sentry SDK*
