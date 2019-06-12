@@ -6,9 +6,9 @@
 
 - Login to Current RMS
 
-* Production: [https://oceanpremium-staging.current-rms.com](https://xxx-staging.current-rms.com)
+    * Production: [https://oceanpremium-staging.current-rms.com](https://xxx-staging.current-rms.com)
 
-* Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)
+    * Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)
 
 - Make sure the language setting of your account is set to: `Engles - United Kingdom`
 
