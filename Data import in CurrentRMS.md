@@ -4,9 +4,15 @@
 
 ## Importing csv's
 
-- Login to Current RMS 
-- Make sure the language setting of your account is set to Engles - United Kingdom
-- and go to the data import section:
+- Login to Current RMS
+
+* Production: [https://oceanpremium-staging.current-rms.com](https://xxx-staging.current-rms.com)
+
+* Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)
+
+- Make sure the language setting of your account is set to: `Engles - United Kingdom`
+
+- Go to the data import section:
 
 https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 
