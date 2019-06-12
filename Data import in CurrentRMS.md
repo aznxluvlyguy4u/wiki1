@@ -6,7 +6,7 @@
 
 - Login to Current RMS
 
-    * Production: [https://oceanpremium-staging.current-rms.com](https://xxx-staging.current-rms.com)
+    * Production: [https://xxx.current-rms.com](https://xxx.current-rms.com)
 
     * Staging: [https://oceanpremium-staging.current-rms.com](https://oceanpremium-staging.current-rms.com)
 
