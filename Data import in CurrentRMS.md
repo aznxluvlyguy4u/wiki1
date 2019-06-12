@@ -12,6 +12,8 @@
 
 - Make sure the language setting of your account is set to: `Engles - United Kingdom`
 
+_Note: that you also make sure that to set the `Rate definition` to: `Daily Rate (for now)`_
+
 - Go to the data import section:
 
 https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
