@@ -5,9 +5,8 @@
 |------------------------------------------------------------------------------| 
 | 0. [Hosting provider](#markdown-header-media-temple)                         |
 | 0. [SSL & DNS settings](#markdown-header-setup-&-configuration)              |
-| 0. [Hosting provider](#markdown-header-credentials)                          |
-| 0. [Hosting provider](#markdown-header-configuration-settings)               |
-| 0. [Hosting provider](#markdown-header-setup-&-configuration)                |
+| 0. [Credentials](#markdown-header-credentials)                               |
+| 0. [Configuration settings](#markdown-header-configuration-settings)         |
 
 ### Media Temple
 
