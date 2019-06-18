@@ -17,10 +17,11 @@
 | 3. [Deploying to cloud](#markdown-header-deploy)                             |
 | 4. [Architecture](#markdown-header-architecture)                             |
 | 5. [REST API documentation](API%20docs)                                      |
-| 6. [Resources](#markdown-header-resources)                                   |
-| 7. [Glossary with definitions](Glossary)                                     |
-| 8. [Current RMS](CurrentRMS) |
-| 9. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)|
+| 6. [Resources](#markdown-header-resources)                                                          |
+| 7. [Glossary with definitions](Glossary)                                                            |
+| 8. [Current RMS](CurrentRMS)                                                                        |
+| 9. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
+| 10.[Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 
 ## Setup & Configuration
 
