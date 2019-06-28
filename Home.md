@@ -39,7 +39,7 @@
 
 |Env         | Base URL                                                                           |
 |------------|------------------------------------------------------------------------------------|
-|PRODUCTION  | https://s50g5voi99.execute-api.eu-west-1.amazonaws.com/production/api/v1/locations |
+|PRODUCTION  | https://p4is2qdxnd.execute-api.eu-west-1.amazonaws.com/prod/api/v1/locations       |
 |STAGING     | https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations    |
 |DEVELOPMENT | https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations        |
 
