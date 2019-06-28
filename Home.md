@@ -23,6 +23,21 @@
 | 9. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
 | 10.[Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 
+## Environments
+
+#### Products
+
+https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/products
+https://zu6wjlgc49.execute-api.eu-west-1.amazonaws.com/staging/api/v1/products/docs
+https://1qie0vagy1.execute-api.eu-west-1.amazonaws.com/dev/api/v1/products/docs
+
+#### Locations
+
+https://s50g5voi99.execute-api.eu-west-1.amazonaws.com/production/api/v1/locations
+https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations
+https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations
+
+
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
