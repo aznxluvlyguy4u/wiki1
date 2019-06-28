@@ -29,16 +29,16 @@
 ## Products endpoint
 
 
-|Env         |Base URL                                                                        |
-|---------------------------------------------------------------------------------------------|
+|Env         | Base URL                                                                       |
+|------------|--------------------------------------------------------------------------------|
 |PRODUCTION  | https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/products    |
 |STAGING     | https://zu6wjlgc49.execute-api.eu-west-1.amazonaws.com/staging/api/v1/products |
 |DEVELOPMENT | https://1qie0vagy1.execute-api.eu-west-1.amazonaws.com/dev/api/v1/products     |
 
 ## Locations endpoint
 
-|Env         |Base URL                                                                            |
-|-------------------------------------------------------------------------------------------------|
+|Env         | Base URL                                                                           |
+|------------|------------------------------------------------------------------------------------|
 |PRODUCTION  | https://s50g5voi99.execute-api.eu-west-1.amazonaws.com/production/api/v1/locations |
 |STAGING     | https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations    |
 |DEVELOPMENT | https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations        |
