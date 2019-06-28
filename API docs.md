@@ -18,9 +18,10 @@ The following collection contains both request examples to the *Ocean Premium* -
 
 ## Response codes overview
 
-- `200`: OK - (on only _GET_ endpoints)
+- `200`: OK (on only _GET_ endpoints)
 - `201`: Created (on only _POST_ endpoints)
 - `400`: Bad Request (on all _GET_ & _POST_ endpoints)
+- `401`: Unauthorized (on all endpoints - *Currently not applied*)
 - `404`: Not Found (on all _GET_ & _POST_ endpoints)
 - `429`: Too Many Requests (on all _GET_ & _POST_ endpoints)
 - `500`: Server Error (on all _GET_ & _POST_ endpoints)
