@@ -15,3 +15,16 @@ The following collection contains both request examples to the *Ocean Premium* -
 ## Postman environment 
 
 - [Postman environment variables](https://shopix99-my.sharepoint.com/:u:/g/personal/peter_jongensvantechniek_nl/ET9YnZ7wmPlAsFIU5BUt71oBR6Bc6M_V3oDHDh025uLwyQ?e=AxPoT6)
+
+## Response codes overview
+
+`200`: OK - (on only _GET_ endpoints)
+`201`: Created (on only _POST_ endpoints)
+`400`: Bad Request (on all _GET_ & _POST_ endpoints)
+`404`: Not Found (on all _GET_ & _POST_ endpoints)
+`429`: Too Many Requests (on all _GET_ & _POST_ endpoints)
+`500`: Server Error (on all _GET_ & _POST_ endpoints)
+
+Class that builds the response codes:
+
+https://bitbucket.org/oceanpremium/ocean-premium-api/src/development/core/src/main/kotlin/com/oceanpremium/api/core/exception/handler/GlobalExceptionHandler.kt
