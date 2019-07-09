@@ -27,7 +27,9 @@ We have a contact person for technical questions concerning Current RMS (platfor
 | 0. Staging:  https://oceanpremium-staging.current-rms.com                    |                                                
 | 1. API Docs: https://api.current-rms.com/doc                                 |
 
-Note: the Staging environment of Current RMS: https://oceanpremium-staging.current-rms.com is **a trial account**, this is because ocean premium does not want to pay for the staging environment and has an arrangement with Current RMS to reset trial account, when the trial period ends.
+## Current RMS - Staging - TRIAL ACCOUNT
+
+The Staging environment of Current RMS: https://oceanpremium-staging.current-rms.com is **a trial account**, this is because ocean premium does not want to pay for the staging environment and has an arrangement with Current RMS to reset trial account, when the trial period ends.
 
 In order to extend the trial period, Frans (JVT) and Janez (OP) need to know when the trial period ends
 and will manually extend the trial account. Instruct them to actively extend the trial period, BEFORE IT ENDS, otherwise the whole platform for the staging env will not work.
