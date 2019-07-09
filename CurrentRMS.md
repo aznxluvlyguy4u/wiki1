@@ -33,7 +33,7 @@ The Staging environment of Current RMS: https://oceanpremium-staging.current-rms
 
 In order to extend the trial period, [Frans Godschalk](mailto:frans@jongensvantechniek.nl) (JVT)
 and [Janez Jezersek](mailto:jj@oceanpremium.com) (Ocean Premium) need to know when the trial period ends
-and will manually extend the trial account. Instruct them to actively extend the trial period, BEFORE IT ENDS, otherwise the whole platform for the staging environment will not work.
+and will manually extend the trial account. Instruct them to actively extend the trial period, BEFORE IT ENDS, otherwise the whole platform for the staging environment will not work and _will thus result in an impediment in the development process._
 
 See here for the trial period expiration: https://oceanpremium-staging.current-rms.com/billing?rp=/admin
 
