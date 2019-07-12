@@ -7,9 +7,10 @@
 | 0. [A word on Custom fields format](#markdown-header-a-word-on-custom-fields-format)|
 | 1. [Set up product configurations](Set%20up%20product%20configurations)|
 | 2. [Set up product descriptions](Product%20descriptions)|
-| 3. [Set up product images](Product%20images)|
-| 4. [Upload product images](Product%20images#markdown-header-upload-product-images)|
-| 5. [Configuring Accessories](Configuring%20accessories)|
+| 3. [Set up product rates](Product%20rates)|
+| 4. [Set up product images](Product%20images)|
+| 5. [Upload product images](Product%20images#markdown-header-upload-product-images)|
+| 6. [Configuring Accessories](Configuring%20accessories)|
 
 ## A word on Custom fields format
 
