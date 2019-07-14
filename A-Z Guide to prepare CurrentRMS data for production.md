@@ -1,5 +1,18 @@
 # A to Z guide on Setting up custom fields needed for the Ocean Premium platform in Current RMS
 
+
+# End result after following this guide:
+
+*Every product* in Current RMS *must have* the following *minimum* properties set:
+
+- A product name
+- A SEO friendly product name
+- A full product description
+- A pulic friendly image
+- A rate to show in the rental frontend
+
+
+
 ## Table of Content
 
 |                                                                              |
