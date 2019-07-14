@@ -3,7 +3,7 @@
 
 # End result after following this guide:
 
-*Every product* in Current RMS *must have* the following *minimum* properties set:
+**Every** product in Current RMS **must have** the following **minimum** properties set:
 
 - A product name
 - A SEO friendly product name
