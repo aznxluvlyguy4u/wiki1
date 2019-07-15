@@ -1,8 +1,12 @@
 # Set up product configurations
 
+
+
 ## Product configuration options 
 
 This sections describes on adding **configuration options as custom fields** to the "Product" module.
+
+NOTE: Only set product configurations, if it is actually needed
 
 Some products may have different configuration options, such as:
 
