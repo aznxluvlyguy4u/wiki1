@@ -57,6 +57,24 @@ Row	Error
 **TODO: Add complete instructions documentation**
 
 4. vehicles
+
+**Missing instructions:**
+
+Results in:
+
+```
+Upload Results
+The upload failed with the following errors.
+
+
+Row	Error
+2	Could not find a Vehicle with an id of 96
+3	Could not find a Vehicle with an id of 24
+4	Could not find a Vehicle with an id of 25
+```
+
+**TODO: Add complete instructions documentation**
+
 5. product groups
 6. system setup -> revenue groups -> add 'Sale of goods'
 7. system setup -> cost groups -> add 'Logistics - Rental'
