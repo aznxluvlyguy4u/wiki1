@@ -34,6 +34,17 @@ Row	Error
 ```
 
 2. venues
+
+**Missing instructions:**
+
+```
+Your upload of Venue data from file 'Current-Venue-20190724-16549-1h46xhj.csv' has failed with the following errors: 
+
+Row	Error
+2	Could not find a Venue with an id of 344
+3	Could not find a Venue with an id of 374
+```
+
 3. organizations? (
     * first add Oraganisation Tax Class '0% IBEU' in System Setup -> Organisation Tax Classes,
     * add Oraganisation Tax Class '0% ICP',
