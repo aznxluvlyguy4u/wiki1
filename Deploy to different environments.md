@@ -4,34 +4,33 @@ For now a manual change needs to be done to two files in order to deploy to diff
 This will be fixed and automated, but for now it is a manuel step.
 
 
-- Set the _stage_ to the environment in the `serverless.yml` file.
+### Dev (default)
 
-- Append the environment name to the function _definition and name_ in the `serverless.yml` file.
+The _dev_ environment is the default deploy / Serverless stage environment
 
-```yaml
-# The provider of the cloud instance and its needed runtime configuration
-provider:
-  ...
-  stage:  ${opt:stage, 'staging'}
+In order to deploy to a the _dev_ environment for a given module, follow these steps:
 
-# The service name which is used to create the stack
-service:
-  name: ocean-premium-products-api
+-  Uncomment the configurations block in the parent build.gradle file in the root of the project, that looks something like this:
 
-...
-functions:
-  get-product-api-docs-<ENVIRONMENT>:
-    # The function handler to be called for this endpoint
-    handler: com.oceanpremium.api.products.Handler::handleRequest
-    name: get-product-api-docs-<ENVIRONMENT>
-    ...
-```  
-
-- Set _stageToDeploy to environment in `gradle.build` file in the _deploy task_
-
-```groovy
-task deploy(type: Exec) {
-        ...
-        def stageToDeployTo = "<ENVIRONMENT>"
-        ...
 ```
+configurations {
+  runtime.exclude module: "spring-boot-starter-web"
+  ...
+}
+```
+
+- Either deploy through gradle task:
+
+```
+ $ ./gradlew locations:deploy -Pstage=staging --stacktrace
+```
+
+  or directly via server-less (which is called by the `deploy` Gradle task):
+
+```
+$ sls deploy --region eu-west-1 --verbose --stage staging
+```
+
+### Staging
+
+### Production
