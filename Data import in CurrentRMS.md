@@ -107,7 +107,24 @@ Row	Error
     * 'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/238/original/schiller-pontoon.jpg'
 
 10. products
+
+**Missing instructions:**
+
+Results in:
+
+```
+Your upload of Product data from file 'Current-Product-20190724-16549-889mu3.csv' has failed with the following errors: 
+
+
+Row	Error
+2	Could not find a Product with an id of 162
+3	Could not find a Product with an id of 267
+```
+**TODO: Add complete instructions documentation**
+
 11. accessories
+
+
 12. add following stores in system setup -> stores:
     * Palma de Mallorca (NG)
     * S/Y ECHELON
