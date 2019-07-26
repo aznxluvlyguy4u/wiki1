@@ -22,13 +22,13 @@ configurations {
 - Either deploy through gradle task:
 
 ```
- $ ./gradlew locations:deploy -Pstage=staging --stacktrace
+ $ ./gradlew <moduleName>:deploy -Pstage=dev --stacktrace
 ```
 
   or directly via server-less (which is called by the `deploy` Gradle task):
 
 ```
-$ sls deploy --region eu-west-1 --verbose --stage staging
+$ sls deploy --region eu-west-1 --verbose --stage dev
 ```
 
 ### Staging
