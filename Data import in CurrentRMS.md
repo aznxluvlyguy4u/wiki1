@@ -120,6 +120,18 @@ Row	Error
 2	Could not find a Product with an id of 162
 3	Could not find a Product with an id of 267
 ```
+
+and
+
+```
+
+Row	Error
+2	Could not find the Tax Class using 'Default'
+3	Could not find the Tax Class using 'Default'
+4	Could not find the Tax Class using 'Default'
+5	Could not find the Tax Class using 'Default'
+6	Could not find the Tax Class using 'VAT 22%'
+```
 **TODO: Add complete instructions documentation**
 
 11. accessories
