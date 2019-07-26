@@ -1,14 +1,20 @@
 ## Deploy to different environments
 
 For now a manual change needs to be done to two files in order to deploy to different environments.
-This will be fixed and automated, but for now it is a manuel step.
+This will be fixed and automated, but for now it is a manual step.
 
+We use the [Serverless framework](https://serverless.com) to deploy.
 
-### Dev (default)
+## Default environment - dev
 
-The _dev_ environment is the default deploy / Serverless stage environment
+The `serverless.yml` file found in every module is the default Serverless config file 
+set per **default** to the _dev_ environment.
 
-In order to deploy to a the _dev_ environment for a given module, follow these steps:
+Thus: _serverless.yml_ is per default dev_ environment
+
+## Mandatory step for all environments
+
+### Exclude local dependencies from deployable archive
 
 -  Uncomment the configurations block in the parent build.gradle file in the root of the project, that looks something like this:
 
@@ -18,6 +24,10 @@ configurations {
   ...
 }
 ```
+
+### Dev (default)
+
+The _dev_ environment is the default deploy / Serverless stage environment. 
 
 - Either deploy through gradle task:
 
@@ -33,4 +43,60 @@ $ sls deploy --region eu-west-1 --verbose --stage dev
 
 ### Staging
 
+For the _staging_ environment there has been setup **a separate serverless config file**:
+`serverless-template-staging.yml` in every module. 
+
+- Rename the default `serverless.yml` to `Serverless-template-dev.yml` 
+
+- Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
+
+- Set in the build.gradle, the variable `stageToDeployTo` to _staging_
+  The variable is found in the _deploy_ task definition.
+
+- Either deploy through gradle task:
+
+```
+ $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace
+```
+
+  or directly via server-less (which is called by the `deploy` Gradle task):
+
+```
+$ sls deploy --region eu-west-1 --verbose --stage staging
+```
+
+- Rename the file: `serverless.yml` back to: `serverless-template-staging.yml` 
+
+- Rename the file: `serverless-template-dev.yml` back to serverless.yml`
+
+- Set in the build.gradle, variable back to stageToDeployTo = "staging"
+
 ### Production
+
+For the _staging_ environment there has been setup **a separate serverless config file**:
+`serverless-template-staging.yml` in every module. 
+
+- Rename the default `serverless.yml` to `Serverless-template-dev.yml` 
+
+- Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
+
+- Set in the build.gradle, the variable `stageToDeployTo` to _prod_
+  The variable is found in the _deploy_ task definition.
+
+- Either deploy through gradle task:
+
+```
+ $ ./gradlew <moduleName>:deploy -Pstage=prod --stacktrace
+```
+
+  or directly via server-less (which is called by the `deploy` Gradle task):
+
+```
+$ sls deploy --region eu-west-1 --verbose --stage prod
+```
+
+- Rename the file: `serverless.yml` back to: `serverless-template-production.yml` 
+
+- Rename the file: `serverless-template-dev.yml` back to serverless.yml`
+
+- Set in the build.gradle, variable back to stageToDeployTo = "dev"
