@@ -21,6 +21,18 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 - Import csv's in the following order:
 
 1. contacts
+
+*Missing instructions*:
+
+Results in:
+
+```
+Row	Error
+2	Could not find a Contact with an id of 263
+3	Could not find a Contact with an id of 161
+...
+```
+
 2. venues
 3. organizations? (
     * first add Oraganisation Tax Class '0% IBEU' in System Setup -> Organisation Tax Classes,
