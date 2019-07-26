@@ -76,6 +76,26 @@ Row	Error
 **TODO: Add complete instructions documentation**
 
 5. product groups
+
+*Missing instructions:**
+
+Results in:
+
+```
+Upload Results
+The upload failed with the following errors.
+
+
+Row	Error
+2	Could not find a Product Group with an id of 169
+3	Could not find a Product Group with an id of 158
+4	Could not find a Product Group with an id of 162
+5	Could not find a Product Group with an id of 164
+6	
+```
+
+**TODO: Add complete instructions documentation**
+
 6. system setup -> revenue groups -> add 'Sale of goods'
 7. system setup -> cost groups -> add 'Logistics - Rental'
 8. change products.csv row 117 Pontoon Sockets for Schiller Bike image url from :
