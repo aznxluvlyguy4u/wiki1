@@ -22,7 +22,7 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 
 1. contacts
 
-*Missing instructions*:
+**Missing instructions:**
 
 Results in:
 
