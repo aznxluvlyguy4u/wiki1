@@ -46,7 +46,7 @@ $ sls deploy --region eu-west-1 --verbose --stage dev
 For the _staging_ environment there has been setup **a separate serverless config file**:
 `serverless-template-staging.yml` in every module. 
 
-- Rename the default `serverless.yml` to `Serverless-template-dev.yml` 
+- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
 
 - Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
 
@@ -73,10 +73,10 @@ $ sls deploy --region eu-west-1 --verbose --stage staging
 
 ### Production
 
-For the _staging_ environment there has been setup **a separate serverless config file**:
-`serverless-template-staging.yml` in every module. 
+For the _production_ environment there has been setup **a separate serverless config file**:
+`serverless-template-production.yml` in every module. 
 
-- Rename the default `serverless.yml` to `Serverless-template-dev.yml` 
+- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
 
 - Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
 
