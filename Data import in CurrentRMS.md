@@ -77,7 +77,7 @@ Row	Error
 
 5. product groups
 
-*Missing instructions:**
+**Missing instructions:**
 
 Results in:
 
