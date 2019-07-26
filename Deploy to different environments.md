@@ -25,6 +25,8 @@ configurations {
 }
 ```
 
+See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
+
 ### Dev (default)
 
 The _dev_ environment is the default deploy / Serverless stage environment. 
@@ -51,7 +53,7 @@ For the _staging_ environment there has been setup **a separate serverless confi
 - Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
 
 - Set in the build.gradle, the variable `stageToDeployTo` to _staging_
-  The variable is found in the _deploy_ task definition.
+  The variable is found in the _deploy_ task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-291)
 
 - Either deploy through gradle task:
 
@@ -81,7 +83,7 @@ For the _production_ environment there has been setup **a separate serverless co
 - Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
 
 - Set in the build.gradle, the variable `stageToDeployTo` to _prod_
-  The variable is found in the _deploy_ task definition.
+  The variable is found in the _deploy_ task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-291)
 
 - Either deploy through gradle task:
 
