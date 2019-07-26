@@ -33,6 +33,8 @@ Row	Error
 ...
 ```
 
+**TODO: Add complete instructions documentation**
+
 2. venues
 
 **Missing instructions:**
@@ -51,6 +53,9 @@ Row	Error
     * add custom field group yacht in System Setup -> Custom Field Groups,
     * add custom field yacht to organizations in System Setup -> Custom Fields
 )
+
+**TODO: Add complete instructions documentation**
+
 4. vehicles
 5. product groups
 6. system setup -> revenue groups -> add 'Sale of goods'
