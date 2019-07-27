@@ -3,16 +3,18 @@
 
 |                                                                              |
 |------------------------------------------------------------------------------|
-| 0. [Deploy to dev](#markdown-header-dev)           |
-| 1. [Deploy to staging](#markdown-header-staging)     |
-| 2. [Deploy to production](#markdown-header-production)                             |
+| 0. [Default environment](#markdown-header-default-environment)           |
+| 0. [Mandatory steps for all environments](#markdown-header-mandatory-steps-for-all-environments)|
+| 0. [Deploy to dev](#markdown-header-deploy-to-dev)           |
+| 1. [Deploy to staging](#markdown-header-deploy-to-staging)     |
+| 2. [Deploy to production](#markdown-header-deploy-to-production)                             |
 
 For now a manual change needs to be done to two files in order to deploy to different environments.
 This will be fixed and automated, but for now it is a manual step.
 
 We use the [Serverless framework](https://serverless.com) to deploy.
 
-## Default environment - dev
+## Default environment
 
 The `serverless.yml` file found in every module is the default Serverless config file 
 set per **default** to the _dev_ environment.
@@ -40,7 +42,7 @@ See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremi
 
 The variable is found in the `deploy` task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293)
 
-### Dev
+### Deploy to dev
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
@@ -58,7 +60,7 @@ The _dev_ environment is the default deploy / Serverless stage environment.
 $ sls deploy --region eu-west-1 --verbose --stage dev
 ```
 
-### Staging
+### Deploy to Staging
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
@@ -90,7 +92,7 @@ $ sls deploy --region eu-west-1 --verbose --stage staging
 
 - Set in the build.gradle, variable back to stageToDeployTo = "staging"
 
-### Production
+### Deploy to Production
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
