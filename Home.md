@@ -11,17 +11,18 @@
 
 |                                                                              |
 |------------------------------------------------------------------------------|
-| 0. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
-| 1. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
-| 2. [Local debugging](#markdown-header-debugging)                             |
-| 3. [Deploying to cloud](#markdown-header-deploy)                             |
-| 4. [Architecture](#markdown-header-architecture)                             |
-| 5. [REST API documentation](API%20docs)                                      |
-| 6. [Resources](#markdown-header-resources)                                                          |
-| 7. [Glossary with definitions](Glossary)                                                            |
-| 8. [Current RMS](CurrentRMS)                                                                        |
-| 9. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
-| 10.[Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
+| 0. [Environments](#markdown-header-environments)                             |
+| 1. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
+| 2. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
+| 3. [Local debugging](#markdown-header-debugging)                             |
+| 4. [Deploying to cloud](#markdown-header-deploy)                             |
+| 5. [Architecture](#markdown-header-architecture)                             |
+| 6. [REST API documentation](API%20docs)                                      |
+| 7. [Resources](#markdown-header-resources)                                                          |
+| 8. [Glossary with definitions](Glossary)                                                            |
+| 9. [Current RMS](CurrentRMS)                                                                        |
+| 10. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
+| 11.[Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 
 ## Environments
 
