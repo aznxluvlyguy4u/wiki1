@@ -43,6 +43,13 @@
 |STAGING     | https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations    |
 |DEVELOPMENT | https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations        |
 
+## Offices endpoint
+
+|Env         | Base URL                                                                           |
+|------------|------------------------------------------------------------------------------------|
+|PRODUCTION  | https://ig0smst338.execute-api.eu-west-1.amazonaws.com/prod/api/v1/offices         |
+|STAGING     | https://856c4yiakc.execute-api.eu-west-1.amazonaws.com/staging/api/v1/offices      |
+|DEVELOPMENT | https://s7cnld7i7c.execute-api.eu-west-1.amazonaws.com/dev/api/v1/offices          |
 
 ## Setup & Configuration
 
