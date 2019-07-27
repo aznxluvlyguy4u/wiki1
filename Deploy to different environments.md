@@ -1,5 +1,12 @@
 ## Deploy to different environments
 
+
+|                                                                              |
+|------------------------------------------------------------------------------|
+| 0. [Deploy to dev](#markdown-header-dev)           |
+| 1. [Deploy to staging](#markdown-header-staging)     |
+| 2. [Deploy to production](#markdown-header-production)                             |
+
 For now a manual change needs to be done to two files in order to deploy to different environments.
 This will be fixed and automated, but for now it is a manual step.
 
@@ -27,7 +34,7 @@ configurations {
 
 See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
 
-### Dev (default)
+### Dev
 
 The _dev_ environment is the default deploy / Serverless stage environment. 
 
