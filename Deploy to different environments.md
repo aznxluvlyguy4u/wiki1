@@ -16,10 +16,9 @@ We use the [Serverless framework](https://serverless.com) to deploy.
 
 ## Default environment
 
-The `serverless.yml` file found in every module is the default Serverless config file 
-set per **default** to the _dev_ environment.
+The `serverless.yml` file found in every module is the default Serverless config file set per **default** to the _dev_ environment.
 
-Thus: _serverless.yml_ is per default dev_ environment
+Thus: _serverless.yml_ is per default _dev_ environment
 
 ## Mandatory steps for all environments
 
