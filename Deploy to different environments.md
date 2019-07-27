@@ -19,7 +19,7 @@ set per **default** to the _dev_ environment.
 
 Thus: _serverless.yml_ is per default dev_ environment
 
-## Mandatory step for all environments
+## Mandatory steps for all environments
 
 ### Exclude local dependencies from deployable archive
 
@@ -36,6 +36,8 @@ See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremi
 
 ### Dev
 
+- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
+
 The _dev_ environment is the default deploy / Serverless stage environment. 
 
 - Either deploy through gradle task:
@@ -51,6 +53,8 @@ $ sls deploy --region eu-west-1 --verbose --stage dev
 ```
 
 ### Staging
+
+- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
 For the _staging_ environment there has been setup **a separate serverless config file**:
 `serverless-template-staging.yml` in every module. 
@@ -81,6 +85,8 @@ $ sls deploy --region eu-west-1 --verbose --stage staging
 - Set in the build.gradle, variable back to stageToDeployTo = "staging"
 
 ### Production
+
+- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
 For the _production_ environment there has been setup **a separate serverless config file**:
 `serverless-template-production.yml` in every module. 
