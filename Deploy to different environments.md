@@ -34,6 +34,12 @@ configurations {
 
 See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
 
+### Set stageToDeployTo variable 
+
+- Set in the build.gradle, the variable `stageToDeployTo` to the concerning environment (dev (default) / staging / prod)
+
+The variable is found in the deploy task definition, see here
+
 ### Dev
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
