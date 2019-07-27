@@ -4,10 +4,10 @@
 |                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Default environment](#markdown-header-default-environment)           |
-| 0. [Mandatory steps for all environments](#markdown-header-mandatory-steps-for-all-environments)|
-| 0. [Deploy to dev](#markdown-header-deploy-to-dev)           |
-| 1. [Deploy to staging](#markdown-header-deploy-to-staging)     |
-| 2. [Deploy to production](#markdown-header-deploy-to-production)                             |
+| 1. [Mandatory steps for all environments](#markdown-header-mandatory-steps-for-all-environments)|
+| 2. [Deploy to dev](#markdown-header-deploy-to-dev)           |
+| 3. [Deploy to staging](#markdown-header-deploy-to-staging)     |
+| 4. [Deploy to production](#markdown-header-deploy-to-production)                             |
 
 For now a manual change needs to be done to two files in order to deploy to different environments.
 This will be fixed and automated, but for now it is a manual step.
