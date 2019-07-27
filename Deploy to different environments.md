@@ -26,14 +26,14 @@ We use the [Serverless framework](https://serverless.com) to deploy.
 
 -  Uncomment the configurations block in the parent build.gradle file in the root of the project, that looks something like this:
 
+See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
+
 ```
 configurations {
   runtime.exclude module: "spring-boot-starter-web"
   ...
 }
 ```
-
-See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
 
 ### Set stageToDeployTo variable 
 
