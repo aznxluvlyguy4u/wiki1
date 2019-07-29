@@ -51,6 +51,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
     * system setup -> cost groups -> add `Logistics - Rental`
     * make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
     * make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
+    * [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
     * Add a Custom Field Group, named `custom_product_config_options`:
     * Add `custom_product_config_option_color` in System Setup -> List of Values -> Add List of Values
     * Add `custom_product_config_option_color` in System Setup -> Custom Field -> Add Custom Field
