@@ -89,7 +89,7 @@ $ sls deploy --region eu-west-1 --verbose --stage staging
 
 - Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
 
-- Set in the build.gradle, variable back to stageToDeployTo = "staging"
+- Set in the build.gradle, variable back to stageToDeployTo = "dev"
 
 ### Deploy to Production
 
