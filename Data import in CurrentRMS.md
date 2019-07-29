@@ -122,12 +122,14 @@ For all following imports, make sure you unselect the ID column, because the ID 
 14. rate (already exists)
 15. serialized components (empty)
 16. product supplier cost
-17. add following values to service type in system System Setup > List of Values (
-    * Handling
-    * Shipping
-18. add following values to revenue group in System Setup -> Revenue Group (
-    * Logistics - Rental
-19. services
-20. service supplier cost (empty)
-21. add a new Contact with the name "Blaz Oblak" and mark it as bookable resource
-22. service resource
+
+17. services (
+    * add following values to `service type` in system System Setup > List of Values (
+        * Handling
+        * Shipping
+    * add following values to `revenue group` in System Setup -> Revenue Group (
+        * Logistics - Rental
+)
+18. service supplier cost (empty)
+19. add a new Contact with the name "Blaz Oblak" and mark it as bookable resource
+20. service resource
