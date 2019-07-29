@@ -57,6 +57,9 @@ Row	Error
     * add Oraganisation Tax Class `0% ICP`,
     * add custom field group `yacht` in System Setup -> Custom Field Groups,
     * add custom field `yacht` to organizations in System Setup -> Custom Fields
+
+![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
+
 )
 
 **TODO: Add complete instructions documentation**
