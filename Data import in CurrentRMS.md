@@ -131,5 +131,4 @@ For all following imports, make sure you unselect the ID column, because the ID 
         * Logistics - Rental
 )
 18. service supplier cost (empty)
-19. add a new Contact with the name "Blaz Oblak" and mark it as bookable resource
-20. service resource
+19. service resource
