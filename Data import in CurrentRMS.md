@@ -21,7 +21,8 @@ https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 - Import csv's in the following order:
 
 **Notes:**
-For all following imports, make sure you unselect the ID column
+For all following imports, make sure you unselect the ID column, because the ID fields will be regenerated every time
+
 ![Screenshot from 2019-07-29 12-22-09.png](https://bitbucket.org/repo/qEd965M/images/2126575434-Screenshot%20from%202019-07-29%2012-22-09.png)
 
 1. contacts
