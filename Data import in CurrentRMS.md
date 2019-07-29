@@ -107,8 +107,8 @@ Row	Error
 
 **TODO: Add complete instructions documentation**
 
-6. system setup -> revenue groups -> add 'Sale of goods'
-7. system setup -> cost groups -> add 'Logistics - Rental'
+6. system setup -> revenue groups -> add `Sale of goods`
+7. system setup -> cost groups -> add `Logistics - Rental`
 8. change products.csv row 117 Pontoon Sockets for Schiller Bike image url from :
 
     * 'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/305/original/schiller-pontton-socket.jpg'
@@ -117,6 +117,8 @@ Row	Error
 
     * 'https://s3.amazonaws.com/current-rms/86743260-d606-0136-9f37-0a9ca217e95b/icons/238/original/schiller-pontoon.jpg'
 
+    * make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
+    * make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
 10. products
 
 **Missing instructions:**
