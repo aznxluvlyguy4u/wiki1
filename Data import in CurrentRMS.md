@@ -79,22 +79,45 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 11. accessories
 
-12. add following stores in system setup -> stores:
-    * Palma de Mallorca (NG)
-    * S/Y ECHELON
-    * M55
-    * Monaco
-    * Inchcape Shipping Services
-    * M/Y OCEAN PARADISE
-    * St. Maarten (DSM)
-    * Athens (H360)
-    * Fort Lauderdale (YC)
-    * Maldives
-    * Napoli (MLF)
-    * Olbia (NA)
+12. add following stores in system setup -> stores ( Or make sure they exist in currentRMS) :
+
+    * Antibes
     * Antigua (AC)
-    * MAREMOTO
+    * Athens (360)
+    * Athens (Sotiris)
+    * BCM (Kotor)
+    * Corfu
+    * Default
+    * Dubrovnik (BWA)
+    * Dubrovnik (Kristijan)
+    * Fort Lauderdale (YC)
+    * Genova (Maremoto)
+    * Ibiza (Rodriquez)
+    * Inchcape Shipping Services *?*
+    * JVT
+    * Kos (A1)
+    * M55
+    * Male
+    * Maldives
+    * Malta
     * M/Y GLADIATOR
+    * M/Y OCEAN PARADISE
+    * Napoli (MLF)
+    * New Items Store
+    * Olbia (NA)
+    * Olbia (SYS)
+    * Palermo (Artemis)
+    * Palma de Mallorca (ED)
+    * Palma de Mallorca (NG)
+    * Rhodes (Roditis)
+    * Riposto (Artemis)
+    * Split (Luka)
+    * St. Maarten (DSM)
+    * S/Y ECHELON *?*
+    * Tivat (BWA)
+    * Venice (Katarina)
+    * Zadar (Alessia)
+
 13. stock level
 14. rate (already exists)
 15. serialized components (empty)
