@@ -70,13 +70,44 @@ Row	Error
     * make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
    
     * Add a Custom Field Group, named `custom_product_config_options`:
-    * Add `custom_product_config_option_color` System Setup -> List of Values -> Add List of Values
+    * Add `custom_product_config_option_color` in System Setup -> List of Values -> Add List of Values
+    * Add `custom_product_config_option_color` in System Setup -> Custom Field -> Add Custom Field
+    
+    2.1 Add a Custom Field Group named custom_product_description
+
+System Setup -> Custom Field Groups -> Add Custom Field Group
+Name it custom_product_description
+Leave Order to 0
+8.png
+
+2.2 Add a list custom fields to the Product module
+
+The following custom fields must be added individually so that the proposed layout can be rendered:
+
+custom_product_description_seo_title
+custom_product_description_head_1
+custom_product_description_paragraph_1
+custom_product_description_head_2
+custom_product_description_paragraph_2
+custom_product_description_head_3
+custom_product_description_paragraph_3
+custom_product_description_head_4
+custom_product_description_paragraph_4
+custom_product_description_head_5
+custom_product_description_paragraph_5
+custom_product_description_head_6
+custom_product_description_paragraph_6
+custom_product_description_head_7
+custom_product_description_paragraph_7
+custom_product_description_head_8
+custom_product_description_paragraph_8
+custom_product_description_head_9
+custom_product_description_paragraph_9
+custom_product_description_dimensions
+
     * import products export csv
 
 )
-
-
-
 
 11. accessories
 
