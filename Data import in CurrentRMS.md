@@ -27,22 +27,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 1. contacts
 
-**Missing instructions:**
-
-Results in:
-
-```
-Row	Error
-2	Could not find a Contact with an id of 263
-3	Could not find a Contact with an id of 161
-...
-```
-
-**TODO: Add complete instructions documentation**
-
 2. venues
-
-**Missing instructions:**
 
 3. organizations? (
     * first add Oraganisation Tax Class `0% IBEU` in System Setup -> Organisation Tax Classes,
@@ -57,8 +42,6 @@ Row	Error
     * then import organisation export file
 )
 
-**TODO: Add complete instructions documentation**
-
 4. vehicles
 
 5. product groups
@@ -68,49 +51,33 @@ Row	Error
     * system setup -> cost groups -> add `Logistics - Rental`
     * make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
     * make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
-   
     * Add a Custom Field Group, named `custom_product_config_options`:
     * Add `custom_product_config_option_color` in System Setup -> List of Values -> Add List of Values
     * Add `custom_product_config_option_color` in System Setup -> Custom Field -> Add Custom Field
-    
-    2.1 Add a Custom Field Group named custom_product_description
-
-System Setup -> Custom Field Groups -> Add Custom Field Group
-Name it custom_product_description
-Leave Order to 0
-8.png
-
-2.2 Add a list custom fields to the Product module
-
-The following custom fields must be added individually so that the proposed layout can be rendered:
-
-custom_product_description_seo_title
-custom_product_description_head_1
-custom_product_description_paragraph_1
-custom_product_description_head_2
-custom_product_description_paragraph_2
-custom_product_description_head_3
-custom_product_description_paragraph_3
-custom_product_description_head_4
-custom_product_description_paragraph_4
-custom_product_description_head_5
-custom_product_description_paragraph_5
-custom_product_description_head_6
-custom_product_description_paragraph_6
-custom_product_description_head_7
-custom_product_description_paragraph_7
-custom_product_description_head_8
-custom_product_description_paragraph_8
-custom_product_description_head_9
-custom_product_description_paragraph_9
-custom_product_description_dimensions
-
+    * Add custom_product_description_seo_title
+    * Add custom_product_description_head_1
+    * Add custom_product_description_paragraph_1
+    * Add custom_product_description_head_2
+    * Add custom_product_description_paragraph_2
+    * Add custom_product_description_head_3
+    * Add custom_product_description_paragraph_3
+    * Add custom_product_description_head_4
+    * Add custom_product_description_paragraph_4
+    * Add custom_product_description_head_5
+    * Add custom_product_description_paragraph_5
+    * Add custom_product_description_head_6
+    * Add custom_product_description_paragraph_6
+    * Add custom_product_description_head_7
+    * Add custom_product_description_paragraph_7
+    * Add custom_product_description_head_8
+    * Add custom_product_description_paragraph_8
+    * Add custom_product_description_head_9
+    * Add custom_product_description_paragraph_9
+    * Add custom_product_description_dimensions
     * import products export csv
-
 )
 
 11. accessories
-
 
 12. add following stores in system setup -> stores:
     * Palma de Mallorca (NG)
