@@ -38,9 +38,7 @@ configurations {
 
 - Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable [stageToDeployTo](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293) to the concerning environment
 
-**Again**: 
-
-- dev is _default_ 
+- **Again**: dev is _default_ 
 - staging 
 - prod
 
@@ -49,7 +47,6 @@ configurations {
 #### Deploy to Dev
 
 For the _dev_ environment there has been setup a **default serverless config file**: `serverless.yml` in every module.
-
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
