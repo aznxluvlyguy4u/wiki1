@@ -42,6 +42,9 @@ configurations {
 
 #### Deploy to Dev
 
+For the _dev_ environment there has been setup a **default serverless config file**: `serverless.yml` in every module.
+
+
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
 - The _dev_ environment is the _default_ deploy / Serverless stage environment, no additional configs needed
