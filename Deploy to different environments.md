@@ -66,6 +66,8 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 - Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
 
+- Then deploy and see the [after deployment instructions](#markdown-header-after-deployment)
+
 ##### After deployment
 
 - Rename the file: `serverless.yml` back to: `serverless-template-<staging/production>.yml` 
