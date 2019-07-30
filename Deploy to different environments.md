@@ -42,7 +42,7 @@ The variable is found in the `deploy` task definition, see [here](https://bitbuc
 
 ### 3 Set the correct Serverless configuration file for the concerning environment
 
-#### Deploy to dev
+#### Deploy to Dev
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
@@ -50,7 +50,7 @@ The variable is found in the `deploy` task definition, see [here](https://bitbuc
 
 - After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
-#### Staging
+#### Deploy to Staging
 
 For the _staging_ environment there has been setup **a separate serverless config file**:
 `serverless-template-staging.yml` in every module. 
@@ -67,7 +67,7 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 - After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
-#### Production
+#### Deploy to Production
 
 - Rename the default `serverless.yml` to `serverless-template-dev.yml` 
 
