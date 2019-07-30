@@ -116,7 +116,7 @@ $ npm install serverless -g
 
 See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
 
-### Products module
+### Products / Locations / Offices modules
 
 - Input environment variables in _Environment Variables_ field
 
@@ -151,9 +151,11 @@ therefore added to the _.gitignore_.
 
 - Create a `properties.json` file containing environment variables in the `root` of any (serverless) function module (thus not in _core_ module) of the following structure:
 
+#### Products & Offices modules
+
 ```json
 {
-  "products": (the concerning module name)
+  "products": (or offices) <----------- SET THE CORRECT VERSION
   {
     "slack": {
       "webhook_jvt": "https://hooks.slack.com/services/id",
@@ -178,6 +180,26 @@ therefore added to the _.gitignore_.
 
 ```
 
+#### Locations module
+
+```json
+{
+  "locations":
+  {
+    "slack": {
+      "webhook_jvt": "https://hooks.slack.com/services/id"
+    },
+    "current_rms": {
+      "token": "token value",
+      "subdomain": "oceanpremium-staging",
+      "api_url": "https://api.current-rms.com/api/v1/"
+    },
+    "sentry_dsn": "https://id@sentry.io/id,
+    "env": "prod"
+  }
+}
+```
+
 - *NOTE 1:* that the _rootNode_ name is the module name. 
 
 - *NOTE 2: the sentry_dsn does not need to be capitalised in the `properties.json` file, **but** it does when defining it as a system environment variable*
@@ -188,8 +210,16 @@ See [lastpass](https://lastpass.com) for the credentials to be filled in.
 
 In the *<module-name>*_/src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
 
+#### DEV 
+
 ```
 logging.level.com.oceanpremium.api=DEBUG
+```
+
+#### PROD
+
+```
+logging.level.com.oceanpremium.api=INFO
 ```
 
 For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
