@@ -73,7 +73,7 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 #### Deploy to Production
 
-For the _production_ environment there has been setup a separate serverless config file: `serverless-template-production.yml` in every module.
+For the _production_ environment there has been setup **a separate serverless config file**: `serverless-template-production.yml` in every module.
 
 - Rename the default `serverless.yml` to `serverless-template-dev.yml` 
 
