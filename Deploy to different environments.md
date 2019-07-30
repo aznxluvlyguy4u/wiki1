@@ -43,7 +43,11 @@ The variable is found in the `deploy` task definition, see [here](https://bitbuc
 
 ### 3 Set the correct Serverless configuration file for the concerning environment
 
-These instructions only apply to the _staging & prod_ environment.
+#### Dev
+
+- No additional configs needed
+
+The following instructions only apply to the _staging & prod_ environment.
 
 #### Staging
 
