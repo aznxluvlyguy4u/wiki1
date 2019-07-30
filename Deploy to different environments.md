@@ -95,13 +95,6 @@ $ sls deploy --region eu-west-1 --verbose --stage dev
 For the _staging_ environment there has been setup **a separate serverless config file**:
 `serverless-template-staging.yml` in every module. 
 
-- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
-
-- Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
-
-- Set in the build.gradle, the variable `stageToDeployTo` to _staging_
-  The variable is found in the _deploy_ task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-291)
-
 - Either deploy through gradle task:
 
 ```
@@ -114,11 +107,7 @@ For the _staging_ environment there has been setup **a separate serverless confi
 $ sls deploy --region eu-west-1 --verbose --stage staging
 ```
 
-- Rename the file: `serverless.yml` back to: `serverless-template-staging.yml` 
-
-- Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
-
-- Set in the build.gradle, variable back to stageToDeployTo = "dev"
+- Make sure to [revert settings and config files](#mark-down-header-after-deployment) back to default state
 
 ### Deploy to Production
 
@@ -127,12 +116,6 @@ $ sls deploy --region eu-west-1 --verbose --stage staging
 For the _production_ environment there has been setup **a separate serverless config file**:
 `serverless-template-production.yml` in every module. 
 
-- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
-
-- Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
-
-- Set in the build.gradle, the variable `stageToDeployTo` to _prod_
-  The variable is found in the _deploy_ task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-291)
 
 - Either deploy through gradle task:
 
@@ -146,8 +129,4 @@ For the _production_ environment there has been setup **a separate serverless co
 $ sls deploy --region eu-west-1 --verbose --stage prod
 ```
 
-- Rename the file: `serverless.yml` back to: `serverless-template-production.yml` 
-
-- Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
-
-- Set in the build.gradle, variable back to stageToDeployTo = "dev"
+- Make sure to [revert settings and config files](#mark-down-header-after-deployment) back to default state
