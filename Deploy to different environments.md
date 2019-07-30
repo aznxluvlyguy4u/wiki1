@@ -42,11 +42,13 @@ The variable is found in the `deploy` task definition, see [here](https://bitbuc
 
 ### 3 Set the correct Serverless configuration file for the concerning environment
 
-#### Dev
+#### Deploy to dev
 
-- No additional configs needed
+- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
-The following instructions only apply to the _staging & prod_ environment.
+- The _dev_ environment is the _default_ deploy / Serverless stage environment, no additional configs needed
+
+- After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
 #### Staging
 
@@ -57,7 +59,13 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 - Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
 
-- Then deploy and see the [after deployment instructions](#markdown-header-after-deployment)
+- Then deploy:
+
+```
+ $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace -Pprofile=oceanpremium-serverless-publisher
+```
+
+- After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
 #### Production
 
@@ -65,73 +73,20 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 - Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
 
-- Then deploy and see the [after deployment instructions](#markdown-header-after-deployment)
-
-##### After deployment
-
-- Rename the file: `serverless.yml` back to: `serverless-template-<staging/production>.yml` 
-
-- Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
-
-- Set in the build.gradle, variable back to stageToDeployTo = "dev"
-
-### Deploy to dev
-
-- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
-
-The _dev_ environment is the default deploy / Serverless stage environment. 
-
-- Either deploy through gradle task:
-
-```
- $ ./gradlew <moduleName>:deploy -Pstage=dev --stacktrace -Pprofile=oceanpremium-serverless-publisher
-```
-
-  or directly via server-less (which is called by the `deploy` Gradle task):
-
-```
-$ sls deploy --region eu-west-1 --verbose --stage dev
-```
-
-### Deploy to Staging
-
-- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
-
-For the _staging_ environment there has been setup **a separate serverless config file**:
-`serverless-template-staging.yml` in every module. 
-
-- Either deploy through gradle task:
+- Then deploy:
 
 ```
  $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace -Pprofile=oceanpremium-serverless-publisher
 ```
 
-  or directly via server-less (which is called by the `deploy` Gradle task):
+- After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
-```
-$ sls deploy --region eu-west-1 --verbose --stage staging
-```
+##### After deployment
 
-- Make sure to [revert settings and config files](#mark-down-header-after-deployment) back to default state
+*Below instructions are only needed for _staging & production_ environment*
 
-### Deploy to Production
+- Rename the file: `serverless.yml` back to: `serverless-template-<staging/production>.yml` 
 
-- Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
+- Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
 
-For the _production_ environment there has been setup **a separate serverless config file**:
-`serverless-template-production.yml` in every module. 
-
-
-- Either deploy through gradle task:
-
-```
- $ ./gradlew <moduleName>:deploy -Pstage=prod --stacktrace -Pprofile=oceanpremium-serverless-publisher
-```
-
-  or directly via server-less (which is called by the `deploy` Gradle task):
-
-```
-$ sls deploy --region eu-west-1 --verbose --stage prod 
-```
-
-- Make sure to [revert settings and config files](#mark-down-header-after-deployment) back to default state
+- After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
