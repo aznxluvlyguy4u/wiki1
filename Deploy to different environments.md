@@ -1,6 +1,5 @@
 ## Deploy to different environments
 
-
 |                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Default environment](#markdown-header-default-environment)           |
@@ -85,7 +84,7 @@ The _dev_ environment is the default deploy / Serverless stage environment.
 - Either deploy through gradle task:
 
 ```
- $ ./gradlew <moduleName>:deploy -Pstage=dev --stacktrace
+ $ ./gradlew <moduleName>:deploy -Pstage=dev --stacktrace -Pprofile=oceanpremium-serverless-publisher
 ```
 
   or directly via server-less (which is called by the `deploy` Gradle task):
@@ -104,7 +103,7 @@ For the _staging_ environment there has been setup **a separate serverless confi
 - Either deploy through gradle task:
 
 ```
- $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace
+ $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace -Pprofile=oceanpremium-serverless-publisher
 ```
 
   or directly via server-less (which is called by the `deploy` Gradle task):
@@ -126,13 +125,13 @@ For the _production_ environment there has been setup **a separate serverless co
 - Either deploy through gradle task:
 
 ```
- $ ./gradlew <moduleName>:deploy -Pstage=prod --stacktrace
+ $ ./gradlew <moduleName>:deploy -Pstage=prod --stacktrace -Pprofile=oceanpremium-serverless-publisher
 ```
 
   or directly via server-less (which is called by the `deploy` Gradle task):
 
 ```
-$ sls deploy --region eu-west-1 --verbose --stage prod
+$ sls deploy --region eu-west-1 --verbose --stage prod 
 ```
 
 - Make sure to [revert settings and config files](#mark-down-header-after-deployment) back to default state
