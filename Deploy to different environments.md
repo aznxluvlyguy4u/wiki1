@@ -36,9 +36,7 @@ configurations {
 
 ### 2 Set stageToDeployTo variable 
 
-- Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable `stageToDeployTo` to the concerning environment (dev (default) / staging / prod)
-
-The variable is found in the `deploy` task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293)
+- Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable [stageToDeployTo](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293) to the concerning environment (dev (default) / staging / prod)
 
 ### 3 Set the correct Serverless configuration file for the concerning environment
 
