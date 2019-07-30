@@ -194,7 +194,7 @@ therefore added to the _.gitignore_.
       "subdomain": "oceanpremium-staging",
       "api_url": "https://api.current-rms.com/api/v1/"
     },
-    "sentry_dsn": "https://id@sentry.io/id,
+    "sentry_dsn": "https://id@sentry.io/id",
     "env": "prod"
   }
 }
@@ -291,9 +291,6 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 - -Pstage: _to which environment the function needs to be deployed_
 
 - -Pprofile: _which AWS credentials profile needs to be used to deploy, this determines to which AWS account is deployed, if multiple AWS account profiles are registered in the AWS CLI_
-
-
-
 
 
 ## Additional configurations / relevant information
