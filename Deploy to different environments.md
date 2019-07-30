@@ -93,4 +93,4 @@ For the _staging_ environment there has been setup **a separate serverless confi
 
 - Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
 
-- After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
+- Undo the [uncommenting of the configurations](#markdown-header-1-Exclude-local-dependencies-from-deployable-archive) block in the `build.gradle` file.
