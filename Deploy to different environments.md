@@ -22,7 +22,7 @@ We use the [Serverless framework](https://serverless.com) to deploy.
 
 ## Mandatory steps for all environments
 
-### Exclude local dependencies from deployable archive
+### 1 Exclude local dependencies from deployable archive
 
 -  Uncomment the configurations block in the parent build.gradle file in the root of the project, that looks something like this:
 
@@ -35,11 +35,40 @@ configurations {
 }
 ```
 
-### Set stageToDeployTo variable 
+### 2 Set stageToDeployTo variable 
 
 - Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable `stageToDeployTo` to the concerning environment (dev (default) / staging / prod)
 
 The variable is found in the `deploy` task definition, see [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293)
+
+### 3 Set the correct Serverless configuration file for the concerning environment
+
+These instructions only apply to the _staging & prod_ environment.
+
+#### Staging
+
+For the _staging_ environment there has been setup **a separate serverless config file**:
+`serverless-template-staging.yml` in every module. 
+
+- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
+
+- Rename the staging file: `serverless-template-staging.yml` to `serverless.yml`
+
+- Then deploy and see the [after deployment instructions](#markdown-header-after-deployment)
+
+#### Production
+
+- Rename the default `serverless.yml` to `serverless-template-dev.yml` 
+
+- Rename the staging file: `serverless-template-production.yml` to `serverless.yml`
+
+##### After deployment
+
+- Rename the file: `serverless.yml` back to: `serverless-template-<staging/production>.yml` 
+
+- Rename the file: `serverless-template-dev.yml` back to `serverless.yml`
+
+- Set in the build.gradle, variable back to stageToDeployTo = "dev"
 
 ### Deploy to dev
 
