@@ -46,6 +46,12 @@ configurations {
 
 - The _dev_ environment is the _default_ deploy / Serverless stage environment, no additional configs needed
 
+- Deploy:
+
+```
+$ ./gradlew <moduleName>:deploy -Pstage=dev --stacktrace -Pprofile=oceanpremium-serverless-publisher
+```
+
 - After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
 
 #### Deploy to Staging
