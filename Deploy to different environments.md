@@ -23,7 +23,7 @@ We use the [Serverless framework](https://serverless.com) to deploy.
 
 ### 1 Exclude local dependencies from deployable archive
 
--  Uncomment the configurations block in the parent build.gradle file in the root of the project, that looks something like this:
+-  Uncomment the configurations block in the parent `build.gradle` file in the _root_ of the project, that looks something like this:
 
 See the concerning _configuration_ block [here](https://bitbucket.org/oceanpremium/ocean-premium-api/src/0d0267dee6352416585faa3165a12f0fad583fe8/build.gradle#lines-233:241)
 
@@ -36,7 +36,13 @@ configurations {
 
 ### 2 Set stageToDeployTo variable 
 
-- Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable [stageToDeployTo](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293) to the concerning environment (dev (default) / staging / prod)
+- Set in the [build.gradle](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293), the variable [stageToDeployTo](https://bitbucket.org/oceanpremium/ocean-premium-api/src/fbbe4dbaa85d3778586714bd3b734ff93711da05/build.gradle#lines-291:293) to the concerning environment
+
+**Again**: 
+
+- dev is _default_ 
+- staging 
+- prod
 
 ### 3 Set the correct Serverless configuration file for the concerning environment
 
@@ -47,7 +53,7 @@ For the _dev_ environment there has been setup a **default serverless config fil
 
 - Make sure to follow the [mandatory step](#markdown-header-mandatory-steps-for-all-environments) first, then proceed
 
-- The _dev_ environment is the _default_ deploy / Serverless stage environment, no additional configs needed
+- **Again**: the _dev_ environment is the _default_ deploy / Serverless stage environment, no additional configs needed
 
 - Deploy:
 
