@@ -6,6 +6,8 @@ Ocean premium hosts it's own Swagger UI that can be used to see the API document
 
 http://oceanpremium-swagger-ui.s3-website-eu-west-1.amazonaws.com
 
+The Swagger specs _for each endpoint_ can be found on: _https://api-endpoint/api/v1/docs_
+
 ## Postman collection
 
 The following collection contains both request examples to the *Ocean Premium* - REST API and the [CurrentRMS - REST API](https://api.current-rms.com/doc)
