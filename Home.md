@@ -22,7 +22,7 @@
 | 8. [Glossary with definitions](Glossary)                                                            |
 | 9. [Current RMS](CurrentRMS)                                                                        |
 | 10. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
-| 11.[Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
+| 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 
 ## Environments
 
