@@ -252,7 +252,7 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) for the sign up functionality.
 
-**Again**: this current phase does not have this implementations, yet is was developed in Sprint 1, but not used!
+**Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
 
 ## Architecture
 
