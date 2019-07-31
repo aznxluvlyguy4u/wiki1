@@ -248,21 +248,13 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 ## Additional configurations / relevant information
 
-- [Signup payload](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
-
-## Technical details
-
-Like architectural design choices, algorithm explanations, ect
+- [Signup payload - current phase does not have this implementation - see [this](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) branch ](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
 
 ## Architecture
 
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
 [draw.io architecture file](Draw.io%20-%20Architecture%20diagram%20file)
-
-## Dependencies
-
-TO BE DOCUMENTED
 
 ## Resources
 
