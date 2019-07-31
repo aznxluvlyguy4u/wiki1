@@ -8,6 +8,10 @@ http://oceanpremium-swagger-ui.s3-website-eu-west-1.amazonaws.com
 
 The Swagger specs _for each endpoint_ can be found on: _https://api-endpoint/api/v1/docs_
 
+For example: https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/products
+
+Past that URL in the above mentioned Swagger UI to see the endpoint details.
+
 ## Postman collection
 
 The following collection contains both request examples to the *Ocean Premium* - REST API and the [CurrentRMS - REST API](https://api.current-rms.com/doc)
