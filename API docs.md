@@ -29,3 +29,31 @@ The following collection contains both request examples to the *Ocean Premium* -
 Class that builds the response codes:
 
 https://bitbucket.org/oceanpremium/ocean-premium-api/src/development/core/src/main/kotlin/com/oceanpremium/api/core/exception/handler/GlobalExceptionHandler.kt
+
+## Environments
+
+
+## Products endpoint
+
+
+|Env         | Base URL                                                                       |
+|------------|--------------------------------------------------------------------------------|
+|PRODUCTION  | https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/products    |
+|STAGING     | https://zu6wjlgc49.execute-api.eu-west-1.amazonaws.com/staging/api/v1/products |
+|DEVELOPMENT | https://1qie0vagy1.execute-api.eu-west-1.amazonaws.com/dev/api/v1/products     |
+
+## Locations endpoint
+
+|Env         | Base URL                                                                           |
+|------------|------------------------------------------------------------------------------------|
+|PRODUCTION  | https://p4is2qdxnd.execute-api.eu-west-1.amazonaws.com/prod/api/v1/locations       |
+|STAGING     | https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations    |
+|DEVELOPMENT | https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations        |
+
+## Offices endpoint
+
+|Env         | Base URL                                                                           |
+|------------|------------------------------------------------------------------------------------|
+|PRODUCTION  | https://ig0smst338.execute-api.eu-west-1.amazonaws.com/prod/api/v1/offices         |
+|STAGING     | https://856c4yiakc.execute-api.eu-west-1.amazonaws.com/staging/api/v1/offices      |
+|DEVELOPMENT | https://s7cnld7i7c.execute-api.eu-west-1.amazonaws.com/dev/api/v1/offices          |
