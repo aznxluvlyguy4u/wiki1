@@ -110,6 +110,18 @@ $ npm install serverless -g
 
 ## Setup & configurations
 
+First make sure that the prerequisites are met, _then_ clone the repo:
+
+```
+$ git clone git@bitbucket.org:oceanpremium/ocean-premium-api.git
+```
+
+and switch to the development branch:
+
+```
+$ git checkout development
+```
+
 ### Environment variables
 
 #### Locally 
@@ -139,6 +151,8 @@ env=dev
 *NOTE: the SENTRY_DSN needs to be capitalised, in order to be picked up by the Sentry SDK*
 
 See [LastPass](https://lastpass.com) for the values.
+
+After the environment variables are setup, one can run the concerning run configuration to local run the API.
 
 #### Remote
 
