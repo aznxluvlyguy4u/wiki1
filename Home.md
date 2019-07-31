@@ -24,34 +24,6 @@
 | 10. [A to Z guide](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 
-## Environments
-
-
-## Products endpoint
-
-
-|Env         | Base URL                                                                       |
-|------------|--------------------------------------------------------------------------------|
-|PRODUCTION  | https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/products    |
-|STAGING     | https://zu6wjlgc49.execute-api.eu-west-1.amazonaws.com/staging/api/v1/products |
-|DEVELOPMENT | https://1qie0vagy1.execute-api.eu-west-1.amazonaws.com/dev/api/v1/products     |
-
-## Locations endpoint
-
-|Env         | Base URL                                                                           |
-|------------|------------------------------------------------------------------------------------|
-|PRODUCTION  | https://p4is2qdxnd.execute-api.eu-west-1.amazonaws.com/prod/api/v1/locations       |
-|STAGING     | https://7s2c5akwy2.execute-api.eu-west-1.amazonaws.com/staging/api/v1/locations    |
-|DEVELOPMENT | https://3rk3xtficb.execute-api.eu-west-1.amazonaws.com/dev/api/v1/locations        |
-
-## Offices endpoint
-
-|Env         | Base URL                                                                           |
-|------------|------------------------------------------------------------------------------------|
-|PRODUCTION  | https://ig0smst338.execute-api.eu-west-1.amazonaws.com/prod/api/v1/offices         |
-|STAGING     | https://856c4yiakc.execute-api.eu-west-1.amazonaws.com/staging/api/v1/offices      |
-|DEVELOPMENT | https://s7cnld7i7c.execute-api.eu-west-1.amazonaws.com/dev/api/v1/offices          |
-
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
