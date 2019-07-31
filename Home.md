@@ -225,58 +225,6 @@ logging.level.com.oceanpremium.api=INFO
 For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
 
 
-#### Core module
-
-TO BE DOCUMENTED
-
-#### Serverless function modules
-
-TO BE DOCUMENTED
-
-## Build & Run instructions
-
-See [here](Run%20config%20setup) 
-
-TO BE DOCUMENTED
-
-### Task
-
-In the below example, replace `<module-name>` with the actual Gradle module name, for example:
-
-```shell
-$ ./gradlew <module-name>:someTask
-```
-
-if a **module** name is: `auth`, and a **task** is called: `build`, a command becomes:
-
-```shell
-$ ./gradlew auth:build
-```
-
-### Tasks per module
-
-To see all available Gradle tasks, from root of project, run:
-
-```shell
-$ ./gradlew tasks --all
-```
-
-To see per module the available Gradle tasks, from root of project run:
-
-```shell
-$ ./gradlew <module-name> tasks --all
-```
-
-Have a look at the _Ocean Premium_ section to see our custom defined Gradle tasks.
-
-```shell
-$ ./gradlew tasks --all
-```
-
-Currently a Serverless function module has the following Gradle tasks:
-
-- deploy
-
 ### Deploy
 
 The **default** environment is: _dev_
@@ -284,6 +232,11 @@ The **default** environment is: _dev_
 To deploy to _different environments (other then `dev`, i.e.: `staging` or `production`)_, see [these](Deploy%20to%20different%20environments) instructions.
 
 Currently to be able to deploy to _dev_ you have to _manually exclude_ dependencies from the build config. To do so, uncomment [the following lines in the build.gradle file](https://bitbucket.org/oceanpremium/ocean-premium-api/src/f6992542d4beaef9272642e6e525ab64e656f2d3/build.gradle#lines-197:205), **before** running the below deploy command. After you are done deploying, *undo* the uncommenting.
+
+Currently a Serverless function module has the following Gradle tasks:
+
+- deploy
+
 ```shell
 $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-publisher
 ```
