@@ -151,7 +151,35 @@ See [LastPass](https://lastpass.com) for the values.
 
 After the environment variables are setup, one can run the concerning run configuration to local run the API.
 
-#### Remote
+
+See [lastpass](https://lastpass.com) for the credentials to be filled in.
+
+### Logging
+
+In the *<module-name>*_/src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
+
+#### DEV 
+
+```
+logging.level.com.oceanpremium.api=DEBUG
+```
+
+#### PROD
+
+```
+logging.level.com.oceanpremium.api=INFO
+```
+
+For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
+
+
+##### Swagger - API Doc
+
+- [Swagger codegen](Swagger-codegen)
+
+### Deployment
+
+#### Environment variables
 
 In order to pass environment variables to remote on a deploy task we utilise a _properties.json_ file.
 
@@ -211,36 +239,39 @@ therefore added to the _.gitignore_.
 }
 ```
 
+#### Offices module
+
+```json
+{
+  "offices":
+  {
+    "slack": {
+      "webhook_jvt": "https://hooks.slack.com/services/id",
+      "webhook_op": "https://hooks.slack.com/services/id"
+    },
+    "current_rms": {
+      "token": "token value",
+      "subdomain": "oceanpremium-staging",
+      "api_url": "https://api.current-rms.com/api/v1/"
+    },
+    "emailer": {
+      "smtp_host": "email-smtp.eu-west-1.amazonaws.com",
+      "username" : "key",
+      "password": "secret",
+      "sender": "noreply@oceanpremium.com",
+      "back_office": "<your-name>@jongensvantechniek.nl"
+    },
+    "sentry_dsn": "https://id@sentry.io/id",
+    "env": "prod"
+  }
+}
+```
+
 - *NOTE 1:* that the _rootNode_ name is the module name. 
 
 - *NOTE 2: the sentry_dsn does not need to be capitalised in the `properties.json` file, **but** it does when defining it as a system environment variable*
 
-See [lastpass](https://lastpass.com) for the credentials to be filled in.
-
-### Logging
-
-In the *<module-name>*_/src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
-
-#### DEV 
-
-```
-logging.level.com.oceanpremium.api=DEBUG
-```
-
-#### PROD
-
-```
-logging.level.com.oceanpremium.api=INFO
-```
-
-For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
-
-
-##### Swagger - API Doc
-
-- [Swagger codegen](Swagger-codegen)
-
-### Deploy
+### Deploy task
 
 The **default** environment is: _dev_
 
