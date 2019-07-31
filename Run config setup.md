@@ -16,6 +16,8 @@ _auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
 
 - Edit the _run configuration_
 
+Click the environment variables and setup all the needed environment variables as instructed [here](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/edit/Home#markdown-header-environment-variables)
+
 ![Screenshot 2019-04-14 at 14.40.41.png](https://bitbucket.org/repo/qEd965M/images/814402249-Screenshot%202019-04-14%20at%2014.40.41.png)
 
 ## JMX Agent
