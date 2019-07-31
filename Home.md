@@ -248,7 +248,11 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 ## Additional configurations / relevant information
 
-- [Signup payload - current phase does not have this implementation - see [this](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) branch ](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
+- [Signup payload - current phase does not have this implementation](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
+
+See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) for the sign up functionality.
+
+**Again**: this current phase does not have this implementations, yet is was developed in Sprint 1, but not used!
 
 ## Architecture
 
