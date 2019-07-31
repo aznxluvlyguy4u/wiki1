@@ -104,9 +104,6 @@ Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _ocean
 $ npm install serverless -g
 ```
 
-##### Swagger - API Doc
-
-- [Swagger codegen](Swagger-codegen)
 
 ## Setup & configurations
 
@@ -238,6 +235,10 @@ logging.level.com.oceanpremium.api=INFO
 
 For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
 
+
+##### Swagger - API Doc
+
+- [Swagger codegen](Swagger-codegen)
 
 ### Deploy
 
