@@ -168,6 +168,7 @@ therefore added to the _.gitignore_.
 {
   "products": (or offices) <----------- SET THE CORRECT VERSION
   {
+    "timezone": "Europe/Amsterdam",
     "slack": {
       "webhook_jvt": "https://hooks.slack.com/services/id",
       "webhook_op": "https://hooks.slack.com/services/id"
@@ -197,6 +198,7 @@ therefore added to the _.gitignore_.
 {
   "locations":
   {
+    "timezone": "Europe/Amsterdam",
     "slack": {
       "webhook_jvt": "https://hooks.slack.com/services/id"
     },
@@ -217,6 +219,7 @@ therefore added to the _.gitignore_.
 {
   "offices":
   {
+    "timezone": "Europe/Amsterdam",
     "slack": {
       "webhook_jvt": "https://hooks.slack.com/services/id",
       "webhook_op": "https://hooks.slack.com/services/id"
