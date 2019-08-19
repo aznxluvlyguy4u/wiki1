@@ -91,6 +91,8 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 - [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
 
+### Custom Fields
+
 - Add the following Custom Fields Group to `Custom Field groups`
 
  * OPTIONAL `custom_product_config_options`
