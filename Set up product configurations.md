@@ -1,6 +1,6 @@
-# Set up product configurations
+# OPTIONAL - Set up product configurations
 
-
+NOTE: The below described steps are _optional_
 
 ## Product configuration options 
 
