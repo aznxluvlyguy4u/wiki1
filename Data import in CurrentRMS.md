@@ -122,6 +122,8 @@ For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
 Add following stores in system setup -> stores ( Or make sure they exist in currentRMS):
 
+Total stores: 36
+
 ```
 Antibes
 Antigua (AC)
