@@ -89,24 +89,23 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
  * `custom_product_description_head_1`
 
+ * `custom_product_description_dimensions`
+
 Repeat the following for **1 to 9**, by replacing `x`:
 
 For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
-
  * `custom_product_description_paragraph_x`
  * `custom_product_description_head_x`
 
----
-
- * `custom_product_description_dimensions`
-
-Import products export csv
+### Import products export csv
 
 
-11. accessories
+### Import accessories
 
-12. add following stores in system setup -> stores ( Or make sure they exist in currentRMS) :
+### Import Stores
+
+Add following stores in system setup -> stores ( Or make sure they exist in currentRMS):
 
     * Antibes
     * Antigua (AC)
