@@ -10,7 +10,7 @@ _- Mandatory means: It **must have**_
 _- Optional means: It **may have**_
 
 - (Mandatory) A product name
-- (Mandatory )A SEO friendly product name
+- (Mandatory) A SEO friendly product name
 - (Mandatory) A full product description
 - (Mandatory) A pulic friendly image
 - (Mandatory) A rate to show in the rental frontend
