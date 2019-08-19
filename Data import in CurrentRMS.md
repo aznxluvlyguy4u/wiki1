@@ -208,9 +208,9 @@ A rate for this product, store and transaction type already exists with a blank 
 
 ### Service types
 
--  `System System Setup > List of Values: 'Handling', 'Shipping'
+-  `System System Setup > List of Values: 'Handling', 'Shipping'`
 
-#### Revenue Group
+### Revenue Group
 
 -  `System Setup -> Revenue Group: Logistics - Rental`
 
