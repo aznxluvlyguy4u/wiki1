@@ -3,14 +3,13 @@
 
 # End result after following this guide:
 
-**Every** product in Current RMS **must have** the following **minimum** properties set:
+**Every product**  in Current RMS **must have** the following **minimum** properties set:
 
-- A product name
-- A SEO friendly product name
-- A full product description
-- A pulic friendly image
-- A rate to show in the rental frontend
-
+- (Mandatory) A product name
+- (Mandatory )A SEO friendly product name
+- (Mandatory) A full product description
+- (Mandatory) A pulic friendly image
+- (Mandatory) A rate to show in the rental frontend
 
 
 ## Table of Content
@@ -18,12 +17,12 @@
 |                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [A word on Custom fields format](#markdown-header-a-word-on-custom-fields-format)|
-| 1. [Set up product configurations](Set%20up%20product%20configurations)|
-| 2. [Set up product descriptions](Product%20descriptions)|
-| 3. [Set up product rates](Product%20rates)|
-| 4. [Set up product images](Product%20images)|
-| 5. [Upload product images](Product%20images#markdown-header-upload-product-images)|
-| 6. [Configuring Accessories](Configuring%20accessories)|
+| 1. [(Optional) Set up product configurations](Set%20up%20product%20configurations)|
+| 2. [(Mandatory) Set up product descriptions](Product%20descriptions)|
+| 3. [(Mandatory) Set up product rates](Product%20rates)|
+| 4. [(Mandatory) Set up product images](Product%20images)|
+| 5. [(Mandatory) Upload product images](Product%20images#markdown-header-upload-product-images)|
+| 6. [(Mandatory) Configuring Accessories](Configuring%20accessories)|
 
 ## A word on Custom fields format
 
