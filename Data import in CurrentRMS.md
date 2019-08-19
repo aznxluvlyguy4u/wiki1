@@ -52,7 +52,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 `System Setup -> Custom Fields`
 
-* ![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
+![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
 
 - Create user account with the name `Barbara Jezersek (barbara@oceanpremium.com)` exists: 
 `System Setup -> Users`
