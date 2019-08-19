@@ -1,6 +1,6 @@
 | Table of Contents                                                                   |
 |-------------------------------------------------------------------------------------|
-| 0. [Importing csv's](#markdown-header-importing-csv's)                              |
+| 0. [Importing files](#markdown-header-importing-files)                              |
 | 1. [Import contacts](#markdown-header-import-contacts)                              |
 | 2. [Import venues](#markdown-header-import-venues)                                  |
 | 3. [Import Organisations](#markdown-header-import-organisations)                    |
@@ -23,7 +23,7 @@
 
 - [Staging environment](https://oceanpremium-staging.current-rms.com/)
 
-## Importing csv's
+## Importing files
 
 - Login to Current RMS
 
