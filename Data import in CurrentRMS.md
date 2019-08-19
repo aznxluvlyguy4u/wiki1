@@ -107,42 +107,44 @@ For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
 Add following stores in system setup -> stores ( Or make sure they exist in currentRMS):
 
-    * Antibes
-    * Antigua (AC)
-    * Athens (360)
-    * Athens (Sotiris)
-    * BCM (Kotor)
-    * Corfu
-    * Default
-    * Dubrovnik (BWA)
-    * Dubrovnik (Kristijan)
-    * Fort Lauderdale (YC)
-    * Genova (Maremoto)
-    * Ibiza (Rodriquez)
-    * Inchcape Shipping Services *?*
-    * JVT
-    * Kos (A1)
-    * M55
-    * Male
-    * Maldives
-    * Malta
-    * M/Y GLADIATOR
-    * M/Y OCEAN PARADISE
-    * Napoli (MLF)
-    * New Items Store
-    * Olbia (NA)
-    * Olbia (SYS)
-    * Palermo (Artemis)
-    * Palma de Mallorca (ED)
-    * Palma de Mallorca (NG)
-    * Rhodes (Roditis)
-    * Riposto (Artemis)
-    * Split (Luka)
-    * St. Maarten (DSM)
-    * S/Y ECHELON *?*
-    * Tivat (BWA)
-    * Venice (Katarina)
-    * Zadar (Alessia)
+```
+Antibes
+Antigua (AC)
+Athens (360)
+Athens (Sotiris)
+BCM (Kotor)
+Corfu
+Default
+Dubrovnik (BWA)
+Dubrovnik (Kristijan)
+Fort Lauderdale (YC)
+Genova (Maremoto)
+Ibiza (Rodriquez)
+Inchcape Shipping Services *?*
+JVT
+Kos (A1)
+M55
+Male
+Maldives
+Malta
+M/Y GLADIATOR
+M/Y OCEAN PARADISE
+Napoli (MLF)
+New Items Store
+Olbia (NA)
+Olbia (SYS)
+Palermo (Artemis)
+Palma de Mallorca (ED)
+Palma de Mallorca (NG)
+Rhodes (Roditis)
+Riposto (Artemis)
+Split (Luka)
+St. Maarten (DSM)
+S/Y ECHELON *?*
+Tivat (BWA)
+Venice (Katarina)
+Zadar (Alessia)
+```
 
 13. stock level
 14. rate (already exists)
