@@ -29,6 +29,10 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 2. venues
 
+   * Set _locality_ and _postalcode_
+
+![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
+
 3. organizations? (
     * first add Oraganisation Tax Class `0% IBEU` in System Setup -> Organisation Tax Classes,
     * add Organisation Tax Class `0% ICP`,
