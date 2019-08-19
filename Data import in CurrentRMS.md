@@ -189,11 +189,15 @@ If an error occurs like below, one can ignore the error:
 A rate for this product, store and transaction type already exists with a blank from/to period.
 ```
 
-### Serialized components
+### Serialized components (OBSOLETE)
 
 - Empty
 
-`System setup -> Import Data -> Current-SerializedComponent.csv`
+- Note that due breaking in Current RMS - introduced around first week of August, this component is either changed by name or removed
+
+- This exported file can be ignored
+
+- OBSOLETE - `System setup -> Import Data -> Current-SerializedComponent.csv`
 
 
 ### Import Product supplier cost
