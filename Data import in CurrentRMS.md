@@ -33,16 +33,20 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
 
-3. organizations? (
+3. Organizations
     * first add Oraganisation Tax Class `0% IBEU` in System Setup -> Organisation Tax Classes,
     * add Organisation Tax Class `0% ICP`,
     * add custom field group `yacht` in System Setup -> Custom Field Groups, (STILL NEEDED?)
     * add custom field `yacht` to organizations in System Setup -> Custom Fields
     * ![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
-    * make sure a user account with the name `Barbara Jezersek` exists in System Setup -> Users
-    * make sure a user account with the name `Blaz Oblak` exists in System Setup -> Users
+    * make sure a user account with the name `Barbara Jezersek (barbara@oceanpremium.com)` exists in System Setup -> Users
+    * make sure a user account with the name `Blaz Oblak (blaz@oceanpremium.com)` exists in System Setup -> Users
     * then import organisation export file
-)
+
+   * Set _locality_ and _postalcode_
+
+![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
+
 
 4. vehicles
 
