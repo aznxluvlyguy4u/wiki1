@@ -1,4 +1,6 @@
-# Table of contents
+# Data import procedure
+
+## Table of contents
 
 |                                                                                     |
 |-------------------------------------------------------------------------------------|
@@ -21,11 +23,9 @@
 | 16. [Import Service supplier cost (SKIP)](#markdown-header-import-service-supplier-cost-(skip))           |
 | 17. [Import Service resource](#markdown-header-import-service-resource))            |
 
-# Data import procedure
+## Importing files
 
 - [Staging environment](https://oceanpremium-staging.current-rms.com/)
-
-## Importing files
 
 - Login to Current RMS
 
