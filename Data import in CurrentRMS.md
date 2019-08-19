@@ -1,4 +1,6 @@
-| Table of Contents                                                                   |
+# Table of contents
+
+|                                                                                     |
 |-------------------------------------------------------------------------------------|
 | 0. [Importing files](#markdown-header-importing-files)                              |
 | 1. [Import contacts](#markdown-header-import-contacts)                              |
@@ -39,7 +41,7 @@ _Note: that you also make sure that to set the `Rate definition` to: `Daily Rate
 
 https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 
-- IMPORTANT - Import csv's **in the order documented on this page**
+- IMPORTANT - Import csv's **in the order documented on this page**, see [Table of Contents](#markdown-header-table-of-contents) for a structured overview
 
 **Notes:**
 For all following imports, make sure you unselect the ID column, because the ID fields will be regenerated every time
