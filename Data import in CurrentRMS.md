@@ -25,64 +25,80 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ![Screenshot from 2019-07-29 12-22-09.png](https://bitbucket.org/repo/qEd965M/images/2126575434-Screenshot%20from%202019-07-29%2012-22-09.png)
 
-1. contacts
+### Import contacts
 
-2. venues
+### Import venues
 
-   * Set _locality_ and _postalcode_
-
-![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
-
-3. Organizations
-    * first add Oraganisation Tax Class `0% IBEU` in System Setup -> Organisation Tax Classes,
-    * add Organisation Tax Class `0% ICP`,
-    * add custom field group `yacht` in System Setup -> Custom Field Groups, (STILL NEEDED?)
-    * add custom field `yacht` to organizations in System Setup -> Custom Fields
-    * ![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
-    * make sure a user account with the name `Barbara Jezersek (barbara@oceanpremium.com)` exists in System Setup -> Users
-    * make sure a user account with the name `Blaz Oblak (blaz@oceanpremium.com)` exists in System Setup -> Users
-    * then import organisation export file
-
-   * Set _locality_ and _postalcode_
+- Set _locality_ and _postalcode_
 
 ![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
 
+### Import Organizations
 
-4. vehicles
+- first add Organisation Tax Class `0% IBEU`:
+  `System Setup -> Organisation Tax Classes`
 
-5. product groups
+- Add Organisation Tax Class `0% ICP`
 
-6. products (
-    * system setup -> revenue groups -> add `Sale of goods`
-    * system setup -> cost groups -> add `Logistics - Rental`
-    * make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
-    * make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
-    * [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
-    * Add a Custom Field Group, named `custom_product_config_options`:
-    * Add `custom_product_config_option_color` in System Setup -> List of Values -> Add List of Values
-    * Add `custom_product_config_option_color` in System Setup -> Custom Field -> Add Custom Field
-    * Add custom_product_description_seo_title
-    * Add custom_product_description_head_1
-    * Add custom_product_description_paragraph_1
-    * Add custom_product_description_head_2
-    * Add custom_product_description_paragraph_2
-    * Add custom_product_description_head_3
-    * Add custom_product_description_paragraph_3
-    * Add custom_product_description_head_4
-    * Add custom_product_description_paragraph_4
-    * Add custom_product_description_head_5
-    * Add custom_product_description_paragraph_5
-    * Add custom_product_description_head_6
-    * Add custom_product_description_paragraph_6
-    * Add custom_product_description_head_7
-    * Add custom_product_description_paragraph_7
-    * Add custom_product_description_head_8
-    * Add custom_product_description_paragraph_8
-    * Add custom_product_description_head_9
-    * Add custom_product_description_paragraph_9
-    * Add custom_product_description_dimensions
-    * import products export csv
-)
+- Add custom field group `yacht`
+
+`System Setup -> Custom Field Groups, (STILL NEEDED?)`
+
+- Add custom field `yacht` to organisations
+
+`System Setup -> Custom Fields`
+
+* ![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
+
+- Create user account with the name `Barbara Jezersek (barbara@oceanpremium.com)` exists: 
+`System Setup -> Users`
+
+- Create user account with the name `Blaz Oblak (blaz@oceanpremium.com)` exists: `System Setup -> Users`
+
+### Import organisation 
+
+- Set _locality_ and _postalcode_
+
+![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
+
+### Import Vehicles
+
+### Import Product groups
+
+### Import Product 
+
+### System setup -> revenue groups -> add `Sale of goods`
+
+### System setup -> cost groups -> add `Logistics - Rental`
+
+- Make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
+
+- Make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
+
+- [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
+
+- Add the following Custom Fields Group to `Custom Field groups`
+
+ * OPTIONAL `custom_product_config_options`
+
+ * OPTIONAL `custom_product_config_option_color` in: `System Setup -> List of Values -> Add List of Values`
+
+ * OPTIONAL `custom_product_config_option_color` in: `System Setup -> Custom Field -> Add Custom Field`
+
+ * `custom_product_description_seo_title`
+
+ * `custom_product_description_head_1`
+
+ Repeat the following for **1 to 9**, by replacing `x`:
+
+ * `custom_product_description_paragraph_x`
+ * `custom_product_description_head_x`
+
+
+ * `custom_product_description_dimensions`
+
+Import products export csv
+
 
 11. accessories
 
