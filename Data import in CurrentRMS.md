@@ -89,9 +89,10 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 - Make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
 
-- [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
 
 ### Custom Fields
+
+- [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
 
 - Add the following Custom Fields Group to `Custom Field groups`
 
