@@ -39,7 +39,7 @@ _Note: that you also make sure that to set the `Rate definition` to: `Daily Rate
 
 https://oceanpremium-staging.current-rms.com/imports/new?rp=/admin
 
-- Import csv's in the following order:
+- IMPORTANT - Import csv's **in the order documented on this page**
 
 **Notes:**
 For all following imports, make sure you unselect the ID column, because the ID fields will be regenerated every time
