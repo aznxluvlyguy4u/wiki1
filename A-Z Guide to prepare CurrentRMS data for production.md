@@ -5,6 +5,8 @@
 
 **Every product**  in Current RMS **must have** the following **minimum** properties set:
 
+_Mandatory means: It **must have**_
+
 - (Mandatory) A product name
 - (Mandatory )A SEO friendly product name
 - (Mandatory) A full product description
