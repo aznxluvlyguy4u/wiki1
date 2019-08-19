@@ -27,7 +27,11 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ### Import contacts
 
+`System setup -> Import Data -> Current-Contact.csv`
+
 ### Import venues
+
+`System setup -> Import Data -> Current-Venues.csv`
 
 - Set _locality_ and _postalcode_
 
@@ -35,7 +39,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ### Import Organizations
 
-- first add Organisation Tax Class `0% IBEU`:
+- First add Organisation Tax Class `0% IBEU`:
   `System Setup -> Organisation Tax Classes`
 
 - Add Organisation Tax Class `0% ICP`
@@ -55,7 +59,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 - Create user account with the name `Blaz Oblak (blaz@oceanpremium.com)` exists: `System Setup -> Users`
 
-### Import organisation 
+- `System setup -> Import Data -> Current-Organisation.csv`
 
 - Set _locality_ and _postalcode_
 
@@ -63,13 +67,23 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ### Import Vehicles
 
+`System setup -> Import Data -> Current-Vehicles.csv`
+
 ### Import Product groups
+
+`System setup -> Import Data -> Current-Product-Groups.csv`
 
 ### Import Product 
 
-### System setup -> revenue groups -> add `Sale of goods`
+`System setup -> Import Data -> Current-Product.csv`
 
-### System setup -> cost groups -> add `Logistics - Rental`
+### Revenue groups 
+
+`System setup -> revenue groups -> add Sale of goods` 
+
+### Cost groups
+
+`System setup -> cost groups -> add Logistics - Rental`
 
 - Make sure a Product Tax Class exists with the name `Default` in System Setup -> Product Tax Classes
 
@@ -87,8 +101,6 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
  * `custom_product_description_seo_title`
 
- * `custom_product_description_head_1`
-
  * `custom_product_description_dimensions`
 
 Repeat the following for **1 to 9 (including) **, by replacing `x`:
@@ -98,10 +110,10 @@ For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
  * `custom_product_description_paragraph_x`
  * `custom_product_description_head_x`
 
-### Import products export csv
-
 
 ### Import accessories
+
+`System setup -> Import Data -> Current-Accessory.csv`
 
 ### Import Stores
 
@@ -146,17 +158,49 @@ Venice (Katarina)
 Zadar (Alessia)
 ```
 
-13. stock level
-14. rate (already exists)
-15. serialized components (empty)
-16. product supplier cost
+### Import Stock level
 
-17. services (
-    * add following values to `service type` in system System Setup > List of Values (
-        * Handling
-        * Shipping
-    * add following values to `revenue group` in System Setup -> Revenue Group (
-        * Logistics - Rental
-)
-18. service supplier cost (empty)
-19. service resource
+`System setup -> Import Data -> Current-StockLevel.csv`
+
+
+### Import Rate
+
+- Already exists
+
+`System setup -> Import Data -> Current-Rate.csv`
+
+
+### Serialized components
+
+- Empty
+
+`System setup -> Import Data -> Current-SerializedComponent.csv`
+
+
+### Import Product supplier cost
+
+
+- Empty
+
+`System setup -> Import Data -> Current-ProductSupplierCost.csv`
+
+
+### Import Services 
+
+#### Service types
+
+-  `System System Setup > List of Values: 'Handling', 'Shipping'
+
+#### Revenue Group
+
+-  `System Setup -> Revenue Group: Logistics - Rental`
+
+### Import Service supplier cost
+
+- Empty
+
+`System setup -> Import Data -> Current-ServiceSupplierCost.csv`
+
+### Service resource
+
+`System setup -> Import Data -> Current-ServiceResource.csv`
