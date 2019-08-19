@@ -208,7 +208,7 @@ A rate for this product, store and transaction type already exists with a blank 
 
 ### Service types
 
-Add the following to `System System Setup > List of Values:
+Add the following to `System System Setup > List of Values`:
 
 - Handling
 
