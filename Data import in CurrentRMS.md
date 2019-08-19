@@ -120,7 +120,7 @@ Dubrovnik (Kristijan)
 Fort Lauderdale (YC)
 Genova (Maremoto)
 Ibiza (Rodriquez)
-Inchcape Shipping Services *?*
+Inchcape Shipping Services
 JVT
 Kos (A1)
 M55
@@ -140,7 +140,7 @@ Rhodes (Roditis)
 Riposto (Artemis)
 Split (Luka)
 St. Maarten (DSM)
-S/Y ECHELON *?*
+S/Y ECHELON
 Tivat (BWA)
 Venice (Katarina)
 Zadar (Alessia)
