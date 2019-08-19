@@ -91,7 +91,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
  * `custom_product_description_dimensions`
 
-Repeat the following for **1 to 9**, by replacing `x`:
+Repeat the following for **1 to 9 (including) **, by replacing `x`:
 
 For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
