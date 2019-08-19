@@ -167,13 +167,13 @@ Zadar (Alessia)
 
 `System setup -> Import Data -> Current-StockLevel.csv`
 
-If an error occurs like for example: 
+If an error occurs like below, one can ignore the error:
 
 ```
 A 'Bulk Stock' stock level already exists for the product, store and stock type.
 ```
 
-One can ignore the error
+
 
 
 ### Import Rate
@@ -182,6 +182,12 @@ One can ignore the error
 
 `System setup -> Import Data -> Current-Rate.csv`
 
+
+If an error occurs like below, one can ignore the error:
+
+```
+A rate for this product, store and transaction type already exists with a blank from/to period.
+```
 
 ### Serialized components
 
