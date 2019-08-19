@@ -218,7 +218,7 @@ Add the following to `System System Setup > List of Values`:
 
 -  `System Setup -> Revenue Group: Logistics - Rental`
 
-### Import Service supplier cost
+### Import Service supplier cost (SKIP)
 
 - Empty
 
