@@ -6,6 +6,7 @@
 **Every product**  in Current RMS **must have** the following **minimum** properties set:
 
 _- Mandatory means: It **must have**_
+
 _- Optional means: It **may have**_
 
 - (Mandatory) A product name
