@@ -208,7 +208,11 @@ A rate for this product, store and transaction type already exists with a blank 
 
 ### Service types
 
--  `System System Setup > List of Values: 'Handling', 'Shipping'`
+Add the following to `System System Setup > List of Values:
+
+- Handling
+
+- Shipping
 
 ### Revenue Group
 
