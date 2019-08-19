@@ -189,11 +189,11 @@ If an error occurs like below, one can ignore the error:
 A rate for this product, store and transaction type already exists with a blank from/to period.
 ```
 
-### Serialized components (OBSOLETE)
+### Serialized components (OBSOLETE / SKIP)
 
 - Empty
 
-- Note that due breaking in Current RMS - introduced around first week of August, this component is either changed by name or removed
+- Note that due to breaking in Current RMS - introduced around first week of August 2019, this component is either changed by name or removed by Current RMS
 
 - This exported file can be ignored
 
