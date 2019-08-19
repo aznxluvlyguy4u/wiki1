@@ -173,10 +173,7 @@ If an error occurs like below, one can ignore the error:
 A 'Bulk Stock' stock level already exists for the product, store and stock type.
 ```
 
-
-
-
-### Import Rate
+### Import Rate (SKIP)
 
 - Already exists
 
@@ -200,7 +197,7 @@ A rate for this product, store and transaction type already exists with a blank 
 - OBSOLETE - `System setup -> Import Data -> Current-SerializedComponent.csv`
 
 
-### Import Product supplier cost
+### Import Product supplier cost (SKIP)
 
 - Empty
 
