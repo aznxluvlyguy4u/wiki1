@@ -167,6 +167,14 @@ Zadar (Alessia)
 
 `System setup -> Import Data -> Current-StockLevel.csv`
 
+If an error occurs like for example: 
+
+```
+A 'Bulk Stock' stock level already exists for the product, store and stock type.
+```
+
+One can ignore the error
+
 
 ### Import Rate
 
