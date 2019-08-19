@@ -1,3 +1,24 @@
+| Table of Contents                                                                   |
+|-------------------------------------------------------------------------------------|
+| 0. [Importing csv's](#markdown-header-importing-csv's)                              |
+| 1. [Import contacts](#markdown-header-import-contacts)                              |
+| 2. [Import venues](#markdown-header-import-venues)                                  |
+| 3. [Import Organisations](#markdown-header-import-organisations)                    |
+| 4. [Import Vehicles](#markdown-header-import-vehicles)                              |
+| 5. [Import Product groups](#markdown-header-import-product-groups)                  |
+| 6. [Create Revenue groups](#markdown-header-revenue-groups)                         |
+| 7. [Create Cost groups](#markdown-header-cost-groups)                               |
+| 8. [Custom Fields](#markdown-header-custom-fields)                                  |
+| 9. [Import accessories](#markdown-header-import-accesories)                         |
+| 10. [Create Stores](#markdown-header-create-stores)                                 |
+| 11. [Import Rate (SKIP)](#markdown-header-import-rate-(skip))                       |
+| 12. [Import Serialized components (OBSOLETE/SKIP)](#markdown-header-import-serialized-components-(obsolete-/-skip))                                                                    |
+| 13. [Import Product supplier cost (SKIP)](#markdown-header-import-product-supplier-cost-(skip))          |
+| 14. [Service types](#markdown-header-service-types))                                |
+| 15. [Revenue Group](#markdown-header-environments-revenue-group)                    |
+| 16. [Import Service supplier cost (SKIP)](#markdown-header-import-service-supplier-cost-(skip))           |
+| 17. [Import Service resource](#markdown-header-import-service-resource))            |
+
 # Data import procedure
 
 - [Staging environment](https://oceanpremium-staging.current-rms.com/)
@@ -37,7 +58,7 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 ![Screenshot 2019-08-19 at 12.50.23.png](https://bitbucket.org/repo/qEd965M/images/2414019052-Screenshot%202019-08-19%20at%2012.50.23.png)
 
-### Import Organizations
+### Import Organisations
 
 - First add Organisation Tax Class `0% IBEU`:
   `System Setup -> Organisation Tax Classes`
@@ -53,6 +74,8 @@ For all following imports, make sure you unselect the ID column, because the ID 
 `System Setup -> Custom Fields`
 
 ![Screenshot from 2019-07-29 13-18-47.png](https://bitbucket.org/repo/qEd965M/images/35234584-Screenshot%20from%202019-07-29%2013-18-47.png)
+
+#### Creating Users
 
 - Create user account with the name `Barbara Jezersek (barbara@oceanpremium.com)` exists: 
 `System Setup -> Users`
@@ -89,7 +112,6 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
 - Make sure a Product Tax Class exists with the name `VAT 22%` in System Setup -> Product Tax Classes
 
-
 ### Custom Fields
 
 - [See here for tutorial for adding custom fields to product module](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Product%20descriptions)
@@ -112,7 +134,6 @@ For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
  * `custom_product_description_paragraph_x`
  * `custom_product_description_head_x`
-
 
 ### Import accessories
 
@@ -186,7 +207,7 @@ If an error occurs like below, one can ignore the error:
 A rate for this product, store and transaction type already exists with a blank from/to period.
 ```
 
-### Serialized components (OBSOLETE / SKIP)
+### Import Serialized components (OBSOLETE / SKIP)
 
 - Empty
 
@@ -221,6 +242,6 @@ Add the following to `System System Setup > List of Values`:
 
 `System setup -> Import Data -> Current-ServiceSupplierCost.csv`
 
-### Service resource
+### Import Service resource
 
 `System setup -> Import Data -> Current-ServiceResource.csv`
