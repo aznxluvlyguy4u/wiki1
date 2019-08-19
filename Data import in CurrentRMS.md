@@ -202,15 +202,11 @@ A rate for this product, store and transaction type already exists with a blank 
 
 ### Import Product supplier cost
 
-
 - Empty
 
 `System setup -> Import Data -> Current-ProductSupplierCost.csv`
 
-
-### Import Services 
-
-#### Service types
+### Service types
 
 -  `System System Setup > List of Values: 'Handling', 'Shipping'
 
