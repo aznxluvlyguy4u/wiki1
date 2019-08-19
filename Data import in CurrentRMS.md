@@ -102,16 +102,16 @@ For all following imports, make sure you unselect the ID column, because the ID 
 
  * OPTIONAL `custom_product_config_option_color` in: `System Setup -> Custom Field -> Add Custom Field`
 
- * `custom_product_description_seo_title`
+ * _MANDATORY_ `custom_product_description_seo_title`
 
- * `custom_product_description_dimensions`
+ * _MANDATORY_ `custom_product_description_dimensions`
 
 Repeat the following for **1 to 9 (including) **, by replacing `x`:
 
 For example: `custom_product_paragraph_9` / `custom_product_description_head_9`
 
- * `custom_product_description_paragraph_x`
- * `custom_product_description_head_x`
+ * _MANDATORY_ `custom_product_description_paragraph_x`
+ * _MANDATORY_ `custom_product_description_head_x`
 
 
 ### Import accessories
