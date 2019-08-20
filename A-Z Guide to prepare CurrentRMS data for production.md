@@ -44,4 +44,4 @@ We have setup custom fields that need to be of the following format, below some 
 
 - `custom_product_descriptions_<specific_option>`
 
-***Note***: _if you deviate from it, the setup of the custom fields and the frontend will ***not*** work!_
+***Note***: _if you deviate from any of the instructions, the setup of the custom fields and the frontend will ***not*** work!_
