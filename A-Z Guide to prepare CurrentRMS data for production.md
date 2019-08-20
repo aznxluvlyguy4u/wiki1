@@ -1,4 +1,7 @@
-# A to Z guide on Setting up custom fields needed for the Ocean Premium platform in Current RMS
+# A to Z guide 
+
+This section describes on setting up custom fields needed for the Ocean Premium platform in Current RMS
+and how to import data export files.
 
 
 # End result after following this guide:
@@ -27,6 +30,7 @@ _- Optional means: It **may have**_
 | 4. [(Mandatory) Set up product images](Product%20images)|
 | 5. [(Mandatory) Upload product images](Product%20images#markdown-header-upload-product-images)|
 | 6. [(Mandatory) Configuring Accessories](Configuring%20accessories)|
+| 7. [Procedure of importing exported data files](Data%20import%20in%20CurrentRMS) |
 
 ## A word on Custom fields format
 
