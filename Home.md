@@ -55,7 +55,7 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 ##### Credentials
 
-- Ask Steve / Yubin to share via Lastpass
+- Ask Steve / Yubin / Steven Gosseling to share via Lastpass
 
 ##### CI
 - [JVT CircleCI - Ocean Premium team access](https://circleci.com/bb/jvt/oceanpremium)
