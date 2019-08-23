@@ -17,6 +17,7 @@ _- Optional means: It **may have**_
 - (Mandatory) A full product description
 - (Mandatory) A pulic friendly image
 - (Mandatory) A rate to show in the rental frontend
+- (Mandatory) Set as `accessory only` either to `true` or `false`
 
 
 ## Table of Content
