@@ -37,14 +37,9 @@ This section describes adding **public icon custom fields** to the "Product" and
 
 To be able to display custom images for each _product_ and for each _product group_, other than the one used inside CurrentRMS, 2 custom fields for public icon url need to be made:
 
-* 3.1 Add a `Custom Field Group` named `custom_product_public_icon`
-
-- System Setup -> Custom Field Groups -> Add Custom Field Group
-- Name it `custom_product_public_icon`
 
 ![12.png](https://bitbucket.org/repo/qEd965M/images/1480953562-12.png)
 
-* 3.2 Add ```custom_product_public_icon_url``` **custom fields** to the **Product** module
 
 #### Product images
 
