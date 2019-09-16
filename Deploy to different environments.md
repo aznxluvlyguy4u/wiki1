@@ -88,7 +88,7 @@ For the _production_ environment there has been setup **a separate serverless co
 - Then deploy:
 
 ```
- $ ./gradlew <moduleName>:deploy -Pstage=staging --stacktrace -Pprofile=oceanpremium-serverless-publisher
+ $ ./gradlew <moduleName>:deploy -Pstage=prod --stacktrace -Pprofile=oceanpremium-serverless-publisher
 ```
 
 - After succeeded deployment, see [after deployment instructions](#markdown-header-after-deployment)
