@@ -88,7 +88,7 @@ To be able to display custom images for each _product_ and for each _product gro
 * 3.3 Add `public_icon_thumb_url` **custom fields** to the **Product** module
 
 - System Setup -> Custom Field -> Add Custom Field
-- set name to `custom_product_public_icon_thumb_url`
+- set name to `public_icon_thumb_url`
 - choose module `Product`
 - choose the custom field group `custom_product_public_icon`
 - set the **order** to `1`
@@ -101,7 +101,7 @@ To be able to display custom images for each _product_ and for each _product gro
 
 This section describes uploading **public icon and icon thumb** to AWS S3 bucket for each product. 
 
-Now that the `custom_product_public_icon_url` and `custom_product_public_icon_thumb_url` fields are created, they can be populated with **image url from AWS S3 bucket**. S3 is the file storage service of AWS, where you can upload and download uploaded files, in this case we upload product images to AWS S3, these images will then be accessible by a **url string**.
+Now that the `public_icon_url` and `public_icon_thumb_url` fields are created, they can be populated with **image url from AWS S3 bucket**. S3 is the file storage service of AWS, where you can upload and download uploaded files, in this case we upload product images to AWS S3, these images will then be accessible by a **url string**.
 
 * 4.1 Upload product image
 
@@ -116,7 +116,13 @@ Now that the `custom_product_public_icon_url` and `custom_product_public_icon_th
 
 - Inside the **S3 buckets** view, you see a list of all buckets created by us, unless instructed by us, **DO NOT CHANGE ANY SETTINGS**
 
+#### Product images
+
 - Click on the bucket `ocean-premium-public`, then `currentrms` -> `product-images` -> `public`
+
+#### Product Group images
+
+- Click on the bucket `ocean-premium-public`, then `currentrms` -> `product-group-images` -> `public`
 
 - Inside this folder you see a couple of images uploaded by us for testing purpose
 
