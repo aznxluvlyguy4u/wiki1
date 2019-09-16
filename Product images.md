@@ -31,11 +31,11 @@ Thus, there will ALWAYS be:
 This means ***any*** Product X image is of type `PNG`
 
 
-## Product images
+## Product & Product group images
 
-This section describes adding **public icon custom fields** to the "Product" module.
+This section describes adding **public icon custom fields** to the "Product" and "Product Groups" modules.
 
-To be able to display custom images for each product other than the one used inside CurrentRMS, 2 custom fields for public icon url need to be made:
+To be able to display custom images for each _product_ and for each _product group_, other than the one used inside CurrentRMS, 2 custom fields for public icon url need to be made:
 
 * 3.1 Add a `Custom Field Group` named `custom_product_public_icon`
 
@@ -46,16 +46,51 @@ To be able to display custom images for each product other than the one used ins
 
 * 3.2 Add ```custom_product_public_icon_url``` **custom fields** to the **Product** module
 
+#### Product images
+
+##### public_icon_url
+
 - System Setup -> Custom Field -> Add Custom Field
-- set name to ```custom_product_public_icon_url```
+- set name to ```public_icon_url```
 - choose module ```Product```
 - choose the custom field group ```custom_product_public_icon```
 - set the **order** to 0
 - choose field type ```String```
 
+##### public_icon_thumb_url
+
+- System Setup -> Custom Field -> Add Custom Field
+- set name to ```public_icon_thumb_url```
+- choose module ```Product```
+- choose the custom field group ```custom_product_public_icon```
+- set the **order** to 0
+- choose field type ```String```
+
+
+#### Product groups images
+
+##### public_icon_url
+
+- System Setup -> Custom Field -> Add Custom Field
+- set name to ```public_icon_url```
+- choose module ```Product Groups```
+- choose the custom field group ```custom_product_public_icon```
+- set the **order** to 0
+- choose field type ```String```
+
+##### public_icon_thumb_url
+
+- System Setup -> Custom Field -> Add Custom Field
+- set name to ```public_icon_thumb_url```
+- choose module ```Product Groups```
+- choose the custom field group ```custom_product_public_icon```
+- set the **order** to 0
+- choose field type ```String```
+
+
 ![13.png](https://bitbucket.org/repo/qEd965M/images/2482269974-13.png)
 
-* 3.3 Add `custom_product_public_icon_thumb_url` **custom fields** to the **Product** module
+* 3.3 Add `public_icon_thumb_url` **custom fields** to the **Product** module
 
 - System Setup -> Custom Field -> Add Custom Field
 - set name to `custom_product_public_icon_thumb_url`
