@@ -29,7 +29,7 @@ _- Optional means: It **may have**_
 | 1. [(Optional) Set up product configurations](Set%20up%20product%20configurations)|
 | 2. [(Mandatory) Set up product descriptions](Product%20descriptions)|
 | 3. [(Mandatory) Set up product rates](Product%20rates)|
-| 4. [(Mandatory) Set up product images](Product%20images)|
+| 4. [(Mandatory) Set up product & product group images](Product%20images)|
 | 5. [(Mandatory) Upload product images](Product%20images#markdown-header-upload-product-images)|
 | 6. [(Mandatory) Configuring Accessories](Configuring%20accessories)|
 | 7. [Procedure of importing exported data files](Data%20import%20in%20CurrentRMS) |
