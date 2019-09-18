@@ -152,6 +152,17 @@ Make sure that the FULL AND THUMBNAIL image are prepared and ready for upload
 
 ![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
 
+
+TEST AND VERIFY THAT THE IMAGE IS PUBLICLY READABLE, BY COPY PASTING THE LINK IN THE BROWSER TO SEE IF IT IS ACTUALLY PUBLICLY READABLE (DO NOT SKIP THIS STEP, IT IS ESSENTIAL THAT YOU TEST & VERIFY YOUR WORK)
+
+For example: copy paste the following in your browser url bar:
+
+```
+https://ocean-premium-public.s3-eu-west-1.amazonaws.com/currentrms/product-images/public/jvt_rubber_duck_giant_thumb.png
+```
+
+
+
 ##### Product Image / Product Group Image
 
 ##### Product
