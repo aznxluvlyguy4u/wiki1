@@ -152,15 +152,34 @@ Make sure that the FULL AND THUMBNAIL image are prepared and ready for upload
 
 ![24.png](https://bitbucket.org/repo/qEd965M/images/3952421003-24.png)
 
-- Paste the URL of the FULL IMAGE in the `custom_product_public_icon_url` field
+##### Product Image / Product Group Image
 
-- Paste the URL of the THUMBNAIL IMAGE in the `custom_product_public_icon_thumb_url` 
+##### Product
 
-in the product detail in CurrentRMS
+- Go the the product edit page in CurrentRMS of the concerning product to add images to, for example:
+
+    * https://oceanpremium.current-rms.com/products/20/edit?rp=%2Fproducts%2F20
+
+##### Product Group
+
+- Go the the product group edit page in CurrentRMS of the concerning group to add images to:
+
+    * Go to `System Setup` -> `Product Groups`, select the group to edit, for example:
+
+        - https://oceanpremium.current-rms.com/product_groups?rp=/admin
+
+        - https://oceanpremium.current-rms.com/product_groups/169/edit
 
 
-***NOTE***, ***ALWAYS*** fill in both the `custom_product_public_icon_url ` AND the `custom_product_public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
+###### Pasting Image URL's
+
+- Paste the URL of the FULL IMAGE in the `public_icon_url` field
+
+- Paste the URL of the THUMBNAIL IMAGE in the `public_icon_thumb_url` 
+
+
+***NOTE***, ***ALWAYS*** fill in both the `public_icon_url ` AND the `public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
 
 ![24-5.png](https://bitbucket.org/repo/qEd965M/images/3842950623-24-5.png)
 
-- Repeat this process for all products that have images
+- Repeat this process for all products / product groups that have images
