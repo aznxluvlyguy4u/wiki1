@@ -63,3 +63,11 @@ https://bitbucket.org/oceanpremium/ocean-premium-api/src/development/core/src/ma
 |PRODUCTION  | https://ig0smst338.execute-api.eu-west-1.amazonaws.com/prod/api/v1/offices         |
 |STAGING     | https://856c4yiakc.execute-api.eu-west-1.amazonaws.com/staging/api/v1/offices      |
 |DEVELOPMENT | https://s7cnld7i7c.execute-api.eu-west-1.amazonaws.com/dev/api/v1/offices          |
+
+## Payments endpoint
+
+|Env         | Base URL                                                                           |
+|------------|------------------------------------------------------------------------------------|
+|PRODUCTION  | /prod/api/v1/payments         |
+|STAGING     | /staging/api/v1/payments      |
+|DEVELOPMENT | /dev/api/v1/payments          |
