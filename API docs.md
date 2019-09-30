@@ -66,6 +66,8 @@ https://bitbucket.org/oceanpremium/ocean-premium-api/src/development/core/src/ma
 
 ## Payments endpoint
 
+- [Request flow](Stripe%20-%20Payments%20module)
+
 |Env         | Base URL                                                                           |
 |------------|------------------------------------------------------------------------------------|
 |PRODUCTION  | /prod/api/v1/payments         |
