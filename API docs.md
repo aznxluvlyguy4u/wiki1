@@ -72,4 +72,4 @@ https://bitbucket.org/oceanpremium/ocean-premium-api/src/development/core/src/ma
 |------------|------------------------------------------------------------------------------------|
 |PRODUCTION  | /prod/api/v1/payments         |
 |STAGING     | /staging/api/v1/payments      |
-|DEVELOPMENT | /dev/api/v1/payments          |
+|DEVELOPMENT | https://k9xjm4qr5l.execute-api.eu-west-1.amazonaws.com/dev/api/v1/payments         |
