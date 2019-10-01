@@ -275,6 +275,9 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 
 **Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
 
+- [Transport cost](https://shopix99-my.sharepoint.com/:f:/g/personal/peter_jongensvantechniek_nl/EgE9YYPBQDpJuA3pcz_5NF0B-T7kTQpt9J2OfPyZNEBOFg?e=Iy8dub)
+
+
 ## Architecture
 
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
