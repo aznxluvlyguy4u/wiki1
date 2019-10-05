@@ -37,6 +37,8 @@ This sections describes on what the prerequisites are on getting started to get 
 
 More info on available runtimes on AWS lambda, see [here](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
 
+- [README - Optimize cold starts and AVOID COMPONENT SCAN - CRUCIAL](https://github.com/awslabs/aws-serverless-java-container/wiki/Quick-start---Spring-Boot#optimizing-cold-start-times)
+
 #### IDE
 
 ##### IntelliJ - IDEA - Ultimate
