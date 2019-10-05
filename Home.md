@@ -303,3 +303,4 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 - [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
 - [Cold start optimization](https://pattern-match.com/blog/2019/07/11/springboot2-and-aws-lambda-quick-fix/)
 - [How to interpret cold starts](https://hackernoon.com/im-afraid-you-re-thinking-about-aws-lambda-cold-starts-all-wrong-7d907f278a4f)
+- [README - Optimize cold starts and AVOID COMPONENT SCAN - CRUCIAL](https://github.com/awslabs/aws-serverless-java-container/wiki/Quick-start---Spring-Boot#optimizing-cold-start-times)
