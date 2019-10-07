@@ -285,11 +285,15 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 ## Additional configurations / relevant information
 
+### User signup
+
 - [Signup payload - current phase does not have this implementation](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
 
 See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) for the sign up functionality.
 
 **Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
+
+### Transport cost
 
 - [Transport cost flow diagram](https://teams.microsoft.com/_#/files/Ocean%20Premium?threadId=19%3Aed98c396e8644b90bc55479191ec0c28%40thread.skype&ctx=channel&context=transport%2520cost)
 
