@@ -23,7 +23,7 @@
 | 9. [Current RMS](CurrentRMS)                                                                        |
 | 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
-
+[12. Transport cost](#markdown-header-transport-cost)
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
