@@ -23,7 +23,8 @@
 | 9. [Current RMS](CurrentRMS)                                                                        |
 | 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
-[12. Transport cost](#markdown-header-transport-cost)
+[12. Transport cost](#markdown-header-transport-cost)|
+
 ## Setup & Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
@@ -244,9 +245,22 @@ therefore added to the _.gitignore_.
 }
 ```
 
+#### Payments module
+
+TODO
+
+```json
+{
+    "payments":{
+
+    }
+}
+```
+
 - *NOTE 1:* that the _rootNode_ name is the module name. 
 
 - *NOTE 2: the sentry_dsn does not need to be capitalised in the `properties.json` file, **but** it does when defining it as a system environment variable*
+
 
 ### Deploy task
 
@@ -277,7 +291,9 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 
 **Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
 
-- [Transport cost](https://teams.microsoft.com/_#/files/Ocean%20Premium?threadId=19%3Aed98c396e8644b90bc55479191ec0c28%40thread.skype&ctx=channel&context=transport%2520cost)
+- [Transport cost flow diagram](https://teams.microsoft.com/_#/files/Ocean%20Premium?threadId=19%3Aed98c396e8644b90bc55479191ec0c28%40thread.skype&ctx=channel&context=transport%2520cost)
+
+- [Transport cost - Excelt sheet](https://docs.google.com/spreadsheets/d/1rsm4a5N4jEDqoR_i1WsZkG4vFJMNGuZMEe7wDQutQ84/edit?usp=sharing)
 
 
 ## Architecture
