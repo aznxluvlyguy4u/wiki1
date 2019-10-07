@@ -295,7 +295,7 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 
 ### Transport cost
 
-- [Transport cost flow diagram](https://teams.microsoft.com/_#/files/Ocean%20Premium?threadId=19%3Aed98c396e8644b90bc55479191ec0c28%40thread.skype&ctx=channel&context=transport%2520cost)
+- [Transport cost - Flow diagram](https://teams.microsoft.com/_#/files/Ocean%20Premium?threadId=19%3Aed98c396e8644b90bc55479191ec0c28%40thread.skype&ctx=channel&context=transport%2520cost)
 
 - [Transport cost - Excelt sheet](https://docs.google.com/spreadsheets/d/1rsm4a5N4jEDqoR_i1WsZkG4vFJMNGuZMEe7wDQutQ84/edit?usp=sharing)
 
