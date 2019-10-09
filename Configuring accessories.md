@@ -6,7 +6,7 @@ Products may have accessories. To prevent accessory items to show up in the sear
 
 ![25.png](https://bitbucket.org/repo/qEd965M/images/403292708-25.png)
 
-### Custom field
+### Custom summary field
 
 In order to show a short summary of an accessory, to be shown on the product details page of a parent product to which an accessory belongs to add a description to the _summary field_, it should be of **MAX 110** Characters, to play nice with the layout.
 
