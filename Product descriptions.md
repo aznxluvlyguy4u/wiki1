@@ -17,6 +17,7 @@ To be able to fully customize the way product description is rendered in the ren
 
 The following custom fields must be added individually so that the proposed layout can be rendered:
 
+* `custom_product_description_summary`
 * `custom_product_description_seo_title`
 * `custom_product_description_head_1`
 * `custom_product_description_paragraph_1`
