@@ -46,7 +46,7 @@ To be able to display custom images for each _product_ and for each _product gro
 ##### public_icon_url
 
 - System Setup -> Custom Field -> Add Custom Field
-- set name to ```public_icon_url```
+- set name to ```custom_product_public_icon_url```
 - choose module ```Product```
 - choose the custom field group ```custom_product_public_icon```
 - set the **order** to 0
@@ -55,7 +55,7 @@ To be able to display custom images for each _product_ and for each _product gro
 ##### public_icon_thumb_url
 
 - System Setup -> Custom Field -> Add Custom Field
-- set name to ```public_icon_thumb_url```
+- set name to ```custom_product_icon_thumb_url```
 - choose module ```Product```
 - choose the custom field group ```custom_product_public_icon```
 - set the **order** to 0
@@ -85,10 +85,10 @@ To be able to display custom images for each _product_ and for each _product gro
 
 ![13.png](https://bitbucket.org/repo/qEd965M/images/2482269974-13.png)
 
-* 3.3 Add `public_icon_thumb_url` **custom fields** to the **Product** module
+* 3.3 Add `custom_product_icon_thumb_url` **custom fields** to the **Product** module
 
 - System Setup -> Custom Field -> Add Custom Field
-- set name to `public_icon_thumb_url`
+- set name to `custom_product_icon_thumb_url`
 - choose module `Product`
 - choose the custom field group `custom_product_public_icon`
 - set the **order** to `1`
@@ -186,7 +186,7 @@ https://ocean-premium-public.s3-eu-west-1.amazonaws.com/currentrms/product-image
 - Paste the URL of the THUMBNAIL IMAGE in the `public_icon_thumb_url` 
 
 
-***NOTE***, ***ALWAYS*** fill in both the `public_icon_url ` AND the `public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
+***NOTE***, ***ALWAYS*** fill in both the `public_icon_url / custom_product_public_icon_url` AND the `public_icon_thumb_url / custom_product_public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
 
 ![24-5.png](https://bitbucket.org/repo/qEd965M/images/3842950623-24-5.png)
 
