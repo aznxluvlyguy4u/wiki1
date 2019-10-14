@@ -40,6 +40,8 @@ More info on available runtimes on AWS lambda, see [here](https://docs.aws.amazo
 
 - [README - Optimize cold starts and AVOID COMPONENT SCAN - CRUCIAL](https://github.com/awslabs/aws-serverless-java-container/wiki/Quick-start---Spring-Boot#optimizing-cold-start-times)
 
+- [README - Spring - Serverless - Cold start optimization - CRUCIAL](https://pattern-match.com/blog/2019/07/11/springboot2-and-aws-lambda-quick-fix/)
+
 #### IDE
 
 ##### IntelliJ - IDEA - Ultimate
@@ -323,6 +325,6 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 - [Roboslack - Slack logger](https://github.com/palantir/roboslack)
 - [Sentry - Error monitoring](https://docs.sentry.io/clients/java/)
 - [SonarQube Gradle plugin](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
-- [Cold start optimization](https://pattern-match.com/blog/2019/07/11/springboot2-and-aws-lambda-quick-fix/)
 - [How to interpret cold starts](https://hackernoon.com/im-afraid-you-re-thinking-about-aws-lambda-cold-starts-all-wrong-7d907f278a4f)
+- [README - Spring - Serverless - Cold start optimization - CRUCIAL](https://pattern-match.com/blog/2019/07/11/springboot2-and-aws-lambda-quick-fix/)
 - [README - Optimize cold starts and AVOID COMPONENT SCAN - CRUCIAL](https://github.com/awslabs/aws-serverless-java-container/wiki/Quick-start---Spring-Boot#optimizing-cold-start-times)
