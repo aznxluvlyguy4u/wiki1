@@ -1,0 +1,1 @@
+# Locations Module - Environment variables
