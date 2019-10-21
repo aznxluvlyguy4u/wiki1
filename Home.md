@@ -98,17 +98,16 @@ $ git checkout development
 
 ### Environment variables
 
-#### Products module
+Follow the instructions for each module to setup environment variables.
 
-- See [here](Products%20Module%20-%20Environment%20variables)
 
-#### Locations module
+- [Products](Products%20Module%20-%20Environment%20variables) module
 
-- See [here](Locations%20Module%20-%20Environment%20variables)
 
-#### Offices module
+- [Locations](Locations%20Module%20-%20Environment%20variables) module
 
-- See [here](Offices%20Module%20-%20Environment%20variables) 
+
+- [Offices](Offices%20Module%20-%20Environment%20variables) module
 
 ### Logging
 
