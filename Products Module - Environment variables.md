@@ -78,7 +78,7 @@ After the environment variables are setup, one can run the concerning run config
       "production": "https://y9gnyonusf.execute-api.eu-west-1.amazonaws.com/prod/api/v1/"
     },
     "stripe": {
-      "secret_key": "sk_test_<TOKEN>",
+      "secret_key": "sk_<TOKEN>",
       "webhook_secret_key": "whsec_<TOKEN>"
     }
   }
