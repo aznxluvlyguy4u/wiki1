@@ -60,7 +60,7 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 ##### Credentials
 
-- Ask Steve / Yubin / Steven Gosseling to share via Lastpass
+- Ask Steven Gosseling / Frans Godschalk to share via Lastpass
 
 ##### CI
 - [JVT CircleCI - Ocean Premium team access](https://circleci.com/bb/jvt/oceanpremium)
@@ -132,11 +132,6 @@ logging.level.com.oceanpremium.api=INFO
 
 For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
 
-
-##### Swagger - API Doc
-
-- [Swagger codegen](Swagger-codegen)
-
 ### Deployment
 
 - Prerequisites - [Remote environment variables](#markdown-header-environment-variables)
@@ -184,6 +179,10 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
 [draw.io architecture file](Draw.io%20-%20Architecture%20diagram%20file)
+
+##### Swagger - API Doc (NOT USED)
+
+- [Swagger codegen](Swagger-codegen)
 
 ## Resources
 
