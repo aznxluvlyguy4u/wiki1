@@ -112,6 +112,8 @@ Follow the following instructions for each module to setup (local & remote) envi
 
 - [Offices module](Offices%20Module%20-%20Environment%20variables)
 
+- [Auth module **UNUSED**](Auth%20Module%20-%20Environment%20variables)
+
 ### Logging
 
 In the *<module-name>*_/src/main/kotlin/resources_ directory, create a _application.properties_ file with the following contents:
