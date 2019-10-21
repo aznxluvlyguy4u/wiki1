@@ -100,9 +100,9 @@ $ git checkout development
 
 There are two types of variables that need to be setup:
 
-- Local environment variables via Intellij - for local running
+- **Local** environment variables via Intellij - for *local* running
 
-- Remote environment variables via _properties.json_ file, through Serverless - for remote running
+- **Remote** environment variables via a _properties.json_ file, through Serverless framework - for *remote* running
 
 Follow the following instructions for each module to setup (local & remote) environment variables:
 
