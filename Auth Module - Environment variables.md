@@ -10,6 +10,8 @@
 
 - take special notice of urls with *trailing* slashes, *those are not accidental*...
 
+- Due to the auth module being the first module developed, the uniform format of environment variables was not yet set up
+
 ## Local 
 
 - See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
