@@ -1,0 +1,1 @@
+# Products Module - Environment variables
