@@ -12,8 +12,8 @@
 |                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Environments](#markdown-header-environments)                             |
-| 1. [Setup & Configuration](#markdown-header-setup-&-configuration)           |
-| 2. [Compile, build & run locally](#markdown-header-compile,-build-&-run)     |
+| 1. [Setup & Configuration](#markdown-header-setup-and-configuration)           |
+| 2. [Compile, build & run locally](#markdown-header-compile,-build-and-run)     |
 | 3. [Local debugging](#markdown-header-debugging)                             |
 | 4. [Deploying to cloud](#markdown-header-deploy)                             |
 | 5. [Architecture](#markdown-header-architecture)                             |
@@ -25,7 +25,7 @@
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 [12. Transport cost](#markdown-header-transport-cost)|
 
-## Setup & Configuration
+## Setup and Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
 
@@ -82,7 +82,7 @@ $ npm install serverless -g
 ```
 
 
-## Setup & configurations
+## Setup and configurations
 
 First make sure that the prerequisites are met, _then_ clone the repo:
 
