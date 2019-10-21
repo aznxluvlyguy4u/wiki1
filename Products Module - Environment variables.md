@@ -1,5 +1,14 @@
 # Products Module - Environment variables
 
+### IMPORTANT NOTES 
+
+- See [LastPass](https://lastpass.com) for the values
+
+- the `SENTRY_DSN` needs to be capitalised, in order to be picked up by the Sentry SDK*
+
+- the `env` key can be: _prod_ or _dev_, when in `dev` the API will show FULL STACKTRACES when an error occurs, MAKE SURE TO set _env_ to `prod` when deploying to _production_ to not leak sensitive information.
+
+
 ## Spring / Intellij
 
 - See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
@@ -29,14 +38,6 @@ env=dev
 - Create a `properties.json` file in the _root_ of the _products_ module
 
 - Paste below contents and fill in values for given keys
-
-### NOTES 
-
-- See [LastPass](https://lastpass.com) for the values
-
-- the `SENTRY_DSN` needs to be capitalised, in order to be picked up by the Sentry SDK*
-
-- the `env` key can be: _prod_ or _dev_, when in `dev` the API will show FULL STACKTRACES when an error occurs, MAKE SURE TO set _env_ to `prod` when deploying to _production_ to not leak sensitive information.
 
 
 ```json
