@@ -14,6 +14,8 @@
 
 - See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
 
+- Set below variables for the **ProductsDriver**:
+
 ```
 slack_webhook_jvt=<WEBHOOK_URL>
 slack_webhook_op=<WEBHOOK_URL>
@@ -40,7 +42,7 @@ After the environment variables are setup, one can run the concerning run config
 
 ## Remote
 
-- Create a `properties.json` file in the _root_ of the _products_ module
+- Create a `properties.json` file in the _root_ of the **PRODUCTS** module
 
 - Paste below contents and fill in values for given keys
 
