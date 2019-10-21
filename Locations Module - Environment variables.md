@@ -15,6 +15,8 @@
 
 - See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
 
+- Set below variables for the **LocationsDriver**:
+ 
 ```
 SENTRY_DSN=<https://<ID>@sentry.io/ID>
 slack_webhook_jvt=<WEBHOOK_URL>
