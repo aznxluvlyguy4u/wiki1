@@ -9,7 +9,7 @@
 - the `env` key can be: _prod_ or _dev_, when in `dev` the API will show FULL STACKTRACES when an error occurs, MAKE SURE TO set _env_ to `prod` when deploying to _production_ to not leak sensitive information.
 
 
-## Spring / Intellij
+## Local 
 
 - See [here](Run%20config%20setup) for setting up a Run configuration with environment variables in IntelliJ
 
@@ -37,7 +37,7 @@ env=dev
 After the environment variables are setup, one can run the concerning run configuration to _locally_ run the API.
 
 
-## Serverless / AWS lambda
+## Remote
 
 - Create a `properties.json` file in the _root_ of the _products_ module
 
