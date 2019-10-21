@@ -12,7 +12,7 @@
 |                                                                              |
 |------------------------------------------------------------------------------|
 | 0. [Prerequisites](#markdown-header-prerequisites)           |
-| 1. [Setup & Configuration](#markdown-header-setup-and-configuration)           |
+| 1. [Setup & Configurations](#markdown-header-setup-and-configurations)           |
 | 3. [Local debugging](#markdown-header-debugging)                             |
 | 4. [Deploying to cloud](#markdown-header-deploy)                             |
 | 5. [Architecture](#markdown-header-architecture)                             |
