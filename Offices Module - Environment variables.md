@@ -64,7 +64,7 @@ After the environment variables are setup, one can run the concerning run config
       "username" : "<ACCESS_KEY_ID>",
       "password": "<SECRECT_KEY_ID>",
       "sender": "noreply@oceanpremium.com",
-      "back_office": <SECRECT_KEY_ID>
+      "back_office": "<SECRECT_KEY_ID>"
     },
     "sentry_dsn": "<https://<ID>@sentry.io/ID>",
     "env": "prod"
