@@ -98,16 +98,19 @@ $ git checkout development
 
 ### Environment variables
 
-Follow the instructions for each module to setup environment variables.
+There are two types of variables that need to be setup:
 
+- Local environment variables via Intellij - for local running
 
-- [Products](Products%20Module%20-%20Environment%20variables) module
+- Remote environment variables via _properties.json_ file, through Serverless - for remote running
 
+Follow the following instructions for each module to setup (local & remote) environment variables:
 
-- [Locations](Locations%20Module%20-%20Environment%20variables) module
+- [Products module](Products%20Module%20-%20Environment%20variables)
 
+- [Locations module](Locations%20Module%20-%20Environment%20variables)
 
-- [Offices](Offices%20Module%20-%20Environment%20variables) module
+- [Offices module](Offices%20Module%20-%20Environment%20variables)
 
 ### Logging
 
