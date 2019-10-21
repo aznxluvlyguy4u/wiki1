@@ -33,6 +33,10 @@ stripe_webhook_secret_key=<HSEC_KEY_VALUE>
 env=dev
 ```
 
+
+After the environment variables are setup, one can run the concerning run configuration to _locally_ run the API.
+
+
 ## Serverless / AWS lambda
 
 - Create a `properties.json` file in the _root_ of the _products_ module
@@ -75,3 +79,5 @@ env=dev
   }
 }
 ```
+
+After the environment variables are setup in the _properties file_, one can run the deploy task for the concerning module.
