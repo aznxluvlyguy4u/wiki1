@@ -43,6 +43,8 @@ After the environment variables are setup, one can run the concerning run config
 
 - Paste below contents and fill in values for given keys
 
+- the `env` key can be: _prod_ or _dev_, when in `dev` the API will show FULL STACKTRACES when an error occurs, MAKE SURE TO set _env_ to `prod` when deploying to _production_ to not leak sensitive information.
+
 
 ```json
 {
