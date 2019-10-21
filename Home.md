@@ -11,9 +11,8 @@
 
 |                                                                              |
 |------------------------------------------------------------------------------|
-| 0. [Environments](#markdown-header-environments)                             |
+| 0. [Prerequisites](#markdown-header-prerequisites)           |
 | 1. [Setup & Configuration](#markdown-header-setup-and-configuration)           |
-| 2. [Compile, build & run locally](#markdown-header-compile,-build-and-run)     |
 | 3. [Local debugging](#markdown-header-debugging)                             |
 | 4. [Deploying to cloud](#markdown-header-deploy)                             |
 | 5. [Architecture](#markdown-header-architecture)                             |
@@ -24,8 +23,6 @@
 | 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
 [12. Transport cost](#markdown-header-transport-cost)|
-
-## Setup and Configuration
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
 
@@ -132,7 +129,7 @@ logging.level.com.oceanpremium.api=INFO
 
 For different log levels, see [here](https://stackoverflow.com/questions/7839565/logging-levels-logback-rule-of-thumb-to-assign-log-levels)
 
-### Deployment
+## Deployment
 
 - Prerequisites - [Remote environment variables](#markdown-header-environment-variables)
 
