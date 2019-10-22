@@ -9,20 +9,20 @@
 
 ## Table of Content
 
-|                                                                              |
-|------------------------------------------------------------------------------|
-| 0. [Prerequisites](#markdown-header-prerequisites)           |
-| 1. [Setup & Configurations](#markdown-header-setup-and-configurations)           |
-| 3. [Local debugging](#markdown-header-debugging)                             |
-| 4. [Deployment](#markdown-header-deployment)                             |
-| 5. [Architecture](#markdown-header-architecture)                             |
-| 6. [REST API documentation](API%20docs)                                      |
-| 7. [Resources](#markdown-header-resources)                                                          |
-| 8. [Glossary with definitions](Glossary)                                                            |
-| 9. [Current RMS](CurrentRMS)                                                                        |
-| 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                |
-| 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider) | 
-[12. Transport cost](#markdown-header-transport-cost)|
+|                                                                                                        |
+|--------------------------------------------------------------------------------------------------------|
+| 0. [Prerequisites](#markdown-header-prerequisites)                                                     |
+| 1. [Setup & Configurations](#markdown-header-setup-and-configurations)                                 |
+| 2. [Deployment](#markdown-header-deployment)                                                           |
+| 2. [Deployment](#markdown-header-additional-configurations-and-relevant-information)                   |
+| 5. [Architecture](#markdown-header-architecture)                                                       |
+| 6. [REST API documentation](API%20docs)                                                                |
+| 7. [Resources](#markdown-header-resources)                                                             |
+| 8. [Glossary with definitions](Glossary)                                                               |
+| 9. [Current RMS](CurrentRMS)                                                                           |
+| 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                                         |
+| 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider)   | 
+[12. Transport cost](#markdown-header-transport-cost)                                                    |
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
 
@@ -160,7 +160,7 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 - -Pprofile: _which AWS credentials profile needs to be used to deploy, this determines to which AWS account is deployed, if multiple AWS account profiles are registered in the AWS CLI_
 
 
-## Additional configurations / relevant information
+## Additional configurations and relevant information
 
 ### Categories / tags
 
