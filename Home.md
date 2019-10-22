@@ -14,7 +14,7 @@
 | 0. [Prerequisites](#markdown-header-prerequisites)                                                     |
 | 1. [Setup & Configurations](#markdown-header-setup-and-configurations)                                 |
 | 2. [Deployment](#markdown-header-deployment)                                                           |
-| 2. [Deployment](#markdown-header-additional-configurations-and-relevant-information)                   |
+| 2. [Additional configurations & relevant information](#markdown-header-additional-configurations-and-relevant-information)                   |
 | 5. [Architecture](#markdown-header-architecture)                                                       |
 | 6. [REST API documentation](API%20docs)                                                                |
 | 7. [Resources](#markdown-header-resources)                                                             |
@@ -22,7 +22,6 @@
 | 9. [Current RMS](CurrentRMS)                                                                           |
 | 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                                         |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider)   | 
-[12. Transport cost](#markdown-header-transport-cost)                                                    |
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
 
@@ -172,7 +171,7 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 - [Transport cost - Excelt sheet](https://docs.google.com/spreadsheets/d/1rsm4a5N4jEDqoR_i1WsZkG4vFJMNGuZMEe7wDQutQ84/edit?usp=sharing)
 
-### User signup
+### User signup (NOT USED)
 
 - [Signup payload - current phase does not have this implementation](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
 
@@ -180,15 +179,14 @@ See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-pre
 
 **Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
 
+### [Swagger codegen](Swagger-codegen) (NOT USED)
+
 ## Architecture
 
 ![ocean_premium_architecture_1.0.png](https://bitbucket.org/repo/qEd965M/images/1016809427-ocean_premium_architecture_1.0.png)
 
 [draw.io architecture file](Draw.io%20-%20Architecture%20diagram%20file)
 
-##### Swagger - API Doc (NOT USED)
-
-- [Swagger codegen](Swagger-codegen)
 
 ## Resources
 
