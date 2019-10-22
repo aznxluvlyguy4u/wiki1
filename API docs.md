@@ -1,6 +1,6 @@
 # API docs
 
-## Swagger UI
+## Swagger UI (NOT USED / OBSOLETE - SEE POSTMAN COLLECTION)
 
 Ocean premium hosts it's own Swagger UI that can be used to see the API documentation for the *Ocean Premium - REST API:*
 
