@@ -8,7 +8,7 @@ Below instructions are needed to run every seperate **Serverless** function from
 - Locations
 - Offices
 
-In Intellij create a run configuration:
+In Intellij create a run configuration (see below screenshots):
 
 - right-click on a function _Handler_, like for [example](https://bitbucket.org/oceanpremium/ocean-premium-api/src/571f963fdbe4566a78f2688dd1566ee912cd7680/auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt):
 _auth/src/main/kotlin/com/oceanpremium/api/auth/Handler.kt_
