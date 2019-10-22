@@ -2,7 +2,11 @@
 
 ## Environment variables setup
 
-Below instructions are needed to run every seperate Serverless Gradle Module (Products / Locations / Offices ect).
+Below instructions are needed to run every seperate **Serverless** function from a Gradle Module:
+
+- Products
+- Locations
+- Offices
 
 In Intellij create a run configuration:
 
