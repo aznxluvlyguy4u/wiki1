@@ -14,7 +14,7 @@
 | 0. [Prerequisites](#markdown-header-prerequisites)           |
 | 1. [Setup & Configurations](#markdown-header-setup-and-configurations)           |
 | 3. [Local debugging](#markdown-header-debugging)                             |
-| 4. [Deploying to cloud](#markdown-header-deploy)                             |
+| 4. [Deployment](#markdown-header-deployment)                             |
 | 5. [Architecture](#markdown-header-architecture)                             |
 | 6. [REST API documentation](API%20docs)                                      |
 | 7. [Resources](#markdown-header-resources)                                                          |
