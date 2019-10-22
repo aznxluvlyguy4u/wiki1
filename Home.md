@@ -93,6 +93,12 @@ and switch to the development branch:
 $ git checkout development
 ```
 
+### Local run config
+
+- See [here](Run%20config%20setup) on how to run locally
+
+- See [Environment variables](#markdown-header-environment-variables) on how to setup environment variables for local run config
+
 ### Environment variables
 
 There are two types of variables that need to be setup:
