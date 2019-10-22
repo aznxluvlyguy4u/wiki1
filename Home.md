@@ -162,6 +162,10 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 
 ## Additional configurations / relevant information
 
+### Categories / tags
+
+- [Google excel sheet](https://docs.google.com/spreadsheets/d/1HRxENNZXQ5gENDhB0q0XaBUALOtMjPWXsyi_K1Pqn7U/edit?usp=sharing_eip&invite=COfnm-sF&ts=5daed89b)
+
 ### User signup
 
 - [Signup payload - current phase does not have this implementation](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Sign%20up%20endpoint%20payload%20formats)
