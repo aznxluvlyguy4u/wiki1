@@ -56,15 +56,23 @@ Because we use [SonarQube](http://sonarqube.org) for static code-analysis, we wi
 
 ##### Credentials
 
-- Ask Steven Gosseling / Frans Godschalk to share via Lastpass
+- Ask Steven Gosseling / Frans Godschalk to share via Lastpass, for the following components:
 
-##### CI
+
+###### CI
 - [JVT CircleCI - Ocean Premium team access](https://circleci.com/bb/jvt/oceanpremium)
 
-##### AWS
+###### AWS
 - [Ocean Premium AWS Console access](https://oceanpremium.signin.aws.amazon.com/console)
 - [AWS CLI](https://github.com/aws/aws-cli)
 
+###### Sentry.io - Error monitoring
+- [Sentry.io](https://sentry.io)
+
+###### Slack - JVT DevOps workspace
+- [JVT Devops Workspace](https://jongensvantechniek.slack.com)
+
+##### AWS CLI
 Create an AWS profile (in: _~/.aws/credentials_) with the _profile name_: _oceanpremium-serverless-publisher_
 
 *Note*: The credentials file is created by installing the [AWS CLI](https://github.com/aws/aws-cli) (thus installed it...)
