@@ -22,6 +22,7 @@
 | 9. [Current RMS](CurrentRMS)                                                                           |
 | 10. [A to Z guide on how to import data exports](A-Z%20Guide%20to%20prepare%20CurrentRMS%20data%20for%20production)                                         |
 | 11. [Hosting Provider](https://bitbucket.org/oceanpremium/ocean-premium-api/wiki/Hosting%20provider)   | 
+| 12. [Slack Logger - Search queries](#markdown-header-slack-logger-sales)
 
 This sections describes on what the prerequisites are on getting started to get the application up and running.
 
@@ -186,6 +187,15 @@ $ ./gradlew <moduleName>:deploy -Pstage=dev -Pprofile=oceanpremium-serverless-pu
 See the branch [feature/demo-clean](https://bitbucket.org/oceanpremium/ocean-premium-api/branch/feature/demo_clean) for the sign up functionality.
 
 **Again**: this current phase (phase 1) does not have this implementations, yet is was developed in Sprint 1, but not used!
+
+### Slack Logger Sales
+
+Invite link to a separate slack workspace, specifically created to log search queries:
+
+https://join.slack.com/t/oceanpremiumsales/shared_invite/enQtODEzMTgzMTUwNTgyLTc1NDU1MDc4NjIzMzFkZTY2NzRiZWVkNTEyM2NiMTE4NTEzYzcyMjNiYjNmODRmYjE3YTgzY2QwNWYzNjQ1NWQ
+
+Workspace url: oceanpremiumsales.slack.com
+
 
 ### [Swagger codegen](Swagger-codegen) (NOT USED)
 
