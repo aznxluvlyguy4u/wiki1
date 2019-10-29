@@ -194,7 +194,7 @@ Invite link to a separate slack workspace, specifically created to log search qu
 
 https://join.slack.com/t/oceanpremiumsales/shared_invite/enQtODEzMTgzMTUwNTgyLTc1NDU1MDc4NjIzMzFkZTY2NzRiZWVkNTEyM2NiMTE4NTEzYzcyMjNiYjNmODRmYjE3YTgzY2QwNWYzNjQ1NWQ
 
-Workspace url: oceanpremiumsales.slack.com
+Workspace url: https://oceanpremiumsales.slack.com
 
 
 ### [Swagger codegen](Swagger-codegen) (NOT USED)
