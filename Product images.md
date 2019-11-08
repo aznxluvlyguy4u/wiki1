@@ -181,9 +181,9 @@ https://ocean-premium-public.s3-eu-west-1.amazonaws.com/currentrms/product-image
 
 ###### Pasting Image URL's
 
-- Paste the URL of the FULL IMAGE in the `public_icon_url` field
+- Paste the URL of the FULL IMAGE in the `public_icon_url` field, this will be the header image on product detail page
 
-- Paste the URL of the THUMBNAIL IMAGE in the `public_icon_thumb_url` 
+- Paste the URL of the THUMBNAIL IMAGE in the `public_icon_thumb_url`, this will be used for search pages and products overview pages
 
 
 ***NOTE***, ***ALWAYS*** fill in both the `public_icon_url / custom_product_public_icon_url` AND the `public_icon_thumb_url / custom_product_public_icon_thumb_url`. If you leave one of them blank the custom images will ***NOT*** be visible in the frontend! 
